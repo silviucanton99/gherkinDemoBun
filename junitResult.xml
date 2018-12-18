@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="3" time="0.108421">
+    <testcase classname="User Profile" name="Open user profile page and verify details" time="0">
+        <skipped>
+            <![CDATA[Given I am logged in to my application......................................undefined
+When I open the user profile page...........................................undefined
+Then I can see my details...................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="" name="Open Feature Dialog in Octane" time="0.106961">
+        <system-out>
+            <![CDATA[Given I am in Octane........................................................passed
+When Clicking the New Feature...............................................passed
+Then Feature dialog is open.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Filter tablets in OnlineShopping" name="Filter by price" time="0.00146">
+        <system-out>
+            <![CDATA[Given I'm in tablets search results.........................................passed
+When filter by price lower than 1000........................................passed
+Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

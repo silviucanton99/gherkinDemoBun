@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="User Profile" path="src\test\resources\features\My Gherkin Test_1109.feature" started="1535022871726" tag="@TID1109REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1109REV0.2.0
+Feature: User Profile
+	Scenario: Open user profile page and verify details
+		Given I am logged in to my application
+		When I open the user profile page
+		Then I can see my details
+]]></file><scenarios><scenario name="Open user profile page and verify details"><steps><step duration="0" name="Given I am logged in to my application"/><step duration="0" name="When I open the user profile page"/><step duration="0" name="Then I can see my details"/></steps></scenario></scenarios></feature><feature name="" path="src\test\resources\features\My Test 3-1034.feature" started="1535022871735" tag="@TID1034REV0.5.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1034REV0.5.0
+Feature:
+	Scenario: Open Feature Dialog in Octane
+		Given I am in Octane
+		When Clicking the New Feature
+		Then Feature dialog is open
+]]></file><scenarios><scenario name="Open Feature Dialog in Octane"><steps><step duration="106934114" name="Given I am in Octane" status="passed"/><step duration="15029" name="When Clicking the New Feature" status="passed"/><step duration="11730" name="Then Feature dialog is open" status="passed"/></steps></scenario></scenarios></feature><feature name="Filter tablets in OnlineShopping" path="src\test\resources\features\Test2-1028.feature" started="1535022871848" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1028REV0.7.0
+Feature: Filter tablets in OnlineShopping
+	Scenario: Filter by price
+		Given I'm in tablets search results
+		When filter by price lower than 1000
+		Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="26393" name="Given I'm in tablets search results" status="passed"/><step duration="1407226" name="When filter by price lower than 1000" status="passed"/><step duration="26759" name="Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>
