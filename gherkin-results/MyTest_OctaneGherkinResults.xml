@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="User Profile" path="src\test\resources\features\My Gherkin Test_1109.feature" started="1535022871726" tag="@TID1109REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1109REV0.2.0
-Feature: User Profile
-	Scenario: Open user profile page and verify details
-		Given I am logged in to my application
-		When I open the user profile page
-		Then I can see my details
-]]></file><scenarios><scenario name="Open user profile page and verify details"><steps><step duration="0" name="Given I am logged in to my application"/><step duration="0" name="When I open the user profile page"/><step duration="0" name="Then I can see my details"/></steps></scenario></scenarios></feature><feature name="" path="src\test\resources\features\My Test 3-1034.feature" started="1535022871735" tag="@TID1034REV0.5.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1034REV0.5.0
 Feature:
 	Scenario: Open Feature Dialog in Octane
