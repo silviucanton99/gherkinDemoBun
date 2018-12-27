@@ -11,6 +11,7 @@ import static org.junit.Assert.fail;
 
 public class MyStepdefs {
 
+
     @Given("^I'm in tablets search results$")
     public void iMInTabletsSearchResults() throws Throwable {
 
@@ -41,16 +42,15 @@ public class MyStepdefs {
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-
+        assertEquals(3, Calcs.sum(1, 5));
     }
 
 
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
         {
-            String result = "SOME";
-            assertEquals(result.length(), 0);         //  4 is the right answer
+            String result = new String("hello");
+            assertEquals(result.length(), 0);         //  5 is the right answer
         }
 
 
