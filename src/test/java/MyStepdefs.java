@@ -111,6 +111,12 @@ public class MyStepdefs {
 
     }
 
+    @Then("^I should be logged in$")
+    public void iShouldBeLoggedIn() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        Assert.assertTrue(false);
+    }
+
 
 //
 //    @Given("^a calculateCommercialMargin request$")
