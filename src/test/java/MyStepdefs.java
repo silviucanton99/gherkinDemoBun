@@ -7,6 +7,7 @@ import org.junit.Assert;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class MyStepdefs {
 
@@ -17,7 +18,7 @@ public class MyStepdefs {
 
     @When("^filter by price lower than (\\d+)$")
     public void filterByPriceLowerThan(int arg0) throws Throwable {
-       
+
     }
 
     @Then("^Only tablets with lower price will be presented$")
@@ -49,5 +50,7 @@ public class MyStepdefs {
     public void iShouldBeLoggedIn() throws Throwable {
         {
             assertEquals(3, Calcs.sum(1, 1));
-        }}
+            assertTrue(fail();
+        }
+    }
 }
