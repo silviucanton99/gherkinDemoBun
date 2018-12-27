@@ -6,6 +6,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class MyStepdefs {
 
@@ -34,19 +35,19 @@ public class MyStepdefs {
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        Assert.assertTrue(false);
+
     }
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        Assert.assertTrue(false);
+
     }
 
 
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        Assert.assertTrue(true);
-    }
+        {
+            assertEquals(3, Calcs.sum(1, 1));
+        }}
 }
