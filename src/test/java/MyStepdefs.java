@@ -36,4 +36,16 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         Assert.assertTrue(false);
     }
+
+    @Given("^some no failed given$")
+    public void someNoFailedGiven() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^I submit username and password$")
+    public void iSubmitUsernameAndPassword() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }
