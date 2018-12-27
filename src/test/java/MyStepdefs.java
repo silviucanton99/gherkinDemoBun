@@ -49,10 +49,11 @@ public class MyStepdefs {
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
         {
-//            assertEquals(3, Calcs.sum(1, 1));
-            Assert.fail("smth");
+            String result = "SOME";
+            assertEquals(result.length(), 0);         //  4 is the right answer
+        }
 
 
         }
     }
-}
+
