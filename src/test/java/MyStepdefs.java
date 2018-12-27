@@ -50,7 +50,7 @@ public class MyStepdefs {
     public void iShouldBeLoggedIn() throws Throwable {
         {
             assertEquals(3, Calcs.sum(1, 1));
-            Assert.assertTrue(true);
+
 
         }
     }

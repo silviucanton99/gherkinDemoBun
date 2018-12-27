@@ -1,7 +1,7 @@
 public class Calcs {
 
     public static int sum(int a, int b) {
-        return a + b - 1;
+        return a + b;
     }
 
     public static int sub(int a, int b) {     //  3 tests cover this
