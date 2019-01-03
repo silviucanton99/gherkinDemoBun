@@ -1,14 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="User Profile" path="src\test\resources\features\My Gherkin Test_1109.feature" started="1535022871726" tag="@TID1109REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1034REV0.5.0
-Feature:
-	Scenario: Open Feature Dialog in Octane
-		Given I am in Octane
-		When Clicking the New Feature
-		Then Feature dialog is open
-]]></file><scenarios><scenario name="Open Feature Dialog in Octane"><steps><step duration="106934114" name="Given I am in Octane" status="passed"/><step duration="15029" name="When Clicking the New Feature" status="passed"/><step duration="11730" name="Then Feature dialog is open" status="passed"/></steps></scenario></scenarios></feature><feature name="Filter tablets in OnlineShopping" path="src\test\resources\features\Test2-1028.feature" started="1535022871848" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Test Background Feature no fail" path="src\test\resources\features\GT1-1126.feature" started="1546518235418" tag="@TID1126REV0.3.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1126REV0.3.0
+
+	Feature: Test Background Feature no fail
+	Background: User is Logged In no fail
+		Given some no failed given
+		When I submit username and password
+		Then I should be logged in
+		Scenario: This is an Orange scenario
+			Given Two oranges
+			When One orange is eaten
+			Then One orange is left]]></file><scenarios><background><steps><step duration="0" name="Given some no failed given"/><step duration="0" name="When I submit username and password"/><step duration="0" name="Then I should be logged in"/></steps></background><scenario name="This is an Orange scenario"><steps><step duration="0" name="Given Two oranges" status="skipped"/><step duration="0" name="When One orange is eaten" status="skipped"/><step duration="0" name="Then One orange is left" status="skipped"/></steps></scenario></scenarios></feature><feature name="This is an Orange feature" path="src\test\resources\features\GTDan-1047.feature" started="1546518254033" tag="@TID1047REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1047REV0.2.0
+
+Feature: This is an Orange feature
+	Scenario: This is an Orange scenario	
+		Given Two oranges
+		When One orange is eaten
+		Then One orange is left
+]]></file><scenarios><scenario name="This is an Orange scenario"><steps><step duration="41534" name="Given Two oranges" status="passed"/><step duration="27564" name="When One orange is eaten" status="passed"/><step duration="20767" name="Then One orange is left" status="passed"/></steps></scenario></scenarios></feature><feature name="Filter tablets in OnlineShopping" path="src\test\resources\features\Test2-1028.feature" started="1546518254040" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1028REV0.7.0
 Feature: Filter tablets in OnlineShopping
 	Scenario: Filter by price
 		Given I'm in tablets search results
 		When filter by price lower than 1000
-		Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="26393" name="Given I'm in tablets search results" status="passed"/><step duration="1407226" name="When filter by price lower than 1000" status="passed"/><step duration="26759" name="Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>
+		Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="43421" name="Given I'm in tablets search results" status="passed"/><step duration="4578167" name="When filter by price lower than 1000" status="passed"/><step duration="23410" name="Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>
