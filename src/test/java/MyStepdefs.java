@@ -49,5 +49,23 @@ public class MyStepdefs {
         String result = new String("hello");
         assertEquals(result.length(), 0);
     }
+
+    @Given("^Two oranges$")
+    public void twoOranges() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^One orange is eaten$")
+    public void oneOrangeIsEaten() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^One orange is left$")
+    public void oneOrangeIsLeft() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
 }
 
