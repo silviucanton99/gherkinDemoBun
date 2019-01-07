@@ -1,8 +1,5 @@
 import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 import org.junit.Assert;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
@@ -64,6 +61,36 @@ public class MyStepdefs {
 
     @Then("^One orange is left$")
     public void oneOrangeIsLeft() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Given("^the following users exist:$")
+    public void theFollowingUsersExist() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @But("^Clicking the Create New requirement$")
+    public void clickingTheCreateNewRequirement() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @And("^Clicking the Create New defect$")
+    public void clickingTheCreateNewDefect() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^Clicking the New Feature$")
+    public void clickingTheNewFeature() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^I should receive an email with:$")
+    public void iShouldReceiveAnEmailWith() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
     }
