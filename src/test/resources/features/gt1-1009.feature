@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1009REV0.9.0
-#This is the feature comment
+
 Feature: Feature with Doc String
 #This is the scenario comment
   Scenario: Open Feature Dialog in Octane2
