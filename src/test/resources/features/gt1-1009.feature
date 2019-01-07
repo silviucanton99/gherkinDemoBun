@@ -16,8 +16,3 @@ Feature: Feature with Doc String
     When Clicking the New Feature
     #This is the Then comment
     Then I should receive an email with:
-  """
-  Dear bozo,
-
-  Please click this link to reset your password
-  """
