@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-
 #comment
 Feature: This is an Orange feature
 	Scenario: This is an Orange scenario	
