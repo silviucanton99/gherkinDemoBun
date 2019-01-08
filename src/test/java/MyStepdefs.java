@@ -97,7 +97,7 @@ public class MyStepdefs {
 
     @Given("^(\\d+) apples exist$")
     public void applesExist(int arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+        assertEquals(6, Calcs.sum(2, 5));
 
     }
 
