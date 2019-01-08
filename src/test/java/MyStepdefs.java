@@ -94,5 +94,23 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
 
     }
+
+    @Given("^(\\d+) apples exist$")
+    public void applesExist(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^(\\d+) apple is eaten$")
+    public void appleIsEaten(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^(\\d+) apples remain$")
+    public void applesRemain(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
 }
 
