@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@TID1003REV0.2.0
 #This is the feature comment
 Feature: Apple
   Scenario: number of apples
