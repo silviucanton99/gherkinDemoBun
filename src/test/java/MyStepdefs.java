@@ -14,7 +14,7 @@ public class MyStepdefs {
     }
 
     @When("^filter by price lower than (\\d+)$")
-    public void filterByPriceLowerThan(int arg0) throws Throwable {
+    public void filterByPriceLowerThan() throws Throwable {
 
     }
 
@@ -72,18 +72,18 @@ public class MyStepdefs {
     }
 
     @Given("^(\\d+) apples exist$")
-    public void applesExist(int arg0) throws Throwable {
+    public void applesExist() throws Throwable {
 //        assertEquals(6, Calcs.sum(2, 5));
 
     }
 
     @When("^(\\d+) apple is eaten$")
-    public void appleIsEaten(int arg0) throws Throwable {
+    public void appleIsEaten() throws Throwable {
 
     }
 
     @Then("^(\\d+) apples remain$")
-    public void applesRemain(int arg0) throws Throwable {
+    public void applesRemain() throws Throwable {
 
     }
 }
