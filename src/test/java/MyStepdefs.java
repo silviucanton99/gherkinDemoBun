@@ -7,28 +7,20 @@ import static org.junit.Assert.fail;
 
 public class MyStepdefs {
 
-
-    @Given("^I'm in tablets search results$")
-    public void iMInTabletsSearchResults() throws Throwable {
-
-    }
-
-    @When("^filter by price lower than one thousand$")
-    public void filterByPriceLowerThan() throws Throwable {
+    @Given("^Three apples exist$")
+    public void threeApplesExist() throws Throwable {
 
     }
 
-    @Then("^Only tablets with lower price will be presented$")
-    public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
-//        Assert.assertTrue(false);
+    @When("^One apple is eaten$")
+    public void oneAppleIsEaten() throws Throwable {
 
     }
 
-    @Then("^Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented$")
-    public void onlyTabletsWithLowerPriceWillBePresentedOnlyTabletsWithLowerPriceWillBePresentedOnlyTabletsWithLowerPriceWillBePresented() throws Throwable {
+    @Then("^Two apples remain$")
+    public void twoApplesRemain() throws Throwable {
 
     }
-
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
@@ -37,16 +29,15 @@ public class MyStepdefs {
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
-//        assertEquals(6, Calcs.sum(1, 5));
+
     }
 
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
-//        String result = new String("hello");
-//        assertEquals(result.length(), 0);
+
     }
 
-    @Given("^the following users exist:$")
+    @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
 
     }
@@ -58,7 +49,8 @@ public class MyStepdefs {
 
     @And("^Clicking the Create New defect$")
     public void clickingTheCreateNewDefect() throws Throwable {
-
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 
     @When("^Clicking the New Feature$")
@@ -66,25 +58,27 @@ public class MyStepdefs {
 
     }
 
-    @Then("^I should receive an email with:$")
+    @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
 
     }
 
-    @Given("^Three apples exist$")
-    public void applesExist() throws Throwable {
-//        assertEquals(6, Calcs.sum(2, 5));
+    @Given("^I'm in tablets search results$")
+    public void iMInTabletsSearchResults() throws Throwable {
 
     }
 
-    @When("^One apple is eaten$")
-    public void appleIsEaten() throws Throwable {
+    @When("^filter by price lower than one thousand$")
+    public void filterByPriceLowerThanOneThousand() throws Throwable {
 
     }
 
-    @Then("^Two apples remain$")
-    public void applesRemain() throws Throwable {
+    @Then("^Only tablets with lower price will be presented$")
+    public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
 
     }
 }
 
+//        String result = new String("hello");
+//        assertEquals(result.length(), 0);
+//        assertEquals(6, Calcs.sum(2, 5));
