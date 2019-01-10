@@ -19,6 +19,7 @@ public class MyStepdefs {
 
     @Then("^Two apples remain$")
     public void twoApplesRemain() throws Throwable {
+        assertEquals(6, Calcs.sum(2, 5));
 
     }
 
