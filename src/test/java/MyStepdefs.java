@@ -51,6 +51,7 @@ public class MyStepdefs {
     @And("^Clicking the Create New defect$")
     public void clickingTheCreateNewDefect() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        assertEquals(6, Calcs.sum(2, 5));
 
     }
 
