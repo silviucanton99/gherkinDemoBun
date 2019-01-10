@@ -79,6 +79,21 @@ public class MyStepdefs {
     public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
 
     }
+
+    @Given("^bb$")
+    public void bb() throws Throwable {
+
+    }
+
+    @When("^cc$")
+    public void cc() throws Throwable {
+        assertEquals(6, Calcs.sum(2, 5));
+    }
+
+    @Then("^vvv$")
+    public void vvv() throws Throwable {
+
+    }
 }
 
 //        String result = new String("hello");
