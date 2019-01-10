@@ -11,5 +11,4 @@ Feature: Feature with Doc String
     And Clicking the Create New defect
      #This is the When comment
     When Clicking the New Feature
-    #This is the Then comment
-    Then I should receive an email with:
+    Then I should receive an email with
