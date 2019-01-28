@@ -30,6 +30,7 @@ public class MyStepdefs {
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
+        assertEquals(6, Calcs.sum(1, 6));
 
     }
 
@@ -80,21 +81,7 @@ public class MyStepdefs {
 
     }
 
-    @Given("^bb$")
-    public void bb() throws Throwable {
-
-    }
-
-    @When("^cc$")
-    public void cc() throws Throwable {
-        assertEquals(6, Calcs.sum(2, 5));
-    }
-
-    @Then("^vvv$")
-    public void vvv() throws Throwable {
-
-    }
-}
+ }
 
 //        String result = new String("hello");
 //        assertEquals(result.length(), 0);
