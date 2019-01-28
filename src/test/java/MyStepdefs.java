@@ -23,14 +23,17 @@ public class MyStepdefs {
 
     }
 
+
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
 
+        throw new PendingException();
     }
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
 
+        throw new PendingException();
     }
 
     @Then("^I should be logged in$")
