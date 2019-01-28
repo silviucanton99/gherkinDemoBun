@@ -35,8 +35,7 @@ public class MyStepdefs {
 
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 0);
+        assertEquals(6, Calcs.sum(1, 7));
 
     }
 }
