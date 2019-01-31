@@ -39,6 +39,21 @@ public class MyStepdefs {
         assertEquals(6, Calcs.sum(1, 7));
 
     }
+
+    @Given("^there is a GT$")
+    public void thereIsAGT() throws Throwable {
+
+    }
+
+    @When("^the user modifies the script from IDE and runs the Pipeline$")
+    public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() throws Throwable {
+
+    }
+
+    @Then("^the buttons should appear in Octane$")
+    public void theButtonsShouldAppearInOctane() throws Throwable {
+
+    }
 }
 
 //        String result = new String("hello");
