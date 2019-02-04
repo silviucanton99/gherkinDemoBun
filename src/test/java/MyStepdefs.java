@@ -1,9 +1,7 @@
 import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
-import org.junit.Assert;
-import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+
 
 public class MyStepdefs {
 
@@ -40,8 +38,8 @@ public class MyStepdefs {
 
     }
 
-    @Given("^there is a GT$")
-    public void thereIsAGT() throws Throwable {
+    @Given("^there is a GT - this is modified$")
+    public void thereIsAGTThisIsModified() throws Throwable {
 
     }
 
@@ -52,7 +50,7 @@ public class MyStepdefs {
 
     @Then("^the buttons should appear in Octane$")
     public void theButtonsShouldAppearInOctane() throws Throwable {
-
+        assertEquals(6, Calcs.sum(4, 5));
     }
 }
 

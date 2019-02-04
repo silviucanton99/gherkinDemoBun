@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID1044REV0.2.0
+@TID1002REV0.2.0
 Feature: Gherkin buttons
 	Scenario: Check the buttons
 		Given there is a GT - this is modified
