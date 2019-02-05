@@ -17,10 +17,9 @@ public class MyStepdefs {
 
     @Then("^Two apples remain$")
     public void twoApplesRemain() throws Throwable {
-//        assertEquals(6, Calcs.sum(2, 5));
+        assertEquals(6, Calcs.sum(2, 4));
 
     }
-
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
@@ -45,12 +44,12 @@ public class MyStepdefs {
 
     @When("^the user modifies the script from IDE and runs the Pipeline$")
     public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() throws Throwable {
-
+        assertEquals(6, Calcs.sum(4, 5));
     }
 
     @Then("^the buttons should appear in Octane$")
     public void theButtonsShouldAppearInOctane() throws Throwable {
-        assertEquals(6, Calcs.sum(4, 5));
+
     }
 }
 
