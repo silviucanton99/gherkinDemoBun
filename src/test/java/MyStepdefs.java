@@ -28,7 +28,7 @@ public class MyStepdefs {
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
-
+        assertEquals(400, Calcs.sum(200, 210));
     }
 
     @Then("^I should be logged in$")
