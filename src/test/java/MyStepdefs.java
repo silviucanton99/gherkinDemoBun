@@ -39,6 +39,8 @@ public class MyStepdefs {
 
     @Given("^there is a GT - this is modified$")
     public void thereIsAGTThisIsModified() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 77);
 
     }
 
