@@ -7,6 +7,9 @@ public class MyStepdefs {
 
     @Given("^Three apples exist$")
     public void threeApplesExist() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 77);
+
 
     }
 
