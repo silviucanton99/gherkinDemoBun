@@ -17,7 +17,7 @@ public class MyStepdefs {
 
     @Then("^Two apples remain$")
     public void twoApplesRemain() throws Throwable {
-        assertEquals(6, Calcs.sum(2, 4));
+        assertEquals(6, Calcs.sum(1, 4));
 
     }
 
@@ -33,7 +33,7 @@ public class MyStepdefs {
 
     @Then("^I should be logged in$")
     public void iShouldBeLoggedIn() throws Throwable {
-        assertEquals(6, Calcs.sum(1, 7));
+//        assertEquals(6, Calcs.sum(1, 7));
 
     }
 
