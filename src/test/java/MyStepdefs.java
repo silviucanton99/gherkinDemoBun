@@ -20,7 +20,7 @@ public class MyStepdefs {
 
     @Then("^Two apples remain$")
     public void twoApplesRemain() throws Throwable {
-        assertEquals(6, Calcs.sum(1, 4));
+        assertEquals(6, Calcs.sum(1, 5));
 
     }
 
@@ -55,6 +55,22 @@ public class MyStepdefs {
     @Then("^the buttons should appear in Octane$")
     public void theButtonsShouldAppearInOctane() throws Throwable {
 
+    }
+
+    @Given("^Given from IDE$")
+    public void givenFromIDE() throws Throwable {
+        assertEquals(6, Calcs.sum(4, 500));
+    }
+
+    @When("^When from IDE$")
+    public void whenFromIDE() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^Then from IDE$")
+    public void thenFromIDE() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
     }
 }
 

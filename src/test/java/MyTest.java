@@ -1,9 +1,9 @@
-import com.hpe.alm.octane.OctaneCucumber;
 import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
-@RunWith(OctaneCucumber.class)
-@CucumberOptions(plugin={"junit:junitResult.xml"},
+@RunWith(Cucumber.class)
+@CucumberOptions(plugin={"com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results\\\\ManualRunnerTest_OctaneGherkinResults.xml"},
     features="src/test/resources/features")
 public class MyTest {
 }
