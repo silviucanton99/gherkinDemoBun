@@ -6,55 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 public class MyStepdefs {
 
-    @Given("^Three apples exist$")
-    public void threeApplesExist() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 77);
-    }
-
-    @When("^One apple is eaten$")
-    public void oneAppleIsEaten() throws Throwable {
-
-    }
-
-    @Then("^Two apples remain$")
-    public void twoApplesRemain() throws Throwable {
-        assertEquals(6, Calcs.sum(1, 5));
-
-    }
-
-    @Given("^some no failed given$")
-    public void someNoFailedGiven() throws Throwable {
-
-    }
-
-    @When("^I submit username and password$")
-    public void iSubmitUsernameAndPassword() throws Throwable {
-        assertEquals(400, Calcs.sum(200, 210));
-    }
-
-    @Then("^I should be logged in$")
-    public void iShouldBeLoggedIn() throws Throwable {
-        assertEquals(40, Calcs.sum(20, 21));
-
-    }
-
-    @Given("^there is a GT - this is modified$")
-    public void thereIsAGTThisIsModified() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 77);
-
-    }
-
-    @When("^the user modifies the script from IDE and runs the Pipeline$")
-    public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() throws Throwable {
-        assertEquals(6, Calcs.sum(4, 5));
-    }
-
-    @Then("^the buttons should appear in Octane$")
-    public void theButtonsShouldAppearInOctane() throws Throwable {
-    }
-
 
     @Given("^IDE GT given$")
     public void ideGTGiven() throws Throwable {
@@ -67,5 +18,64 @@ public class MyStepdefs {
     @Then("^IDE GT then$")
     public void ideGTThen() throws Throwable {
         assertEquals(6, Calcs.sum(2, 5));
+    }
+
+
+    @Given("^Three apples exist$")
+    public void threeApplesExist() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 77);
+    }
+
+    @When("^One apple is eaten$")
+    public void oneAppleIsEaten() throws Throwable {
+    }
+
+    @Then("^Two apples remain$")
+    public void twoApplesRemain() throws Throwable {
+    }
+
+    @Given("^some no failed given$")
+    public void someNoFailedGiven() throws Throwable {
+    }
+
+    @When("^I submit username and password$")
+    public void iSubmitUsernameAndPassword() throws Throwable {
+    }
+
+    @Then("^I should be logged in$")
+    public void iShouldBeLoggedIn() throws Throwable {
+    }
+
+    @Given("^there is a GT$")
+    public void thereIsAGT() throws Throwable {
+    }
+
+    @When("^the user modifies the script from IDE and runs the Pipeline$")
+    public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() throws Throwable {
+    }
+
+    @Then("^the buttons should appear in Octane$")
+    public void theButtonsShouldAppearInOctane() throws Throwable {
+    }
+
+    @Given("^the following users exist$")
+    public void theFollowingUsersExist() throws Throwable {
+    }
+
+    @But("^Clicking the Create New requirement$")
+    public void clickingTheCreateNewRequirement() throws Throwable {
+    }
+
+    @And("^Clicking the Create New defect$")
+    public void clickingTheCreateNewDefect() throws Throwable {
+    }
+
+    @When("^Clicking the New Feature$")
+    public void clickingTheNewFeature() throws Throwable {
+    }
+
+    @Then("^I should receive an email with$")
+    public void iShouldReceiveAnEmailWith() throws Throwable {
     }
 }
