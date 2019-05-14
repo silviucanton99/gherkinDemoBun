@@ -16,9 +16,8 @@ public class MyStepdefs {
 
     @Then("^IDE GT then$")
     public void ideGTThen() throws Throwable {
+        assertEquals(20, Calcs.sum(5, 5));
     }
-
-
 
     @Given("^there is a GT$")
     public void thereIsAGT() throws Throwable {
@@ -51,7 +50,7 @@ public class MyStepdefs {
 
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
-        assertEquals(6, Calcs.sum(2, 5));
+        assertEquals(100, Calcs.sum(22, 5));
     }
 
     @Given("^some no failed given$")
@@ -87,7 +86,7 @@ public class MyStepdefs {
     @When("^filter by price lower than one thousand$")
     public void filterByPriceLowerThanOneThousand() throws Throwable {
         String result = new String("hello");
-        assertEquals(result.length(), 77);
+        assertEquals(result.length(), 55);
     }
 
     @Then("^Only tablets with lower price will be presented$")
