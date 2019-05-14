@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 public class MyStepdefs {
 
-
     @Given("^IDE GT given$")
     public void ideGTGiven() throws Throwable {
     }
@@ -19,27 +18,14 @@ public class MyStepdefs {
     public void ideGTThen() throws Throwable {
     }
 
-
-    @Given("^Three apples exist$")
-    public void threeApplesExist() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 77);
-    }
-
-    @When("^One apple is eaten$")
-    public void oneAppleIsEaten() throws Throwable {
-    }
-
-    @Then("^Two apples remain$")
-    public void twoApplesRemain() throws Throwable {
-    }
-
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
     }
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 55);
     }
 
     @Then("^I should be logged in$")
@@ -77,6 +63,33 @@ public class MyStepdefs {
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
         assertEquals(6, Calcs.sum(2, 5));
+    }
 
+    @Given("^Three apples exist$")
+    public void threeApplesExist() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 77);
+    }
+
+    @When("^One apple is eaten$")
+    public void oneAppleIsEaten() throws Throwable {
+    }
+
+    @Then("^Two apples remain$")
+    public void twoApplesRemain() throws Throwable {
+    }
+
+    @Given("^I'm in tablets search results$")
+    public void iMInTabletsSearchResults() throws Throwable {
+    }
+
+    @When("^filter by price lower than one thousand$")
+    public void filterByPriceLowerThanOneThousand() throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 77);
+    }
+
+    @Then("^Only tablets with lower price will be presented$")
+    public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
     }
 }
