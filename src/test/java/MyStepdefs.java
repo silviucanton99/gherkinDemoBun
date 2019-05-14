@@ -92,4 +92,16 @@ public class MyStepdefs {
     @Then("^Only tablets with lower price will be presented$")
     public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
     }
+
+    @Given("^IDE GT given(\\d+)$")
+    public void ideGTGiven(int arg0) throws Throwable {
+    }
+
+    @When("^IDE GT when(\\d+)$")
+    public void ideGTWhen(int arg0) throws Throwable {
+    }
+
+    @Then("^IDE GT then(\\d+)$")
+    public void ideGTThen(int arg0) throws Throwable {
+    }
 }
