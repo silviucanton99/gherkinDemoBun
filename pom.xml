@@ -31,7 +31,6 @@
             <groupId>com.hpe.alm.octane</groupId>
             <artifactId>octane-cucumber-jvm</artifactId>
             <version>12.60.47-SNAPSHOT</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
