@@ -17,7 +17,6 @@ public class MyStepdefs {
 
     @Then("^IDE GT then$")
     public void ideGTThen() throws Throwable {
-        assertEquals(6, Calcs.sum(2, 5));
     }
 
 
@@ -77,5 +76,7 @@ public class MyStepdefs {
 
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
+        assertEquals(6, Calcs.sum(2, 5));
+
     }
 }
