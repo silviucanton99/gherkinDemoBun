@@ -18,17 +18,7 @@ public class MyStepdefs {
     public void ideGTThen() throws Throwable {
     }
 
-    @Given("^some no failed given$")
-    public void someNoFailedGiven() throws Throwable {
-    }
 
-    @When("^I submit username and password$")
-    public void iSubmitUsernameAndPassword() throws Throwable {
-    }
-
-    @Then("^I should be logged in$")
-    public void iShouldBeLoggedIn() throws Throwable {
-    }
 
     @Given("^there is a GT$")
     public void thereIsAGT() throws Throwable {
@@ -62,6 +52,18 @@ public class MyStepdefs {
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
         assertEquals(6, Calcs.sum(2, 5));
+    }
+
+    @Given("^some no failed given$")
+    public void someNoFailedGiven() throws Throwable {
+    }
+
+    @When("^I submit username and password$")
+    public void iSubmitUsernameAndPassword() throws Throwable {
+    }
+
+    @Then("^I should be logged in$")
+    public void iShouldBeLoggedIn() throws Throwable {
     }
 
     @Given("^Three apples exist$")
