@@ -10,8 +10,6 @@ public class MyStepdefs {
     public void threeApplesExist() throws Throwable {
         String result = new String("hello");
         assertEquals(result.length(), 77);
-
-
     }
 
     @When("^One apple is eaten$")
@@ -56,8 +54,18 @@ public class MyStepdefs {
     @Then("^the buttons should appear in Octane$")
     public void theButtonsShouldAppearInOctane() throws Throwable {
     }
-}
 
-//        String result = new String("hello");
-//        assertEquals(result.length(), 0);
-//        assertEquals(6, Calcs.sum(2, 5));
+
+    @Given("^IDE GT given$")
+    public void ideGTGiven() throws Throwable {
+    }
+
+    @When("^IDE GT when$")
+    public void ideGTWhen() throws Throwable {
+    }
+
+    @Then("^IDE GT then$")
+    public void ideGTThen() throws Throwable {
+        assertEquals(6, Calcs.sum(2, 5));
+    }
+}
