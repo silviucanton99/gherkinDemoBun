@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1126REV0.3.0
-Feature: Test Background Feature
+Feature: BackgroundGT
 	Background: User is Logged In no fail
 	Scenario: a BACKGROUND scenario
 		Given some no failed given
