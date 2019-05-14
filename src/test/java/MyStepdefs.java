@@ -24,8 +24,6 @@ public class MyStepdefs {
 
     @When("^I submit username and password$")
     public void iSubmitUsernameAndPassword() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 55);
     }
 
     @Then("^I should be logged in$")
@@ -46,6 +44,7 @@ public class MyStepdefs {
 
     @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
+        assertEquals(10, Calcs.sum(2, 5));
     }
 
     @But("^Clicking the Create New requirement$")
