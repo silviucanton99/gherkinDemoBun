@@ -99,6 +99,8 @@ public class MyStepdefs {
 
     @When("^IDE GT when(\\d+)$")
     public void ideGTWhen(int arg0) throws Throwable {
+        String result = new String("hello");
+        assertEquals(result.length(), 33);
     }
 
     @Then("^IDE GT then(\\d+)$")
