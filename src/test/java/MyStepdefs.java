@@ -21,6 +21,7 @@ public class MyStepdefs {
 
     @Given("^there is a GT$")
     public void thereIsAGT() throws Throwable {
+        assertEquals(77, Calcs.sum(5, 5));
     }
 
     @When("^the user modifies the script from IDE and runs the Pipeline$")
