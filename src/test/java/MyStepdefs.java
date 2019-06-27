@@ -56,6 +56,7 @@ public class MyStepdefs {
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
+        assertEquals(333, Calcs.sum(22, 5));
     }
 
     @When("^I submit username and password$")
