@@ -122,4 +122,18 @@ public class MyStepdefs {
     @Then("^Bamboo then(\\d+)$")
     public void BambooThen(int arg0) throws Throwable {
     }
+
+    @Given("^Bamboo1given$")
+    public void Bamboo1given() throws Throwable {
+//        String result = new String("hello");
+//        assertEquals(result.length(), 77);
+    }
+
+    @When("^Bamboo1when$")
+    public void Bamboo1when() throws Throwable {
+    }
+
+    @Then("^Bamboo1then$")
+    public void Bamboo1then() throws Throwable {
+    }
 }
