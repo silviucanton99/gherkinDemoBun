@@ -21,7 +21,7 @@ public class MyStepdefs {
 
     @Given("^there is a GT$")
     public void thereIsAGT() throws Throwable {
-        assertEquals(77, Calcs.sum(5, 5));
+//        assertEquals(77, Calcs.sum(5, 5));
     }
 
     @When("^the user modifies the script from IDE and runs the Pipeline$")
@@ -34,7 +34,7 @@ public class MyStepdefs {
 
     @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
-//        assertEquals(10, Calcs.sum(2, 5));
+        assertEquals(10, Calcs.sum(2, 5));
     }
 
     @But("^Clicking the Create New requirement$")
