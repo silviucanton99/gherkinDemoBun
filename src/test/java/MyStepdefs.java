@@ -34,7 +34,7 @@ public class MyStepdefs {
 
     @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
-        assertEquals(99, Calcs.sum(2, 5));
+        assertEquals(199, Calcs.sum(2, 5));
     }
 
     @But("^Clicking the Create New requirement$")
@@ -56,7 +56,7 @@ public class MyStepdefs {
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
-        assertEquals(444, Calcs.sum(22, 51));
+        assertEquals(445, Calcs.sum(22, 51));
     }
 
     @When("^I submit username and password$")
@@ -88,7 +88,7 @@ public class MyStepdefs {
     @When("^filter by price lower than one thousand$")
     public void filterByPriceLowerThanOneThousand() throws Throwable {
         String result = new String("hello");
-        assertEquals(result.length(), 55);
+        assertEquals(result.length(), 555);
     }
 
     @Then("^Only tablets with lower price will be presented$")
@@ -102,7 +102,7 @@ public class MyStepdefs {
     @When("^IDE GT when(\\d+)$")
     public void ideGTWhen(int arg0) throws Throwable {
         String result = new String("hello");
-        assertEquals(result.length(), 33);
+        assertEquals(result.length(), 5);
     }
 
     @Then("^IDE GT then(\\d+)$")
