@@ -51,12 +51,12 @@ public class MyStepdefs {
 
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
-        assertEquals(100, Calcs.sum(22, 5));
+        assertEquals(111, Calcs.sum(100, 11));
     }
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
-        assertEquals(333, Calcs.sum(22, 5));
+        assertEquals(333, Calcs.sum(22, 51));
     }
 
     @When("^I submit username and password$")
@@ -125,8 +125,8 @@ public class MyStepdefs {
 
     @Given("^Bamboo1given$")
     public void Bamboo1given() throws Throwable {
-//        String result = new String("hello");
-//        assertEquals(result.length(), 77);
+        String result = new String("hello");
+        assertEquals(result.length(), 88);
     }
 
     @When("^Bamboo1when$")
