@@ -34,7 +34,7 @@ public class MyStepdefs {
 
     @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
-        assertEquals(10, Calcs.sum(2, 5));
+        assertEquals(99, Calcs.sum(2, 5));
     }
 
     @But("^Clicking the Create New requirement$")
@@ -56,7 +56,7 @@ public class MyStepdefs {
 
     @Given("^some no failed given$")
     public void someNoFailedGiven() throws Throwable {
-        assertEquals(333, Calcs.sum(22, 51));
+        assertEquals(444, Calcs.sum(22, 51));
     }
 
     @When("^I submit username and password$")
