@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="BackgroundStepAnd Scenario Outline" path="src\test\resources\features\BackgroundStepAndScenarioOutline-1004.feature" started="1565768689191" tag="@TID1004REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1004REV0.2.0
+Feature:BackgroundStepAnd Scenario Outline
+
+  Background: User is Logged In
+    Given Background given
+    When Background when
+    And Background and
+    Then Background then
+
+  Scenario Outline: Background Step + Scenario Outline
+    Given <username> and <password> are known
+    When the credentials are written
+    And the "Login" button is clicked
+    Then The login is successful
+
+    Examples:
+      | username | password |
+      | a        | 1        |
+      | b        | 2        |
+
+]]></file><scenarios><scenario name="Background Step + Scenario Outline" outlineIndex="1"><steps><step duration="912235" name="Given Background given" status="passed"/><step duration="17746" name="When Background when" status="passed"/><step duration="8307" name="And Background and" status="passed"/><step duration="7174" name="Then Background then" status="passed"/><step duration="6419" name="Given a and 1 are known" status="passed"/><step duration="6419" name="When the credentials are written" status="passed"/><step duration="183504" name="And the &quot;Login&quot; button is clicked" status="passed"/><step duration="8684" name="Then The login is successful" status="passed"/></steps></scenario><scenario name="Background Step + Scenario Outline" outlineIndex="2"><steps><step duration="38891" name="Given Background given" status="passed"/><step duration="11327" name="When Background when" status="passed"/><step duration="9062" name="And Background and" status="passed"/><step duration="6797" name="Then Background then" status="passed"/><step duration="7930" name="Given b and 2 are known" status="passed"/><step duration="6041" name="When the credentials are written" status="passed"/><step duration="33227" name="And the &quot;Login&quot; button is clicked" status="passed"/><step duration="7552" name="Then The login is successful" status="passed"/></steps></scenario></scenarios></feature><feature name="ButtonsGTrenamed" path="src\test\resources\features\ButtonsGT-1002.feature" started="1565768689194" tag="@TID1002REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1002REV0.2.0
+Feature: ButtonsGTrenamed
+	Scenario: Check the buttons
+		Given there is a GT
+		When the user modifies the script from IDE and runs the Pipeline
+		Then the buttons should appear in Octane]]></file><scenarios><scenario name="Check the buttons"><steps><step duration="32094" name="Given there is a GT" status="passed"/><step duration="13593" name="When the user modifies the script from IDE and runs the Pipeline" status="passed"/><step duration="12460" name="Then the buttons should appear in Octane" status="passed"/></steps></scenario></scenarios></feature><feature name="CommentsGT" path="src\test\resources\features\CommentsGT.feature" started="1565768689195" tag="@TID1009REV0.9.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1009REV0.9.0
+Feature: CommentsGT
+#This is the scenario comment
+  Scenario: Open Feature Dialog in Octane2
+    #This is the Given comment
+    Given the following users exist
+    #This is the But comment
+    But Clicking the Create New requirement
+     #This is the And comment
+    And Clicking the Create New defect
+     #This is the When comment
+    When Clicking the New Feature
+    Then I should receive an email with
+]]></file><scenarios><scenario name="Open Feature Dialog in Octane2"><steps><step duration="36626" name="Given the following users exist" status="passed"/><step duration="14348" name="But Clicking the Create New requirement" status="passed"/><step duration="12461" name="And Clicking the Create New defect" status="passed"/><step duration="11328" name="When Clicking the New Feature" status="passed"/><step duration="15481" name="Then I should receive an email with" status="passed"/></steps></scenario></scenarios></feature><feature name="OnlineShoppingGTrenamed" path="src\test\resources\features\OnlineShoppingGT.feature" started="1565768689196" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1028REV0.7.0
+Feature: OnlineShoppingGTrenamed
+	Scenario: Filter by price
+		Given I'm in tablets search results
+		When filter by price lower than one thousand
+		Then Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="32095" name="Given I'm in tablets search results" status="passed"/><step duration="29452" name="When filter by price lower than one thousand" status="passed"/><step duration="16236" name="Then Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>
