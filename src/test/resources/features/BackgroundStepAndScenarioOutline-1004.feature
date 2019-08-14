@@ -11,7 +11,7 @@ Feature:BackgroundStepAnd Scenario Outline
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
-    And the "Login" button is clicked
+    And the Login button is clicked
     Then The login is successful
 
     Examples:

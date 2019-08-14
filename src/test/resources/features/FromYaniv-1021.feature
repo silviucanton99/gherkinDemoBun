@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1021REV0.2.0
-Feature: New
+Feature: NewFromYanivRenamed
   feat_desc
   Background:
   back_desc

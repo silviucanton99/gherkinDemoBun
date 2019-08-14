@@ -113,37 +113,38 @@ public class MyStepdefs {
 
     @Given("this is background")
     public void thisIsBackground() {
-        
+        assertEquals(100, Calcs.sum(7, 7));
+
     }
 
     @Given("memo")
     public void memo() {
-        
+
     }
 
     @And("Fail step {int}")
     public void failStep(int arg0) {
-        
+
     }
 
     @When("table")
     public void table() {
-        
+
     }
 
     @Then("step {int}")
     public void step(int arg0) {
-        
+
     }
 
     @Given("I am in <module> module focused on a <entity>")
     public void iAmInModuleModuleFocusedOnAEntity() {
-        
+
     }
 
     @When("Clicking the Create New <entity> to add a <entity>")
     public void clickingTheCreateNewEntityToAddAEntity() {
-        
+
     }
 
     @Then("Feature dialog is open")
@@ -151,7 +152,6 @@ public class MyStepdefs {
     }
 }
 
-//
 
 //    String result = new String("hello");
 //        assertEquals(result.length(), 555);
