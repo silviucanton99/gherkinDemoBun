@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="BackgroundStepAnd Scenario Outline" path="src\test\resources\features\BackgroundStepAndScenarioOutline-1004.feature" started="1565768689191" tag="@TID1004REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+<features version="1"><feature name="BackgroundStepAnd Scenario Outline" path="src\test\resources\features\BackgroundStepAndScenarioOutline-1004.feature" started="1565779369083" tag="@TID1004REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1004REV0.2.0
 Feature:BackgroundStepAnd Scenario Outline
 
@@ -12,7 +12,7 @@ Feature:BackgroundStepAnd Scenario Outline
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
-    And the "Login" button is clicked
+    And the Login button is clicked
     Then The login is successful
 
     Examples:
@@ -20,13 +20,14 @@ Feature:BackgroundStepAnd Scenario Outline
       | a        | 1        |
       | b        | 2        |
 
-]]></file><scenarios><scenario name="Background Step + Scenario Outline" outlineIndex="1"><steps><step duration="912235" name="Given Background given" status="passed"/><step duration="17746" name="When Background when" status="passed"/><step duration="8307" name="And Background and" status="passed"/><step duration="7174" name="Then Background then" status="passed"/><step duration="6419" name="Given a and 1 are known" status="passed"/><step duration="6419" name="When the credentials are written" status="passed"/><step duration="183504" name="And the &quot;Login&quot; button is clicked" status="passed"/><step duration="8684" name="Then The login is successful" status="passed"/></steps></scenario><scenario name="Background Step + Scenario Outline" outlineIndex="2"><steps><step duration="38891" name="Given Background given" status="passed"/><step duration="11327" name="When Background when" status="passed"/><step duration="9062" name="And Background and" status="passed"/><step duration="6797" name="Then Background then" status="passed"/><step duration="7930" name="Given b and 2 are known" status="passed"/><step duration="6041" name="When the credentials are written" status="passed"/><step duration="33227" name="And the &quot;Login&quot; button is clicked" status="passed"/><step duration="7552" name="Then The login is successful" status="passed"/></steps></scenario></scenarios></feature><feature name="ButtonsGTrenamed" path="src\test\resources\features\ButtonsGT-1002.feature" started="1565768689194" tag="@TID1002REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1002REV0.2.0
-Feature: ButtonsGTrenamed
-	Scenario: Check the buttons
-		Given there is a GT
-		When the user modifies the script from IDE and runs the Pipeline
-		Then the buttons should appear in Octane]]></file><scenarios><scenario name="Check the buttons"><steps><step duration="32094" name="Given there is a GT" status="passed"/><step duration="13593" name="When the user modifies the script from IDE and runs the Pipeline" status="passed"/><step duration="12460" name="Then the buttons should appear in Octane" status="passed"/></steps></scenario></scenarios></feature><feature name="CommentsGT" path="src\test\resources\features\CommentsGT.feature" started="1565768689195" tag="@TID1009REV0.9.0"><file><![CDATA[#Auto generated Octane revision tag
+]]></file><scenarios><scenario name="Background Step + Scenario Outline" outlineIndex="1"><steps><step duration="495008" name="Given Background given" status="passed"/><step duration="15103" name="When Background when" status="passed"/><step duration="9062" name="And Background and" status="passed"/><step duration="7174" name="Then Background then" status="passed"/><step duration="6796" name="Given a and 1 are known" status="passed"/><step duration="6796" name="When the credentials are written" status="passed"/><step duration="0" name="And the Login button is clicked" status="undefined"/><step duration="24920" name="Then The login is successful" status="skipped"/></steps></scenario><scenario name="Background Step + Scenario Outline" outlineIndex="2"><steps><step duration="53617" name="Given Background given" status="passed"/><step duration="11328" name="When Background when" status="passed"/><step duration="8307" name="And Background and" status="passed"/><step duration="6419" name="Then Background then" status="passed"/><step duration="2841296" name="Given b and 2 are known" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<77> but was:<10>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.band2areknown(MyStepdefs.java:41)
+	at ✽.b and 2 are known(src/test/resources/features/BackgroundStepAndScenarioOutline-1004.feature:12)
+]]></error_message></step><step duration="7551" name="When the credentials are written" status="skipped"/><step duration="0" name="And the Login button is clicked" status="undefined"/><step duration="5664" name="Then The login is successful" status="skipped"/></steps></scenario></scenarios></feature><feature name="CommentsGT" path="src\test\resources\features\CommentsGT.feature" started="1565779369087" tag="@TID1009REV0.9.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1009REV0.9.0
 Feature: CommentsGT
 #This is the scenario comment
@@ -40,10 +41,94 @@ Feature: CommentsGT
      #This is the When comment
     When Clicking the New Feature
     Then I should receive an email with
-]]></file><scenarios><scenario name="Open Feature Dialog in Octane2"><steps><step duration="36626" name="Given the following users exist" status="passed"/><step duration="14348" name="But Clicking the Create New requirement" status="passed"/><step duration="12461" name="And Clicking the Create New defect" status="passed"/><step duration="11328" name="When Clicking the New Feature" status="passed"/><step duration="15481" name="Then I should receive an email with" status="passed"/></steps></scenario></scenarios></feature><feature name="OnlineShoppingGTrenamed" path="src\test\resources\features\OnlineShoppingGT.feature" started="1565768689196" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
+]]></file><scenarios><scenario name="Open Feature Dialog in Octane2"><steps><step duration="85333" name="Given the following users exist" status="passed"/><step duration="19634" name="But Clicking the Create New requirement" status="passed"/><step duration="12083" name="And Clicking the Create New defect" status="passed"/><step duration="10950" name="When Clicking the New Feature" status="passed"/><step duration="10572" name="Then I should receive an email with" status="passed"/></steps></scenario></scenarios></feature><feature name="NewFromYanivRenamed" path="src\test\resources\features\FromYaniv-1021.feature" started="1565779369088" tag="@TID1021REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1021REV0.2.0
+Feature: NewFromYanivRenamed
+  feat_desc
+  Background:
+  back_desc
+#    Given this is a failing background step
+    Given this is background
+
+  Scenario: scenario 1
+  scenario_1_desc
+    Given memo
+    """
+    Some Title, Eh?
+    ===============
+    Here is the first paragraph of my blog post. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.
+    """
+    And Fail step 1
+    When table
+      | name   | email              | twitter         |
+      | Aslak  | aslak@cucumber.io  | @aslak_hellesoy |
+      | Julien | julien@cucumber.io | @jbpros         |
+      | Matt   | matt@cucumber.io   | @mattwynne      |
+    Then step 3
+    Then step 4
+
+  @exclude
+  Scenario: scenario 2
+  scenario_2_desc_a
+  scenario_2_desc_b
+    Given step 1
+    And Fail step 1
+    When step 2
+    Then step 3
+    But step 4
+
+  Scenario: scenario 2
+  scenario_2_desc_a
+  scenario_2_desc_b
+    Given step 5
+    And Fail step 1
+    When step 7
+    Then step 8
+    But step 9
+
+  Scenario Outline: Open Feature Dialog in Octane2
+  scenario_outline_desc
+    Given I am in <module> module focused on a <entity>
+    When Clicking the Create New <entity> to add a <entity>
+    Then Feature dialog is open
+
+    Examples:
+      | module | entity |
+      | defects      | defect      |
+      | requirements      | requirement      |
+]]></file><scenarios><scenario name="scenario 1"><steps><step duration="1314736" name="Given this is background" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<100> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thisIsBackground(MyStepdefs.java:116)
+	at ✽.this is background(src/test/resources/features/FromYaniv-1021.feature:8)
+]]></error_message></step><step duration="20767" name="Given memo" status="skipped"/><step duration="5663" name="And Fail step 1" status="skipped"/><step duration="5664" name="When table" status="skipped"/><step duration="6041" name="Then step 3" status="skipped"/><step duration="3776" name="Then step 4" status="skipped"/></steps></scenario><scenario name="scenario 2"><steps><step duration="467445" name="Given this is background" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<100> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thisIsBackground(MyStepdefs.java:116)
+	at ✽.this is background(src/test/resources/features/FromYaniv-1021.feature:8)
+]]></error_message></step><step duration="104213" name="Given step 5" status="skipped"/><step duration="8684" name="And Fail step 1" status="skipped"/><step duration="6041" name="When step 7" status="skipped"/><step duration="7552" name="Then step 8" status="skipped"/><step duration="5286" name="But step 9" status="skipped"/></steps></scenario><scenario name="Open Feature Dialog in Octane2" outlineIndex="1"><steps><step duration="228436" name="Given this is background" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<100> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thisIsBackground(MyStepdefs.java:116)
+	at ✽.this is background(src/test/resources/features/FromYaniv-1021.feature:8)
+]]></error_message></step><step duration="0" name="Given I am in defects module focused on a defect" status="undefined"/><step duration="0" name="When Clicking the Create New defect to add a defect" status="undefined"/><step duration="3398" name="Then Feature dialog is open" status="skipped"/></steps></scenario><scenario name="Open Feature Dialog in Octane2" outlineIndex="2"><steps><step duration="406655" name="Given this is background" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<100> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thisIsBackground(MyStepdefs.java:116)
+	at ✽.this is background(src/test/resources/features/FromYaniv-1021.feature:8)
+]]></error_message></step><step duration="0" name="Given I am in requirements module focused on a requirement" status="undefined"/><step duration="0" name="When Clicking the Create New requirement to add a requirement" status="undefined"/><step duration="6796" name="Then Feature dialog is open" status="skipped"/></steps></scenario></scenarios></feature><feature name="OnlineShoppingGTrenamed" path="src\test\resources\features\OnlineShoppingGT.feature" started="1565779369090" tag="@TID1028REV0.7.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1028REV0.7.0
 Feature: OnlineShoppingGTrenamed
 	Scenario: Filter by price
 		Given I'm in tablets search results
 		When filter by price lower than one thousand
-		Then Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="32095" name="Given I'm in tablets search results" status="passed"/><step duration="29452" name="When filter by price lower than one thousand" status="passed"/><step duration="16236" name="Then Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>
+		Then Only tablets with lower price will be presented]]></file><scenarios><scenario name="Filter by price"><steps><step duration="49086" name="Given I'm in tablets search results" status="passed"/><step duration="10950" name="When filter by price lower than one thousand" status="passed"/><step duration="7174" name="Then Only tablets with lower price will be presented" status="passed"/></steps></scenario></scenarios></feature></features>

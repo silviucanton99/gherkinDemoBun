@@ -150,6 +150,10 @@ public class MyStepdefs {
     @Then("Feature dialog is open")
     public void featureDialogIsOpen() {
     }
+
+    @And("the Login button is clicked")
+    public void theLoginButtonIsClicked() {
+    }
 }
 
 
