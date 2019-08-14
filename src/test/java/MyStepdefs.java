@@ -6,19 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 public class MyStepdefs {
 
-    @Given("^IDE GT given$")
-    public void ideGTGiven() throws Throwable {
-    }
-
-    @When("^IDE GT when$")
-    public void ideGTWhen() throws Throwable {
-    }
-
-    @Then("^IDE GT then$")
-    public void ideGTThen() throws Throwable {
-        assertEquals(10, Calcs.sum(5, 5));
-    }
-
     @Given("^there is a GT$")
     public void thereIsAGT() throws Throwable {
 //        assertEquals(77, Calcs.sum(5, 5));
@@ -34,7 +21,7 @@ public class MyStepdefs {
 
     @Given("^the following users exist$")
     public void theFollowingUsersExist() throws Throwable {
-        assertEquals(199, Calcs.sum(2, 5));
+//        assertEquals(199, Calcs.sum(2, 5));
     }
 
     @But("^Clicking the Create New requirement$")
@@ -51,35 +38,9 @@ public class MyStepdefs {
 
     @Then("^I should receive an email with$")
     public void iShouldReceiveAnEmailWith() throws Throwable {
-        assertEquals(111, Calcs.sum(100, 11));
+//        assertEquals(111, Calcs.sum(100, 11));
     }
 
-    @Given("^some no failed given$")
-    public void someNoFailedGiven() throws Throwable {
-        assertEquals(445, Calcs.sum(22, 51));
-    }
-
-    @When("^I submit username and password$")
-    public void iSubmitUsernameAndPassword() throws Throwable {
-    }
-
-    @Then("^I should be logged in$")
-    public void iShouldBeLoggedIn() throws Throwable {
-    }
-
-    @Given("^Three apples exist$")
-    public void threeApplesExist() throws Throwable {
-//        String result = new String("hello");
-//        assertEquals(result.length(), 77);
-    }
-
-    @When("^One apple is eaten$")
-    public void oneAppleIsEaten() throws Throwable {
-    }
-
-    @Then("^Two apples remain$")
-    public void twoApplesRemain() throws Throwable {
-    }
 
     @Given("^I'm in tablets search results$")
     public void iMInTabletsSearchResults() throws Throwable {
@@ -88,52 +49,60 @@ public class MyStepdefs {
     @When("^filter by price lower than one thousand$")
     public void filterByPriceLowerThanOneThousand() throws Throwable {
         String result = new String("hello");
-        assertEquals(result.length(), 555);
+//        assertEquals(result.length(), 555);
     }
 
     @Then("^Only tablets with lower price will be presented$")
     public void onlyTabletsWithLowerPriceWillBePresented() throws Throwable {
     }
 
-    @Given("^IDE GT given(\\d+)$")
-    public void ideGTGiven(int arg0) throws Throwable {
+
+    @Given("Background given")
+    public void backgroundGiven() {
+
     }
 
-    @When("^IDE GT when(\\d+)$")
-    public void ideGTWhen(int arg0) throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 5);
+    @When("Background when")
+    public void backgroundWhen() {
+
     }
 
-    @Then("^IDE GT then(\\d+)$")
-    public void ideGTThen(int arg0) throws Throwable {
+    @And("Background and")
+    public void backgroundAnd() {
+
     }
 
-    @Given("^Bamboo given(\\d+)$")
-    public void BambooGiven(int arg0) throws Throwable {
+    @Then("Background then")
+    public void backgroundThen() {
+
     }
 
-    @When("^Bamboo when(\\d+)$")
-    public void BambooWhen(int arg0) throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 150);
+    @Given("<username> and <password> are known")
+    public void usernameAndPasswordAreKnown() {
+
+
     }
 
-    @Then("^Bamboo then(\\d+)$")
-    public void BambooThen(int arg0) throws Throwable {
+    @Given("a and 1 are known")
+    public void aand1areknown() {
+
     }
 
-    @Given("^Bamboo1given$")
-    public void Bamboo1given() throws Throwable {
-        String result = new String("hello");
-        assertEquals(result.length(), 88);
+    @Given("b and 2 are known")
+    public void band2areknown() {
     }
 
-    @When("^Bamboo1when$")
-    public void Bamboo1when() throws Throwable {
+    @When("the credentials are written")
+    public void theCredentialsAreWritten() {
+
     }
 
-    @Then("^Bamboo1then$")
-    public void Bamboo1then() throws Throwable {
+    @And("the {string} button is clicked")
+    public void theButtonIsClicked(String arg0) {
+
+    }
+
+    @Then("The login is successful")
+    public void theLoginIsSuccessful() {
     }
 }
