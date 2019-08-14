@@ -110,6 +110,45 @@ public class MyStepdefs {
     @Then("Only tablets with lower price will be presented")
     public void onlyTabletsWithLowerPriceWillBePresented() {
     }
+
+    @Given("this is background")
+    public void thisIsBackground() {
+        
+    }
+
+    @Given("memo")
+    public void memo() {
+        
+    }
+
+    @And("Fail step {int}")
+    public void failStep(int arg0) {
+        
+    }
+
+    @When("table")
+    public void table() {
+        
+    }
+
+    @Then("step {int}")
+    public void step(int arg0) {
+        
+    }
+
+    @Given("I am in <module> module focused on a <entity>")
+    public void iAmInModuleModuleFocusedOnAEntity() {
+        
+    }
+
+    @When("Clicking the Create New <entity> to add a <entity>")
+    public void clickingTheCreateNewEntityToAddAEntity() {
+        
+    }
+
+    @Then("Feature dialog is open")
+    public void featureDialogIsOpen() {
+    }
 }
 
 //
