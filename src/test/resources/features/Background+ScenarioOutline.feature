@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1004REV0.2.0
-Feature:BackgroundStepAnd Scenario Outline
+Feature:BackgroundStepAndScenarioOutline
 
   Background: User is Logged In
     Given Background given

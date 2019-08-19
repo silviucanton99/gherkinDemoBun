@@ -11,7 +11,7 @@ Feature: NewFromYanivRenamed
   scenario_1_desc
     Given memo
     """
-    Some Title, Eh?
+    Some Title,
     ===============
     Here is the first paragraph of my blog post. Lorem ipsum dolor sit amet,
     consectetur adipiscing elit.
