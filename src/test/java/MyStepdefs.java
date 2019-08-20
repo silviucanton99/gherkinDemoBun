@@ -1,10 +1,29 @@
-import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 
 import static org.junit.Assert.assertEquals;
 
 
 public class MyStepdefs {
+
+    // buttonsGT - fails BUT it's excluded
+    @Given("there is a GT")
+    public void thereIsAGT() {
+
+    }
+
+    @When("the user modifies the script from IDE and runs the Pipeline")
+    public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() {
+
+    }
+
+    @Then("the buttons should appear in Octane")
+    public void theButtonsShouldAppearInOctane() {
+        String result = new String("hello");
+        assertEquals(result.length(), 555);
+
+    }
+
+    //background+scenario
     @Given("Background given")
     public void backgroundGiven() {
 
@@ -28,17 +47,6 @@ public class MyStepdefs {
     @Given("<username> and <password> are known")
     public void usernameAndPasswordAreKnown() {
 
-
-    }
-
-    @Given("a and 1 are known")
-    public void aand1areknown() {
-
-    }
-
-    @Given("b and 2 are known")
-    public void band2areknown() {
-        assertEquals(77, Calcs.sum(5, 5));
     }
 
     @When("the credentials are written")
@@ -46,8 +54,8 @@ public class MyStepdefs {
 
     }
 
-    @And("the {string} button is clicked")
-    public void theButtonIsClicked() {
+    @And("the Login button is clicked")
+    public void theLoginButtonIsClicked() {
 
     }
 
@@ -55,23 +63,7 @@ public class MyStepdefs {
     public void theLoginIsSuccessful() {
     }
 
-    @Given("there is a GT")
-    public void thereIsAGT() {
-
-    }
-
-    @When("the user modifies the script from IDE and runs the Pipeline")
-    public void theUserModifiesTheScriptFromIDEAndRunsThePipeline() {
-
-    }
-
-    @Then("the buttons should appear in Octane")
-    public void theButtonsShouldAppearInOctane() {
-        String result = new String("hello");
-        assertEquals(result.length(), 555);
-
-    }
-
+    // commentsGT - fails
     @Given("the following users exist")
     public void theFollowingUsersExist() {
 
@@ -94,8 +86,10 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-
+        assertEquals(100, Calcs.sum(7, 7));
     }
+
+    //    OnlineShoppingGT
 
     @Given("I'm in tablets search results")
     public void iMInTabletsSearchResults() {
@@ -104,6 +98,7 @@ public class MyStepdefs {
 
     @When("filter by price lower than one thousand")
     public void filterByPriceLowerThanOneThousand() {
+        assertEquals(200, Calcs.sum(8, 8));
 
     }
 
@@ -111,9 +106,9 @@ public class MyStepdefs {
     public void onlyTabletsWithLowerPriceWillBePresented() {
     }
 
+    // fromYanivGT
     @Given("this is background")
     public void thisIsBackground() {
-        assertEquals(100, Calcs.sum(7, 7));
 
     }
 
@@ -150,13 +145,9 @@ public class MyStepdefs {
     @Then("Feature dialog is open")
     public void featureDialogIsOpen() {
     }
-
-    @And("the Login button is clicked")
-    public void theLoginButtonIsClicked() {
-    }
 }
 
-
+//    assertEquals(100, Calcs.sum(7, 7));
 //    String result = new String("hello");
 //        assertEquals(result.length(), 555);
 
