@@ -18,12 +18,12 @@ public class MyStepdefs {
 
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
-        String result = new String("hello");
+        String result = "hello";
         assertEquals(result.length(), 555);
 
     }
 
-    //background+scenario
+    //backgroundGT
     @Given("Background given")
     public void backgroundGiven() {
 
@@ -47,6 +47,16 @@ public class MyStepdefs {
     @Given("<username> and <password> are known")
     public void usernameAndPasswordAreKnown() {
 
+    } // this is not taken into consideration since the scenario outline has to be written separately, like below
+
+    @Given("a and 1 are known")
+    public void aand1areknown() {
+
+    }
+
+    @Given("b and 2 are known")
+    public void band2areknown() {
+        assertEquals(99, Calcs.sum(9, 9));
     }
 
     @When("the credentials are written")
@@ -86,11 +96,10 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(100, Calcs.sum(7, 7));
+        assertEquals(77, Calcs.sum(7, 7));
     }
 
     //    OnlineShoppingGT
-
     @Given("I'm in tablets search results")
     public void iMInTabletsSearchResults() {
 
@@ -98,7 +107,7 @@ public class MyStepdefs {
 
     @When("filter by price lower than one thousand")
     public void filterByPriceLowerThanOneThousand() {
-        assertEquals(200, Calcs.sum(8, 8));
+        assertEquals(88, Calcs.sum(8, 8));
 
     }
 
@@ -106,7 +115,7 @@ public class MyStepdefs {
     public void onlyTabletsWithLowerPriceWillBePresented() {
     }
 
-    // fromYanivGT
+    // fromYanivGT - fails
     @Given("this is background")
     public void thisIsBackground() {
 
@@ -133,12 +142,32 @@ public class MyStepdefs {
     }
 
     @Given("I am in <module> module focused on a <entity>")
-    public void iAmInModuleModuleFocusedOnAEntity() {
+    public void iAmInModuleModuleFocusedOnAEntity() { // this is not taken into consideration since the scenario outline has to be written separately, like below
+
+    }
+
+    @Given("I am in defects module focused on a defect")
+    public void iAmInDefectsModuleFocusedOnADefect() {
+
+    }
+
+    @Given("I am in requirements module focused on a requirement")
+    public void iAmInRequirementsModuleFocusedOnARequirement() {
 
     }
 
     @When("Clicking the Create New <entity> to add a <entity>")
-    public void clickingTheCreateNewEntityToAddAEntity() {
+    public void clickingTheCreateNewEntityToAddAEntity() { // this is not taken into consideration since the scenario outline has to be written separately, like below
+
+    }
+
+    @When("Clicking the Create New defect to add a defect")
+    public void clickingTheCreateNewDefectToAddADefect() {
+        assertEquals(66, Calcs.sum(6, 6));
+    }
+
+    @When("Clicking the Create New requirement to add a requirement")
+    public void clickingTheCreateNewRequirementToAddAREquirement() {
 
     }
 
@@ -148,6 +177,6 @@ public class MyStepdefs {
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
-//    String result = new String("hello");
-//        assertEquals(result.length(), 555);
+//    String result = "hello";
+//    assertEquals(result.length(), 555);
 
