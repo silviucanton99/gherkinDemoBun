@@ -73,7 +73,7 @@ public class MyStepdefs {
     public void theLoginIsSuccessful() {
     }
 
-    // commentsGT - fails
+    // commentsGT - passes
     @Given("the following users exist")
     public void theFollowingUsersExist() {
 
