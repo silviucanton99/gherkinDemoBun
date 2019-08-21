@@ -1,8 +1,7 @@
 #Auto generated Octane revision tag
 @TID1021REV0.2.0
-Feature: NewFromYaniv
+Feature: FromYaniv renamed
 
-  @exclude
   Scenario: Some determinable business situation
     Given some precondition
     And some other precondition
@@ -18,6 +17,6 @@ Feature: NewFromYaniv
     Then Feature dialog is open
 
     Examples:
-      | module | entity |
+      | module       | entity      |
       | defects      | defect      |
-      | requirements      | requirement      |
+      | requirements | requirement |
