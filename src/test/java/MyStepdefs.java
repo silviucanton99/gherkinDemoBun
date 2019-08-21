@@ -116,30 +116,34 @@ public class MyStepdefs {
     }
 
     // fromYanivGT - fails
-    @Given("this is background")
-    public void thisIsBackground() {
+
+    @Given("some precondition")
+    public void somePrecondition() {
+    }
+
+    @And("some other precondition")
+    public void someOtherPrecondition() {
+    }
+
+    @When("some action by the actor")
+    public void someActionByTheActor() {
+    }
+
+    @And("some other action")
+    public void someOtherAction() {
 
     }
 
-    @Given("memo")
-    public void memo() {
+    @And("yet another action")
+    public void yetAnotherAction() {
 
     }
 
-    @And("Fail step {int}")
-    public void failStep(int arg0) {
-
+    @Then("some testable outcome is achieved")
+    public void someTestableOutcomeIsAchieved() {
+        assertEquals(55, Calcs.sum(5, 5));
     }
 
-    @When("table")
-    public void table() {
-
-    }
-
-    @Then("step {int}")
-    public void step(int arg0) {
-
-    }
 
     @Given("I am in <module> module focused on a <entity>")
     public void iAmInModuleModuleFocusedOnAEntity() { // this is not taken into consideration since the scenario outline has to be written separately, like below
@@ -174,6 +178,7 @@ public class MyStepdefs {
     @Then("Feature dialog is open")
     public void featureDialogIsOpen() {
     }
+
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
