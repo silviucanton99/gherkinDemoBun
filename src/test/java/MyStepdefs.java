@@ -18,8 +18,8 @@ public class MyStepdefs {
 
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
-//        String result = "hello";
-//        assertEquals(result.length(), 555);
+        String result = "hello";
+        assertEquals(result.length(), 555);
 
     }
 
@@ -55,9 +55,9 @@ public class MyStepdefs {
     }
 
     @Given("b and 2 are known")
-//    public void band2areknown() {
-//        assertEquals(99, Calcs.sum(9, 9));
-//    }
+    public void band2areknown() {
+        assertEquals(99, Calcs.sum(9, 9));
+    }
 
     @When("the credentials are written")
     public void theCredentialsAreWritten() {
@@ -156,7 +156,7 @@ public class MyStepdefs {
 
     @When("filter by price lower than one thousand")
     public void filterByPriceLowerThanOneThousand() {
-//        assertEquals(88, Calcs.sum(8, 8));
+        assertEquals(88, Calcs.sum(8, 8));
 
     }
 
