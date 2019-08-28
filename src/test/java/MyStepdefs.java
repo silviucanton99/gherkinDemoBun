@@ -56,7 +56,6 @@ public class MyStepdefs {
 
     @Given("b and 2 are known")
     public void band2areknown() {
-        assertEquals(99, Calcs.sum(9, 9));
     }
 
     @When("the credentials are written")
@@ -80,6 +79,8 @@ public class MyStepdefs {
 
     @When("I try to post to Expensive Therapy")
     public void iTryToPostToExpensiveTherapy() {
+        assertEquals(99, Calcs.sum(9, 9));
+
 
     }
 
