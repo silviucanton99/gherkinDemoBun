@@ -77,16 +77,15 @@ public class MyStepdefs {
 
     }
 
-    @When("I try to post to Expensive Therapy")
-    public void iTryToPostToExpensiveTherapy() {
-        assertEquals(99, Calcs.sum(9, 9));
+    @When("I try to post to {string}")
+    public void iTryToPostTo(String arg0) {
+                assertEquals(300, Calcs.sum(3, 3));
 
 
     }
 
-    @Then("I should see Your article was published.")
-    public void iShouldSeeYourArticleWasPublished() {
-
+    @Then("I should see {string}.")
+    public void iShouldSee(String arg0) {
     }
 
     @Given("there are {int} coffees left in the machine")
@@ -101,7 +100,6 @@ public class MyStepdefs {
 
     @When("I press the coffee button")
     public void iPressTheCoffeeButton() {
-        assertEquals(111, Calcs.sum(1, 1));
 
     }
 
@@ -230,14 +228,7 @@ public class MyStepdefs {
     public void featureDialogIsOpen() {
     }
 
-    @When("I try to post to {string}")
-    public void iTryToPostTo(String arg0) {
 
-    }
-
-    @Then("I should see {string}.")
-    public void iShouldSee(String arg0) {
-    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
