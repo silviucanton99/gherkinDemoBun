@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1021REV0.2.0
-Feature: FromYaniv renamed
+Feature: FromYaniv
 
   Scenario: Some determinable business situation
     Given some precondition

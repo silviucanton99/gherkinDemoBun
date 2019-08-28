@@ -73,6 +73,55 @@ public class MyStepdefs {
     public void theLoginIsSuccessful() {
     }
 
+    @Given("I am logged in as Wilson")
+    public void iAmLoggedInAsWilson() {
+
+    }
+
+    @When("I try to post to Expensive Therapy")
+    public void iTryToPostToExpensiveTherapy() {
+
+    }
+
+    @Then("I should see Your article was published.")
+    public void iShouldSeeYourArticleWasPublished() {
+
+    }
+
+    @Given("there are {int} coffees left in the machine")
+    public void thereAreCoffeesLeftInTheMachine(int arg0) {
+
+    }
+
+    @And("I have deposited {int} dollar")
+    public void iHaveDepositedDollar(int arg0) {
+
+    }
+
+    @When("I press the coffee button")
+    public void iPressTheCoffeeButton() {
+
+    }
+
+    @Then("I should be served a coffee")
+    public void iShouldBeServedACoffee() {
+
+    }
+
+    @Given("there are {int} cucumbers")
+    public void thereAreCucumbers(int arg0) {
+
+    }
+
+    @When("I eat {int} cucumbers")
+    public void iEatCucumbers(int arg0) {
+
+    }
+
+    @Then("I should have {int} cucumbers")
+    public void iShouldHaveCucumbers(int arg0) {
+    }
+
     // commentsGT - passes
     @Given("the following users exist")
     public void theFollowingUsersExist() {
@@ -179,64 +228,6 @@ public class MyStepdefs {
     public void featureDialogIsOpen() {
     }
 
-    @Given("I am logged in as Wilson")
-    public void iAmLoggedInAsWilson() {
-
-    }
-
-    @When("I try to post to {string}")
-    public void iTryToPostTo(String arg0) {
-
-    }
-
-    @Then("I should see {string}")
-    public void iShouldSee(String arg0) {
-
-    }
-
-    @Given("there are {int} coffees left in the machine")
-    public void thereAreCoffeesLeftInTheMachine(int arg0) {
-
-    }
-
-    @And("I have deposited {int} dollar")
-    public void iHaveDepositedDollar(int arg0) {
-
-    }
-
-    @When("I press the coffee button")
-    public void iPressTheCoffeeButton() {
-
-    }
-
-    @Then("I should be served a coffee")
-    public void iShouldBeServedACoffee() {
-
-    }
-
-    @Given("there are {int} cucumbers")
-    public void thereAreCucumbers(int arg0) {
-
-    }
-
-    @When("I eat {int} cucumbers")
-    public void iEatCucumbers(int arg0) {
-
-    }
-
-    @Then("I should have {int} cucumbers")
-    public void iShouldHaveCucumbers(int arg0) {
-//        assertEquals(300, Calcs.sum(3, 3));
-    }
-
-    @When("I try to post to Expensive Therapy")
-    public void iTryToPostToExpensiveTherapy() {
-        
-    }
-
-    @Then("I should see Your article was published.")
-    public void iShouldSeeYourArticleWasPublished() {
-    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
