@@ -10,6 +10,5 @@ Feature: CommentsGT
      #This is the And comment
     And Clicking the Create New defect
      #This is the When comment
-    @exclude
     When Clicking the New Feature
     Then I should receive an email with
