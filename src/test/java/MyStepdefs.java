@@ -228,6 +228,15 @@ public class MyStepdefs {
     public void iShouldHaveCucumbers(int arg0) {
 //        assertEquals(300, Calcs.sum(3, 3));
     }
+
+    @When("I try to post to Expensive Therapy")
+    public void iTryToPostToExpensiveTherapy() {
+        
+    }
+
+    @Then("I should see Your article was published.")
+    public void iShouldSeeYourArticleWasPublished() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
