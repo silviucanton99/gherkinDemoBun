@@ -1,14 +1,14 @@
 #Auto generated Octane revision tag
 @TID1004REV0.2.0
 Feature:BackgroundGT
-
+  @exclude
   Background: User is Logged In
     Given Background given
     When Background when
     And Background and
     Then Background then
 
-  @exclude
+
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
