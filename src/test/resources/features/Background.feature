@@ -2,7 +2,7 @@
 @TID1004REV0.2.0
 Feature:BackgroundGT
 
-  Scenario: User is Logged In
+  Background: User is Logged In
     Given Background given
     When Background when
     And Background and
@@ -21,8 +21,8 @@ Feature:BackgroundGT
 
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
-    When I try to post to Expensive Therapy
-    Then I should see Your article was published.
+    When I try to post to "Expensive Therapy"
+    Then I should see "Your article was published".
 
   Scenario: Buy last coffee
     Given there are 1 coffees left in the machine

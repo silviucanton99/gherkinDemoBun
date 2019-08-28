@@ -228,6 +228,14 @@ public class MyStepdefs {
     public void featureDialogIsOpen() {
     }
 
+    @When("I try to post to {string}")
+    public void iTryToPostTo(String arg0) {
+        
+    }
+
+    @Then("I should see {string}.")
+    public void iShouldSee(String arg0) {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
