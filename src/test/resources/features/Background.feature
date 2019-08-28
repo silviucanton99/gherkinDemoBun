@@ -8,6 +8,7 @@ Feature:BackgroundGT
     And Background and
     Then Background then
 
+  @exclude
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
@@ -24,7 +25,6 @@ Feature:BackgroundGT
     When I try to post to "Expensive Therapy"
     Then I should see "Your article was published".
 
-  @exclude
   Scenario: Buy last coffee
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
