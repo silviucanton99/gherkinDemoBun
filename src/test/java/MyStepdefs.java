@@ -167,7 +167,7 @@ public class MyStepdefs {
 
     @When("Clicking the Create New defect to add a defect")
     public void clickingTheCreateNewDefectToAddADefect() {
-        assertEquals(66, Calcs.sum(6, 6));
+//        assertEquals(66, Calcs.sum(6, 6));
     }
 
     @When("Clicking the Create New requirement to add a requirement")
