@@ -101,6 +101,7 @@ public class MyStepdefs {
 
     @When("I press the coffee button")
     public void iPressTheCoffeeButton() {
+        assertEquals(111, Calcs.sum(1, 1));
 
     }
 
@@ -231,7 +232,7 @@ public class MyStepdefs {
 
     @When("I try to post to {string}")
     public void iTryToPostTo(String arg0) {
-        
+
     }
 
     @Then("I should see {string}.")
