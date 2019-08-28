@@ -2,7 +2,7 @@
 @TID1004REV0.2.0
 Feature:BackgroundGT
 
-  Background: User is Logged In
+  Scenario: User is Logged In
     Given Background given
     When Background when
     And Background and
