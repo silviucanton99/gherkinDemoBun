@@ -8,7 +8,7 @@ Feature:BackgroundGT
     Then Background then
 
 @exclude
-  Scenario Outline: Background Step + Scenario Outline
+  Scenario Outline: Background Step + Scenario Outline1
     Given <username> and <password> are known
     When the credentials are written
     And the Login button is clicked
