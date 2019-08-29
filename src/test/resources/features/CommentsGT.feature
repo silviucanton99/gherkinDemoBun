@@ -2,7 +2,6 @@
 @TID1009REV0.9.0
 Feature: CommentsGT
 #This is the scenario comment
-  @exclude
   Scenario: Open Feature Dialog in Octane2
     #This is the Given comment
     Given the following users exist
