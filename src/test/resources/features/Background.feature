@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @TID1004REV0.2.0
 #@exclude
-Feature:BackgroundGT
+Feature:BackgroundGT renamed
 
   Background: User is Logged In
     Given Background given
