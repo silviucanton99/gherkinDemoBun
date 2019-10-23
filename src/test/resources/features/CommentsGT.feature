@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @TID1009REV0.9.0
-@exclude
-Feature: CommentsGT renamed12
+#@exclude
+Feature: CommentsGT
 #This is the scenario comment
   Scenario: Open Feature Dialog in Octane2
     #This is the Given comment
