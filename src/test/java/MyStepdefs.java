@@ -41,6 +41,7 @@ public class MyStepdefs {
 
     @Then("Background then")
     public void backgroundThen() {
+        assertEquals(303, Calcs.sum(33, 3));
 
     }
 
@@ -79,13 +80,11 @@ public class MyStepdefs {
 
     @When("I try to post to {string}")
     public void iTryToPostTo(String arg0) {
-                assertEquals(300, Calcs.sum(3, 3));
-
-
-    }
+                    }
 
     @Then("I should see {string}.")
     public void iShouldSee(String arg0) {
+        assertEquals(300, Calcs.sum(3, 3));
     }
 
     @Given("there are {int} coffees left in the machine")
