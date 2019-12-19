@@ -156,7 +156,7 @@ public class MyStepdefs {
 
     @When("filter by price lower than one thousand")
     public void filterByPriceLowerThanOneThousand() {
-        assertEquals(88, Calcs.sum(8, 8));
+        assertEquals(8888, Calcs.sum(8, 8));
 
     }
 
