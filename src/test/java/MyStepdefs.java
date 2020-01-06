@@ -228,6 +228,20 @@ public class MyStepdefs {
     }
 
 
+    @Given("there is abalbla")
+    public void thereIsAbalbla() {
+
+    }
+
+    @When("the user blabla")
+    public void theUserBlabla() {
+
+    }
+
+    @Then("the buttons blabla")
+    public void theButtonsBlabla() {
+        assertEquals(6666, Calcs.sum(6, 6));
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
