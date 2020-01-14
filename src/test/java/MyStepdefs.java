@@ -240,7 +240,23 @@ public class MyStepdefs {
 
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
+
         assertEquals(6666, Calcs.sum(6, 6));
+    }
+
+    @Given("there is a TEST")
+    public void thereIsATEST() {
+        assertEquals(7777, Calcs.sum(7, 7));
+
+    }
+
+    @When("the user modifies the SCRIPT")
+    public void theUserModifiesTheSCRIPT() {
+
+    }
+
+    @Then("the buttons should APPEAR")
+    public void theButtonsShouldAPPEAR() {
     }
 }
 
