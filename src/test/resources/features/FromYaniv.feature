@@ -10,6 +10,7 @@ Feature: FromYaniv
     And yet another action
     Then some testable outcome is achieved
 
+  @exclude
   Scenario Outline: Open Feature Dialog in Octane2
   scenario_outline_desc
     Given I am in <module> module focused on a <entity>
