@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1004REV0.2.0
-#@exclude
+@exclude
 Feature:BackgroundGT
 
   Background: User is Logged In
@@ -20,7 +20,6 @@ Feature:BackgroundGT
       | a        | 1        |
       | b        | 2        |
 
-  @exclude
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"
