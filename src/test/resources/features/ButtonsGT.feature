@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @TID1002REV0.2.0
-@exclude
+#@exclude
 Feature: ButtonsGT whaaaa?
   Scenario: Check the buttons
     Given there is a GT
