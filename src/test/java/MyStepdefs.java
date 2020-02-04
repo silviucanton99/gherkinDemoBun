@@ -19,7 +19,7 @@ public class MyStepdefs {
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
         String result = "hello";
-        assertEquals(result.length(), 555);
+        assertEquals(result.length(), 5556);
 
     }
 
@@ -84,7 +84,7 @@ public class MyStepdefs {
 
     @Then("I should see {string}.")
     public void iShouldSee(String arg0) {
-        assertEquals(300, Calcs.sum(3, 3));
+        assertEquals(333, Calcs.sum(3, 3));
     }
 
     @Given("there are {int} coffees left in the machine")
@@ -155,7 +155,7 @@ public class MyStepdefs {
 
     @When("filter by price lower than one thousand")
     public void filterByPriceLowerThanOneThousand() {
-        assertEquals(8888, Calcs.sum(8, 8));
+        assertEquals(888, Calcs.sum(8, 8));
 
     }
 
