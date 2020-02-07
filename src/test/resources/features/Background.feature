@@ -6,7 +6,7 @@ Feature:BackgroundGT
   Background: User is Logged In
     Given Background given
     When Background when
-    And Background and
+    And Background and fbgfbgfb
     Then Background then
 
   Scenario Outline: Background Step + Scenario Outline
