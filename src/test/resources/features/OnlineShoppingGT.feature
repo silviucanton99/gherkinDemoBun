@@ -3,6 +3,3 @@
 Feature: OnlineShoppingGT
   #@exclude
   Scenario: Filter by price
-    Given I'm in tablets search results
-    When filter by price lower than one thousand
-    Then Only tablets with lower price will be presented
