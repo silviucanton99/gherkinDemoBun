@@ -1,9 +1,9 @@
 #Auto generated Octane revision tag
-@TID1009REV0.9.0
+@TID1009REV0.9.2
 #@exclude
 Feature: CommentsGT
 #This is the scenario comment
-  Scenario: Open Feature Dialog in Octane2
+  Scenario: Open Feature Dialog in Octane2 - updated
     #This is the Given comment
     Given the following users exist
     #This is the But comment
