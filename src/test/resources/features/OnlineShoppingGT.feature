@@ -1,8 +1,0 @@
-#Auto generated Octane revision tag
-@TID1028REV0.7.0
-Feature: OnlineShoppingGT
-#@exclude
-  Scenario: Filter by price mod
-    Given I'm in tablets search results
-    When filter by price lower than one thousand
-    Then Only tablets with lower price will be presented
