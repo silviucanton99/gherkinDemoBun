@@ -258,6 +258,37 @@ public class MyStepdefs {
     @Then("the buttons should APPEAR")
     public void theButtonsShouldAPPEAR() {
     }
+
+    @Given("First given")
+    public void firstGiven() {
+
+    }
+
+    @When("First when")
+    public void firstWhen() {
+
+    }
+
+    @Then("First then")
+    public void firstThen() {
+        assertEquals(16, Calcs.sum(8, 8));
+
+    }
+
+    @Given("Second given")
+    public void secondGiven() {
+
+    }
+
+    @When("Second when")
+    public void secondWhen() {
+        assertEquals(99, Calcs.sum(9, 9));
+
+    }
+
+    @Then("Second then")
+    public void secondThen() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
