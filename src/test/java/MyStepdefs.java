@@ -271,7 +271,7 @@ public class MyStepdefs {
 
     @Then("First then")
     public void firstThen() {
-        assertEquals(88, Calcs.sum(8, 8));
+        assertEquals(16, Calcs.sum(8, 8));
 
     }
 
@@ -282,6 +282,7 @@ public class MyStepdefs {
 
     @When("Second when")
     public void secondWhen() {
+        assertEquals(99, Calcs.sum(9, 9));
 
     }
 
