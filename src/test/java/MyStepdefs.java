@@ -289,6 +289,20 @@ public class MyStepdefs {
     @Then("Second then")
     public void secondThen() {
     }
+
+    @Given("Third given")
+    public void thirdGiven() {
+        
+    }
+
+    @When("Third when")
+    public void thirdWhen() {
+        
+    }
+
+    @Then("Third then")
+    public void thirdThen() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
