@@ -8,7 +8,7 @@ Feature:BackgroundGT
     When Background when
     And Background and
     Then Background then
-
+  @exclude
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
