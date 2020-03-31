@@ -8,7 +8,7 @@ Feature:BackgroundGT
     When Background when
     And Background and
     Then Background then
-  @exclude
+
   Scenario Outline: Background Step + Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
@@ -19,7 +19,7 @@ Feature:BackgroundGT
       | username | password |
       | a        | 1        |
       | b        | 2        |
-
+  @exclude
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"
