@@ -5,7 +5,7 @@ Feature:BackgroundGT
 
   Background: User is Logged In
     Given MT, GT, TS are available in Octane;
-    When Background when
+    When Background when ....
     And Background and
     Then Background then
 
