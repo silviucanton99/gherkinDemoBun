@@ -19,7 +19,7 @@ Feature:BackgroundGT
       | username | password |
       | a        | 1        |
       | b        | 2        |
-
+  @exclude
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"

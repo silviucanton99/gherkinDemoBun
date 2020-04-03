@@ -12,3 +12,9 @@ Feature: First BDD
     Given Second given
     When Second when
     Then  Second then
+
+  @TSCID1003
+  Scenario: Third scenario
+    Given Third given
+    When Third when
+    Then  Third then
