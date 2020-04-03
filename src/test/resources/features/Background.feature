@@ -4,7 +4,7 @@
 Feature:BackgroundGT
 
   Background: User is Logged In
-    Given Background given
+    Given MT is available in Octane
     When Background when
     And Background and
     Then Background then
