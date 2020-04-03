@@ -3,7 +3,7 @@
 Feature: First BDD
   @TSCID1001
   Scenario: First Scenario modified
-    Given First given
+    Given First given given
     When First when
     Then  First then
 
