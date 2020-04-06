@@ -84,7 +84,7 @@ public class MyStepdefs {
 
     @Then("I should see {string}.")
     public void iShouldSee(String arg0) {
-        assertEquals(33333, Calcs.sum(3, 3));
+        assertEquals(6, Calcs.sum(3, 3));
     }
 
     @Given("there are {int} coffees left in the machine")
