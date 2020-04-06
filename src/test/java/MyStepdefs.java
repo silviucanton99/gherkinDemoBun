@@ -303,6 +303,11 @@ public class MyStepdefs {
     @Then("Third then")
     public void thirdThen() {
     }
+
+
+    @Given("MT is available in Octane")
+    public void mtIsAvailableInOctane() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
