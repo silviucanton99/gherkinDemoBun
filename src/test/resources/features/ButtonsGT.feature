@@ -3,7 +3,7 @@
 #@exclude
   Feature: ButtonsGT ORIGINAL
   Scenario: Check the buttons
-    Given there is a GT
+    Given there is a GT modify me emem
     When the user modifies the script from IDE and runs the Pipeline
     Then the buttons should appear in Octane
 
