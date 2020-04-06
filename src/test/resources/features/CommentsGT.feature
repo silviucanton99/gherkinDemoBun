@@ -3,7 +3,7 @@
 #@exclude
 Feature: CommentsGT
 #This is the scenario comment
-  Scenario: Open Feature Dialog in Octane2
+  Scenario: Open Feature Dialog in Octane
     #This is the Given comment
     Given the following users exist
     #This is the But comment
