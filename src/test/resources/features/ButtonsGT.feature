@@ -1,4 +1,5 @@
 #Auto generated Octane revision tag
+@BSPID1004REV0.0.1
   @TID1002REV0.2.0
 #@exclude
   Feature: ButtonsGT
