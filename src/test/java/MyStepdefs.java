@@ -308,6 +308,10 @@ public class MyStepdefs {
     @Given("MT is available in Octane")
     public void mtIsAvailableInOctane() {
     }
+
+    @Then("the buttons should appear in Octane BLABLA")
+    public void theButtonsShouldAppearInOctaneBLABLA() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
