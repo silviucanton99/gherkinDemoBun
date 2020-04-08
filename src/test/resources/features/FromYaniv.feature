@@ -2,7 +2,7 @@
 @TID1021REV0.2.0
 #@exclude
 Feature: FromYaniv
-  Scenario: Some determinable business situation
+  Scenario: Some determinable business situation-update
     Given some precondition
     And some other precondition
     When some action by the actor
