@@ -1,7 +1,8 @@
 #Auto generated Octane revision tag
-@TID1021REV0.2.0
+
 #@exclude
 Feature: FromYaniv
+
   Scenario: Some determinable business situation- modify scenario test
     Given some precondition
     And some other precondition

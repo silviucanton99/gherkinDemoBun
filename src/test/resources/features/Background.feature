@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID1004REV0.2.0
+
 #@exclude
 Feature:BackgroundGT
 
@@ -20,7 +20,8 @@ Feature:BackgroundGT
       | username | password |
       | a        | 1        |
       | b        | 2        |
-  @exclude
+
+  #@exclude
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"
