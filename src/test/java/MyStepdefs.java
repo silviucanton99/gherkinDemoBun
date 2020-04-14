@@ -80,7 +80,7 @@ public class MyStepdefs {
 
     @When("I try to post to {string}")
     public void iTryToPostTo(String arg0) {
-                    }
+    }
 
     @Then("I should see {string}.")
     public void iShouldSee(String arg0) {
@@ -292,12 +292,12 @@ public class MyStepdefs {
 
     @Given("Third given")
     public void thirdGiven() {
-        
+
     }
 
     @When("Third when")
     public void thirdWhen() {
-        
+
     }
 
     @Then("Third then")
@@ -311,6 +311,37 @@ public class MyStepdefs {
 
     @Then("the buttons should appear in Octane BLABLA")
     public void theButtonsShouldAppearInOctaneBLABLA() {
+    }
+
+    @Given("there is a LAPTOP")
+    public void thereIsALAPTOP() {
+
+    }
+
+    @When("the user modifies LAPTOP")
+    public void theUserModifiesLAPTOP() {
+
+    }
+
+    @Then("the LAPTOP is modified")
+    public void theLAPTOPIsModified() {
+        String result = "laptop";
+        assertEquals(result.length(), 99);
+
+    }
+
+    @Given("there is a KEYBOARD")
+    public void thereIsAKEYBOARD() {
+
+    }
+
+    @When("the user modifies the KEYBOARD")
+    public void theUserModifiesTheKEYBOARD() {
+
+    }
+
+    @Then("the KEYBOARD is modified")
+    public void theKEYBOARDIsModified() {
     }
 }
 
