@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-
 #@exclude
 Feature:BackgroundGT
 
