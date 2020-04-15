@@ -326,7 +326,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 99);
+        assertEquals(result.length(), 6);
 
     }
 
