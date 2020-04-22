@@ -11,7 +11,7 @@ Feature: FromYaniv
     And yet another action
     Then some testable outcome is achieved
 
-  Scenario Outline: Open Feature Dialog in Octane
+  Scenario Outline: Open Feature Dialog in Octane 1.1
   scenario_outline_desc
     Given I am in <module> module focused on a <entity>
     When Clicking the Create New <entity> to add a <entity>
