@@ -104,6 +104,7 @@ public class MyStepdefs {
 
     @Then("I should be served a coffee")
     public void iShouldBeServedACoffee() {
+        assertEquals("aaa", Calcs.sum(8, 8));
 
     }
 
@@ -241,12 +242,12 @@ public class MyStepdefs {
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
 
-        assertEquals(6666, Calcs.sum(6, 6));
+//        assertEquals(6666, Calcs.sum(6, 6));
     }
 
     @Given("there is a TEST")
     public void thereIsATEST() {
-        assertEquals(7777, Calcs.sum(7, 7));
+        assertEquals(14, Calcs.sum(7, 7));
 
     }
 
