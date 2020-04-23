@@ -1,5 +1,5 @@
 #normal comment
-Feature: ButtonsGT
+Feature: ButtonsGT for ROOT
 
   Scenario: Check the button
     Given there is a GT
