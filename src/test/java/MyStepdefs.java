@@ -257,6 +257,7 @@ public class MyStepdefs {
 
     @Then("the buttons should APPEAR")
     public void theButtonsShouldAPPEAR() {
+        assertEquals("ceva", Calcs.sum(7, 7));
     }
 
     @Given("First given")
