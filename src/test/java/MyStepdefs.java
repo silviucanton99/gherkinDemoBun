@@ -241,8 +241,7 @@ public class MyStepdefs {
 
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
-
-//        assertEquals(6666, Calcs.sum(6, 6));
+        assertEquals(6666, Calcs.sum(6, 6));
     }
 
     @Given("there is a TEST")
