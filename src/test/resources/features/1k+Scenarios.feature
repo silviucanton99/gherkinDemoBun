@@ -1,5 +1,6 @@
 #Auto generated Octane revision tag
 Feature: 1k+Scenarios
+
   @TSCID1002
   Scenario: 1k+Scenarios 1
     Given aaa
@@ -13,6 +14,7 @@ Feature: 1k+Scenarios
     Then
 
   @TSCID1004 1k+Scenarios 3
+
   Scenario:
     Given ccc
     When
@@ -118,10 +120,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1022
   Scenario:
@@ -175,10 +174,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1031
   Scenario:
@@ -230,9 +226,6 @@ Feature: 1k+Scenarios
 
   @TSCID1039
   Scenario:
-    Given
-    When
-    Then 	Scenario:
     Given
     When
     Then
@@ -289,10 +282,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1049
   Scenario:
@@ -346,10 +336,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1058
   Scenario:
@@ -403,10 +390,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1067
   Scenario:
@@ -460,10 +444,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1076
   Scenario:
@@ -637,10 +618,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1105
   Scenario:
@@ -694,10 +672,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1114
   Scenario:
@@ -751,10 +726,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1123
   Scenario:
@@ -808,10 +780,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1132
   Scenario:
@@ -865,10 +834,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1141
   Scenario:
@@ -922,10 +888,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1150
   Scenario:
@@ -979,10 +942,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1159
   Scenario:
@@ -1156,10 +1116,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1188
   Scenario:
@@ -1213,10 +1170,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1197
   Scenario:
@@ -1270,10 +1224,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1206
   Scenario:
@@ -1327,10 +1278,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1215
   Scenario:
@@ -1384,10 +1332,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1224
   Scenario:
@@ -1441,10 +1386,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1233
   Scenario:
@@ -1496,9 +1438,6 @@ Feature: 1k+Scenarios
 
   @TSCID1241
   Scenario:
-    Given
-    When
-    Then 	Scenario:
     Given
     When
     Then
@@ -1675,10 +1614,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1271
   Scenario:
@@ -1732,10 +1668,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1280
   Scenario:
@@ -1789,10 +1722,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1289
   Scenario:
@@ -1846,10 +1776,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1298
   Scenario:
@@ -1903,10 +1830,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1307
   Scenario:
@@ -1960,10 +1884,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1316
   Scenario:
@@ -2017,10 +1938,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1325
   Scenario:
@@ -2194,10 +2112,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1354
   Scenario:
@@ -2249,9 +2164,6 @@ Feature: 1k+Scenarios
 
   @TSCID1362
   Scenario:
-    Given
-    When
-    Then 	Scenario:
     Given
     When
     Then
@@ -2308,10 +2220,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1372
   Scenario:
@@ -2365,10 +2274,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1381
   Scenario:
@@ -2422,10 +2328,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1390
   Scenario:
@@ -2479,10 +2382,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1399
   Scenario:
@@ -2536,10 +2436,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1408
   Scenario:
@@ -2713,10 +2610,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1437
   Scenario:
@@ -2770,10 +2664,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1446
   Scenario:
@@ -2827,10 +2718,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1455
   Scenario:
@@ -2884,10 +2772,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1464
   Scenario:
@@ -2941,10 +2826,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1473
   Scenario:
@@ -2998,10 +2880,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1482
   Scenario:
@@ -3055,10 +2934,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1491
   Scenario:
@@ -3232,10 +3108,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1520
   Scenario:
@@ -3289,10 +3162,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1529
   Scenario:
@@ -3346,10 +3216,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1538
   Scenario:
@@ -3403,10 +3270,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1547
   Scenario:
@@ -3460,10 +3324,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1556
   Scenario:
@@ -3517,10 +3378,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1565
   Scenario:
@@ -3574,10 +3432,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1574
   Scenario:
@@ -3751,10 +3606,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1603
   Scenario:
@@ -3808,10 +3660,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1612
   Scenario:
@@ -3865,10 +3714,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1621
   Scenario:
@@ -3922,10 +3768,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1630
   Scenario:
@@ -3979,10 +3822,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1639
   Scenario:
@@ -4036,10 +3876,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1648
   Scenario:
@@ -4093,10 +3930,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1657
   Scenario:
@@ -4270,10 +4104,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1686
   Scenario:
@@ -4327,10 +4158,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1695
   Scenario:
@@ -4384,10 +4212,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1704
   Scenario:
@@ -4441,10 +4266,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1713
   Scenario:
@@ -4498,10 +4320,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1722
   Scenario:
@@ -4555,10 +4374,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1731
   Scenario:
@@ -4612,10 +4428,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1740
   Scenario:
@@ -4789,10 +4602,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1769
   Scenario:
@@ -4846,10 +4656,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1778
   Scenario:
@@ -4903,10 +4710,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1787
   Scenario:
@@ -4960,10 +4764,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1796
   Scenario:
@@ -5017,10 +4818,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1805
   Scenario:
@@ -5074,10 +4872,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1814
   Scenario:
@@ -5131,10 +4926,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1823
   Scenario:
@@ -5308,10 +5100,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1852
   Scenario:
@@ -5365,10 +5154,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1861
   Scenario:
@@ -5422,10 +5208,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1870
   Scenario:
@@ -5479,10 +5262,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1879
   Scenario:
@@ -5534,9 +5314,6 @@ Feature: 1k+Scenarios
 
   @TSCID1887
   Scenario:
-    Given
-    When
-    Then 	Scenario:
     Given
     When
     Then
@@ -5593,10 +5370,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1897
   Scenario:
@@ -5650,10 +5424,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1906
   Scenario:
@@ -5827,10 +5598,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1935
   Scenario:
@@ -5884,10 +5652,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1944
   Scenario:
@@ -5941,10 +5706,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1953
   Scenario:
@@ -5996,9 +5758,6 @@ Feature: 1k+Scenarios
 
   @TSCID1961
   Scenario:
-    Given
-    When
-    Then 	Scenario:
     Given
     When
     Then
@@ -6055,10 +5814,6 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
 
   @TSCID1971
   Scenario:
@@ -6112,10 +5867,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1980
   Scenario:
@@ -6168,11 +5920,7 @@ Feature: 1k+Scenarios
   @TSCID1988
   Scenario:
     Given
-    When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID1989
   Scenario:
@@ -6346,10 +6094,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2018
   Scenario:
@@ -6402,11 +6147,7 @@ Feature: 1k+Scenarios
   @TSCID2026
   Scenario:
     Given
-    When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2027
   Scenario:
@@ -6460,10 +6201,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2036
   Scenario:
@@ -6517,10 +6255,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2045
   Scenario:
@@ -6574,10 +6309,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2054
   Scenario:
@@ -6631,10 +6363,7 @@ Feature: 1k+Scenarios
   Scenario:
     Given
     When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2063
   Scenario:
@@ -6687,11 +6416,7 @@ Feature: 1k+Scenarios
   @TSCID2071
   Scenario:
     Given
-    When
-    Then 	Scenario:
-    Given
-    When
-    Then
+
 
   @TSCID2072
   Scenario:
