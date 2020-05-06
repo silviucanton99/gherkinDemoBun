@@ -75,6 +75,7 @@ public class MyStepdefs {
 
     @Given("I am logged in as Wilson")
     public void iAmLoggedInAsWilson() {
+        assertEquals("bbb", Calcs.sum(9, 9));
 
     }
 
