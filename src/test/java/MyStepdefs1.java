@@ -15,8 +15,5 @@ public class MyStepdefs1 {
     public void ccc() {
     }
 
-    @Then("^Scenario:$")
-    public void scenario() {
-    }
 }
 
