@@ -19,7 +19,7 @@ public class MyStepdefs {
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
         String result = "hello";
-        assertEquals(result.length(), 5);
+        assertEquals(result.length(), 500);
 
     }
 
@@ -328,7 +328,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 6);
+        assertEquals(result.length(), 1000);
 
     }
 
