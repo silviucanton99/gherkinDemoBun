@@ -146,7 +146,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(777, Calcs.sum(70, 7));
+        assertEquals(77, Calcs.sum(70, 7));
     }
 
     //    OnlineShoppingGT
@@ -258,7 +258,7 @@ public class MyStepdefs {
 
     @Then("the buttons should APPEAR")
     public void theButtonsShouldAPPEAR() {
-        assertEquals("ceva", Calcs.sum(7, 7));
+        assertEquals(14, Calcs.sum(7, 7));
     }
 
     @Given("First given")
@@ -328,7 +328,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 10);
+        assertEquals(result.length(), 6);
 
     }
 
