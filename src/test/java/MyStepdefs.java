@@ -146,7 +146,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(77, Calcs.sum(70, 7));
+        assertEquals(777, Calcs.sum(70, 7));
     }
 
     //    OnlineShoppingGT
