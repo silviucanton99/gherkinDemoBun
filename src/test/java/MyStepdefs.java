@@ -191,7 +191,7 @@ public class MyStepdefs {
 
     @Then("some testable outcome is achieved")
     public void someTestableOutcomeIsAchieved() {
-//        assertEquals(55, Calcs.sum(5, 5));
+        assertEquals(55, Calcs.sum(5, 5));
     }
 
 
