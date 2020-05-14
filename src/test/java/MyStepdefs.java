@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class MyStepdefs {
 
-    // buttonsGT - fails BUT it's excluded
+    // buttonsGT
     @Given("there is a GT")
     public void thereIsAGT() {
 
@@ -41,7 +41,7 @@ public class MyStepdefs {
 
     @Then("Background then")
     public void backgroundThen() {
-//        assertEquals(303, Calcs.sum(33, 3));
+        assertEquals(303, Calcs.sum(33, 3));
 
     }
 
@@ -123,7 +123,7 @@ public class MyStepdefs {
     public void iShouldHaveCucumbers(int arg0) {
     }
 
-    // commentsGT - passes
+    // commentsGT
     @Given("the following users exist")
     public void theFollowingUsersExist() {
 
@@ -149,23 +149,7 @@ public class MyStepdefs {
         assertEquals(7, Calcs.sum(70, 7));
     }
 
-    //    OnlineShoppingGT
-    @Given("I'm in tablets search results")
-    public void iMInTabletsSearchResults() {
-
-    }
-
-    @When("filter by price lower than one thousand")
-    public void filterByPriceLowerThanOneThousand() {
-        assertEquals(888, Calcs.sum(8, 8));
-
-    }
-
-    @Then("Only tablets with lower price will be presented")
-    public void onlyTabletsWithLowerPriceWillBePresented() {
-    }
-
-    // fromYanivGT - fails
+    // fromYanivGT
 
     @Given("some precondition")
     public void somePrecondition() {
@@ -344,6 +328,20 @@ public class MyStepdefs {
 
     @Then("the KEYBOARD is modified")
     public void theKEYBOARDIsModified() {
+    }
+
+    @Given("OnlineShopping  given")
+    public void onlineshoppingGiven() {
+        
+    }
+
+    @When("OnlineShopping  when")
+    public void onlineshoppingWhen() {
+        
+    }
+
+    @Then("OnlineShopping then")
+    public void onlineshoppingThen() {
     }
 }
 

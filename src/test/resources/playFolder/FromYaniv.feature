@@ -11,13 +11,12 @@ Feature: FromYaniv
     And yet another action
     Then some testable outcome is achieved
 
-  Scenario Outline: Open Feature Dialog in Octane 1.1
-  scenario_outline_desc
-    Given I am in <module> module focused on a <entity>
-    When Clicking the Create New <entity> to add a <entity>
-    Then Feature dialog is open
+  Scenario Outline: Tests can be added fom Team Backlog and Quality Modules
+    Given I am in <module> module
+    When Clicking the Create New <entity>
+    Then The <entity> is added
 
     Examples:
       | module       | entity      |
-      | defects      | defect      |
-      | requirements | requirement |
+      | Team Backlog | mt      |
+      | Quality      | mt   |

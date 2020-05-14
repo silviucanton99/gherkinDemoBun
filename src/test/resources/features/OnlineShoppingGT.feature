@@ -2,4 +2,7 @@
 
 Feature: OnlineShopping only scenario
 
-  Scenario: something modified again and again 1.1
+  Scenario: OnlineShopping
+    Given   OnlineShopping  given
+    When   OnlineShopping  when
+    Then OnlineShopping then
