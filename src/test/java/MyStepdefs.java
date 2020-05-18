@@ -36,12 +36,12 @@ public class MyStepdefs {
 
     @And("Background and")
     public void backgroundAnd() {
-
+        assertEquals(366, Calcs.sum(33, 3));
     }
 
     @Then("Background then")
     public void backgroundThen() {
-        assertEquals(36, Calcs.sum(33, 3));
+
 
     }
 
