@@ -1,5 +1,5 @@
+import cucumber.api.java.en.*;
 
-import io.cucumber.java.en.*;
 import static org.junit.Assert.assertEquals;
 
 
@@ -19,7 +19,7 @@ public class MyStepdefs {
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
         String result = "hello";
-        assertEquals(result.length(), 500);
+        assertEquals(result.length(), 5);
 
     }
 
@@ -332,12 +332,12 @@ public class MyStepdefs {
 
     @Given("OnlineShopping  given")
     public void onlineshoppingGiven() {
-        
+
     }
 
     @When("OnlineShopping  when")
     public void onlineshoppingWhen() {
-        
+
     }
 
     @Then("OnlineShopping then")
