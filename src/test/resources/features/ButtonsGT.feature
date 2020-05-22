@@ -1,6 +1,6 @@
 #normal comment
 Feature: ButtonsGT
-  @exclude
+  #@exclude
   Scenario:
     Given there is a GT
     When the user modifies the script from IDE and runs the Pipeline
