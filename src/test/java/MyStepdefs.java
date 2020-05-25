@@ -231,7 +231,7 @@ public class MyStepdefs {
 
     @Given("there is a TEST")
     public void thereIsATEST() {
-        assertEquals(14, Calcs.sum(7, 7));
+        assertEquals(144, Calcs.sum(7, 7));
 
     }
 
