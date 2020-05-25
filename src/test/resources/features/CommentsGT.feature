@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 
 #@exclude
-Feature: CommentsGT
+Feature: CommentsGT updated
 #This is the scenario comment
   Scenario: CommentsGT
     #This is the Given comment
