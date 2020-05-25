@@ -1,6 +1,6 @@
 Feature: LaptopBDD
 
-  Scenario:
+  Scenario: LaptopBDD
     Given there is a LAPTOP
     When the user modifies LAPTOP
     Then the LAPTOP is modified
