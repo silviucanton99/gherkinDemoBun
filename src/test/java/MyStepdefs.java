@@ -226,12 +226,12 @@ public class MyStepdefs {
 
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
-        assertEquals(6666, Calcs.sum(6, 6));
+        assertEquals(12, Calcs.sum(6, 6));
     }
 
     @Given("there is a TEST")
     public void thereIsATEST() {
-        assertEquals(144, Calcs.sum(7, 7));
+        assertEquals(14, Calcs.sum(7, 7));
 
     }
 
@@ -268,7 +268,7 @@ public class MyStepdefs {
 
     @When("Second when")
     public void secondWhen() {
-        assertEquals(99, Calcs.sum(9, 9));
+        assertEquals(18, Calcs.sum(9, 9));
 
     }
 
@@ -312,7 +312,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 1000);
+        assertEquals(result.length(), 6);
 
     }
 
