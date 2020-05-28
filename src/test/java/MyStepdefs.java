@@ -75,7 +75,7 @@ public class MyStepdefs {
 
     @Given("I am logged in as Wilson")
     public void iAmLoggedInAsWilson() {
-        assertEquals("bbb", Calcs.sum(9, 9));
+        assertEquals("18", Calcs.sum(9, 9));
 
     }
 
@@ -312,7 +312,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 6);
+        assertEquals(result.length(), 888);
 
     }
 
