@@ -105,7 +105,7 @@ public class MyStepdefs {
 
     @Then("I should be served a coffee")
     public void iShouldBeServedACoffee() {
-        assertEquals("aaa", Calcs.sum(8, 8));
+        assertEquals(16, Calcs.sum(8, 8));
 
     }
 
@@ -146,7 +146,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(77, Calcs.sum(0, 7));
+        assertEquals(7, Calcs.sum(0, 7));
     }
 
     // fromYanivGT
@@ -226,7 +226,7 @@ public class MyStepdefs {
 
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
-        assertEquals(12, Calcs.sum(6, 6));
+        assertEquals(122, Calcs.sum(6, 6));
     }
 
     @Given("there is a TEST")
@@ -312,7 +312,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 888);
+        assertEquals(result.length(), 6);
 
     }
 
