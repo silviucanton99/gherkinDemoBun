@@ -75,7 +75,7 @@ public class MyStepdefs {
 
     @Given("I am logged in as Wilson")
     public void iAmLoggedInAsWilson() {
-        assertEquals("18", Calcs.sum(9, 9));
+        assertEquals(18, Calcs.sum(9, 9));
 
     }
 
@@ -146,7 +146,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(7, Calcs.sum(0, 7));
+        assertEquals(77, Calcs.sum(0, 7));
     }
 
     // fromYanivGT
