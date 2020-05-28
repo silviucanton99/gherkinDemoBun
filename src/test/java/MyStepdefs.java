@@ -242,7 +242,7 @@ public class MyStepdefs {
 
     @Then("the buttons should APPEAR")
     public void theButtonsShouldAPPEAR() {
-        assertEquals(14, Calcs.sum(7, 7));
+        assertEquals(144, Calcs.sum(7, 7));
     }
 
     @Given("First given")
@@ -312,7 +312,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 6);
+        assertEquals(result.length(), 66);
 
     }
 
