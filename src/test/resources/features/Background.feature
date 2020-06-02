@@ -1,4 +1,4 @@
-@BSPID1005REV0.0.1
+
 Feature:BackgroundGT
 
   Background: User is Logged In
@@ -19,13 +19,13 @@ Feature:BackgroundGT
       | a        | 1        |
       | b        | 2        |
 
-  @TSCID1089
+
   Scenario: Wilson posts to his own blog
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"
     Then I should see "Your article was published".
 
-  @TSCID1089
+
   Scenario: Background scenario 4
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
