@@ -1,5 +1,4 @@
 #@exclude
-@BSPID1001REV0.0.1
 Feature:BackgroundGT
 
   Background: User is Logged In
@@ -26,14 +25,12 @@ Feature:BackgroundGT
     When I try to post to "Expensive Therapy"
     Then I should see "Your article was published".
 
-  @TSCID1003
   Scenario: Background scenario 4
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
     Then I should be served a coffee
 
-  @TSCID1003
   Scenario: Background scenario 5
     Given there are 12 cucumbers
     When I eat 5 cucumbers
