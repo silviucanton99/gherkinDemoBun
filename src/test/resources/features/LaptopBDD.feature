@@ -1,3 +1,4 @@
+@BSPID1002REV0.0.1
 Feature: LaptopBDD
   @TSCID1005
   Scenario: LaptopBDD Scenario 1
