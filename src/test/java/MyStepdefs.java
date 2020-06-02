@@ -19,7 +19,7 @@ public class MyStepdefs {
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
         String result = "hello";
-        assertEquals(result.length(), 55);
+        assertEquals(result.length(), 5);
 
     }
 
@@ -36,7 +36,7 @@ public class MyStepdefs {
 
     @And("Background and")
     public void backgroundAnd() {
-        assertEquals(366, Calcs.sum(33, 3));
+        assertEquals(36, Calcs.sum(33, 3));
     }
 
     @Then("Background then")
@@ -146,7 +146,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(77, Calcs.sum(0, 7));
+        assertEquals(7, Calcs.sum(0, 7));
     }
 
     // fromYanivGT
@@ -175,7 +175,7 @@ public class MyStepdefs {
 
     @Then("some testable outcome is achieved")
     public void someTestableOutcomeIsAchieved() {
-        assertEquals(55, Calcs.sum(5, 5));
+        assertEquals(55, Calcs.sum(50, 5));
     }
 
 
@@ -226,7 +226,7 @@ public class MyStepdefs {
 
     @Then("the buttons blabla")
     public void theButtonsBlabla() {
-        assertEquals(122, Calcs.sum(6, 6));
+        assertEquals(12, Calcs.sum(6, 6));
     }
 
     @Given("there is a TEST")
@@ -242,7 +242,7 @@ public class MyStepdefs {
 
     @Then("the buttons should APPEAR")
     public void theButtonsShouldAPPEAR() {
-        assertEquals(144, Calcs.sum(7, 7));
+        assertEquals(14, Calcs.sum(7, 7));
     }
 
     @Given("First given")
@@ -312,7 +312,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 66);
+        assertEquals(result.length(), 6);
 
     }
 
