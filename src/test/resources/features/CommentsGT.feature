@@ -3,7 +3,7 @@
 #@exclude
 Feature: CommentsGT updated
 #This is the scenario comment
-  Scenario: CommentsGT Scenario
+  Scenario:
     #This is the Given comment
     Given the following users exist
     #This is the But comment
