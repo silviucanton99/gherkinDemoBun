@@ -11,7 +11,7 @@ Feature: FromYaniv
     And yet another action
     Then some testable outcome is achieved
 
-  Scenario Outline: Tests can be added fom Team Backlog and Quality Modules
+  Scenario Outline: Tests can be added fom Team Backlog and Quality Modules-update
     Given I am in <module> module
     When Clicking the Create New <entity>
     Then The <entity> is added
