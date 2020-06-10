@@ -1,4 +1,3 @@
-
 Feature: LaptopBDD
 
   Scenario: LaptopBDD Scenario 1
