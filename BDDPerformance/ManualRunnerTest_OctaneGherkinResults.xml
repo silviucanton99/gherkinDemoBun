@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1"><feature name="f0" path="src\test\resources\full\gherkin_test0.feature" started="1580113075304" tag=""><file><![CDATA[Feature: f0
-  Scenario: s0
+  Scenario: s0-edited
   Given 0
   When 1
   Then 2
