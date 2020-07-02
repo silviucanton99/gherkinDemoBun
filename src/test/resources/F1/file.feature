@@ -26,7 +26,7 @@ Feature: f13
     Then 2
 
   @TSCID1045
-  Scenario: s39
+  Scenario: s39-edit
     Given 0
     When 1
     Then 2
