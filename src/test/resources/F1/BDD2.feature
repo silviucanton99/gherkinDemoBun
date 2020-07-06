@@ -14,7 +14,7 @@ Feature: f2
     Then 2
 
   @TSCID5352
-  Scenario: s82
+  Scenario: s82- nu ma imi place acest scenariu
     Given 0
     When 1
     Then 2
