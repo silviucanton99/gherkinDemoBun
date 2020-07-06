@@ -2,7 +2,7 @@
 @BSPID1003REV0.0.1
 Feature: f13
   @TSCID1040
-  Scenario: s35-edited
+  Scenario: s35
     Given 0
     When 1
     Then 2
@@ -26,7 +26,7 @@ Feature: f13
     Then 2
 
   @TSCID1045
-  Scenario: s39-edit
+  Scenario: s39
     Given 0
     When 1
     Then 2
