@@ -8,31 +8,31 @@ Feature: f9
     Then 2
 
   @TSCID1067
-  Scenario: s81
+  Scenario: s32
     Given 0
     When 1
     Then 2
 
   @TSCID1068
-  Scenario: s82
+  Scenario: s33
     Given 0
     When 1
     Then 2
 
   @TSCID1069
-  Scenario: s83
+  Scenario: s34
     Given 0
     When 1
     Then 2
 
   @TSCID1070
-  Scenario: s84
+  Scenario: s35
     Given 0
     When 1
     Then 2
 
   @TSCID1071
-  Scenario: s85
+  Scenario: s36
     Given 0
     When 1
     Then 2

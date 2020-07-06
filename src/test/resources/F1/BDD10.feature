@@ -14,31 +14,31 @@ Feature: f10
     Then 2
 
   @TSCID1058
-  Scenario: s2
+  Scenario: s37
     Given 0
     When 1
     Then 2
 
   @TSCID1059
-  Scenario: s3
+  Scenario: s38
     Given 0
     When 1
     Then 2
 
   @TSCID1060
-  Scenario: s4
+  Scenario: s39
     Given 0
     When 1
     Then 2
 
   @TSCID1061
-  Scenario: s5
+  Scenario: s40
     Given 0
     When 1
     Then 2
 
   @TSCID1062
-  Scenario: s6
+  Scenario: s41
     Given 0
     When 1
     Then 2
