@@ -29,3 +29,9 @@ Feature: Dan Feature2
     And I am on the account registration page
     When I look up the username “Mark”
     Then I receive a message saying “Username not available”
+
+  @TSCID1055019
+  Scenario: Dan Feature2 Scenario4
+    Given  dsf
+    When ff
+    Then fffff
