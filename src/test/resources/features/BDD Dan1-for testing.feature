@@ -26,3 +26,9 @@ Feature: Feature: Dan Feature1
       | Rob | xyz1| title1 |
 
       | Bob | xyz1| title2 |
+
+  @TSCID1056001
+  Scenario: Scenario Madalina test
+    Given 2 and 3
+    When 2+3
+    Then  = 5
