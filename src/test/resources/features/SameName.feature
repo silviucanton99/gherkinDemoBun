@@ -9,7 +9,7 @@ Feature: Madalina test
     Then  The description is changed
     But  The name is not change
   @TSCID2119
-  Scenario:
+  Scenario: Basic Mix
     Given aaa
     When bbb
     Then aaabbb
