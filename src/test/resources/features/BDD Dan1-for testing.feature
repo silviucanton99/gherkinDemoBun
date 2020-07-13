@@ -3,7 +3,7 @@
 Feature: Feature: Dan Feature1
 
   @TSCID1044001
-  Scenario: Dan Feature1 Scenario1
+  Scenario: Dan Feature1 Scenario1-modificatus
     Given some precondition
     And some other precondition
     When some action by the actor
