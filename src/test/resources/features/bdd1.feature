@@ -1,12 +1,12 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.1.2
+@BSPID1001REV0.1.0
 Feature: Shopping cart
   Customers should be able to add items to the cart before checking out
 
   Background:
     Given shopping site is available
 
-  @TSCID1002
+  @TSCID1004
   Scenario: Customer adds item to cart
     Given a visitor on the shopping site
     When he selects and item
@@ -14,7 +14,7 @@ Feature: Shopping cart
     Then the item is added to the cart
     And the quantity is one
 
-  @TSCID1003
+  @TSCID1005
   Scenario Outline: Adding multiple items to cart
     Given a visitor on the shopping site
     When he selects an item
@@ -28,20 +28,3 @@ Feature: Shopping cart
       | 0 | 1 |
       | 1 | 2 |
       | 10 | 11 |
-
-  @TSCID1002
-  Scenario: Customer adds item to cart
-    Given fff
-    When ccc
-    Then fff
-
-  Scenario: Customer adds item to cart
-    Given ccc
-    When ccc
-    Then cccc
-
-
-  Scenario: Customer adds item to cart
-    Given vvvv
-    When the user modifies the script from IDE and runs the PipelineT
-    Then fcfff
