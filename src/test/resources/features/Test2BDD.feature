@@ -12,3 +12,8 @@ Feature: Login
     Given e
     When r
     Then rerer
+
+    Scenario: test 3
+      Given a and 1 are known
+      When b and 2 are known
+      Then dddd
