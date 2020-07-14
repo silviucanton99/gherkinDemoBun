@@ -13,7 +13,7 @@ Feature:
     When
     Then
 
-  @TSCID1055050
+
   Scenario: Scenario2
     Given
     When
