@@ -29,8 +29,3 @@ Feature: Shopping cart
       | 1 | 2 |
       | 10 | 11 |
 
-  @TSCID1079
-  Scenario: new test sssss
-    Given sss
-    When ss
-    Then sssss
