@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.1
+@BSPID1001REV0.2.2
 Feature: Shopping cart
   Customers should be able to add items to the cart before checking out
 
@@ -28,4 +28,3 @@ Feature: Shopping cart
       | 0 | 1 |
       | 1 | 2 |
       | 10 | 11 |
-
