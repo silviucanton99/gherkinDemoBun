@@ -7,3 +7,8 @@ Feature: Login
     When w
     Then qwerr
 
+  @TSCID1056146
+  Scenario: test 2
+    Given e
+    When r
+    Then rerer
