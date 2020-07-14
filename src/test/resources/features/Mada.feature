@@ -12,3 +12,9 @@ Feature: Mada
     Given e
     When e
     Then e
+
+  @TSCID1055164
+    Scenario: mada 2.0
+      Given e
+      When e
+      Then e.5
