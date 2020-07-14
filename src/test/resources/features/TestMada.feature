@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID8001REV0.3.0
+@BSPID8001REV0.3.1
 Feature: Mada
   @TSCID1058001
   Scenario: Name2
@@ -8,6 +8,12 @@ Feature: Mada
     Then rff
 
   @TSCID1057001
+  Scenario: Name1
+    Given a
+    When f
+    Then f
+
+
   Scenario: Name1
     Given a
     When f
