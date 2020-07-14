@@ -28,3 +28,11 @@ Feature: Shopping cart
       | 0 | 1 |
       | 1 | 2 |
       | 10 | 11 |
+
+  @TSCID1079
+  Scenario: new test sssss
+    Given shopping site is available
+    Given sss
+    When ss
+    Then sssss
+
