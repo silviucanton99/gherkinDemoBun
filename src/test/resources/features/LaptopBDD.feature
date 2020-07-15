@@ -8,7 +8,7 @@ Feature: LaptopBDD
     Then the LAPTOP is modified
 
 
-  Scenario: Laptop scenario 2
+  Scenario: Laptop scenario 1
     Given there is a KEYBOARD
     When the user modifies the KEYBOARD
     Then the KEYBOARD is modified
