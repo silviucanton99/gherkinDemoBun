@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@TID1009REV0.1.0
 Feature: GT test
   Scenario: Scen1
     Given given1
