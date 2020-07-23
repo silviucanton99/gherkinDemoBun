@@ -18,6 +18,9 @@ Feature: CommentsGT updated dgddg
     When Clicking the New Feature
     Then I should receive an email with
 
+    Scenario:
+      Given dcdcsc
+      Then sdcdscsdcdsc
 
 
 
