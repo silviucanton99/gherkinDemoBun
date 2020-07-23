@@ -7,7 +7,7 @@ Feature:BackgroundGT
     And Background and
     Then Background then
 
-  Scenario Outline: Background Step + Scenario Outline
+  Scenario Outline: Scenario Outline
     Given <username> and <password> are known
     When the credentials are written
     And the Login button is clicked
@@ -24,13 +24,13 @@ Feature:BackgroundGT
     Then I should see "Your article was published".
 
 
-  Scenario: Background scenario 4
+  Scenario: scenario 4
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
     Then I should be served a coffee
 
-  Scenario: Background scenario 4
+  Scenario: scenario 4
     Given there are 1 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
