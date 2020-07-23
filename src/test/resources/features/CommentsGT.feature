@@ -1,12 +1,7 @@
-
-#Auto generated Octane revision tag
-@BSPID1020REV0.0.1
-#Auto generated Octane revision tag
-
 #@exclude
 Feature: CommentsGT updated dgddg
 #This is the scenario comment
-  @TSCID8674
+
   Scenario: CommentsGT Scenario
     #This is the Given comment
     Given the following users exist
@@ -18,9 +13,6 @@ Feature: CommentsGT updated dgddg
     When Clicking the New Feature
     Then I should receive an email with
 
-    Scenario:
-      Given dcdcsc
-      Then sdcdscsdcdsc
 
 
 
