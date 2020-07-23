@@ -37,7 +37,3 @@ Feature:BackgroundGT
     When I press the coffee button
     Then I should be served a coffee
 
-  Scenario: Background scenario 5
-    Given there are 12 cucumbers
-    When I eat 5 cucumbers
-    Then I should have 7 cucumbers
