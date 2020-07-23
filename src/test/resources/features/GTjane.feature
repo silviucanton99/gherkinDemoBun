@@ -1,4 +1,5 @@
 Feature: GT test
+
   Scenario: Scen1
     Given given1
     When when1
