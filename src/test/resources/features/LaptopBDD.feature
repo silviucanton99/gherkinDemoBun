@@ -5,7 +5,7 @@ Feature: LaptopBDD
     When the user modifies LAPTOP
     Then the LAPTOP is modified
 
-  Scenario: Laptop scenario 2
+  Scenario: Laptop scenario 2 edited
     Given there is a KEYBOARD
     When the user modifies the KEYBOARD
     Then the KEYBOARD is modified
