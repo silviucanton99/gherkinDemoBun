@@ -7,11 +7,6 @@ Feature: ButtonsGT
     Then the buttons should appear in Octane
 
 
-  Scenario:
-    Given there is a TEST
-    When the user modifies the SCRIPT
-    Then the buttons should APPEAR
-
 
 
 
