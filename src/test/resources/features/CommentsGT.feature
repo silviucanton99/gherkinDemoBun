@@ -1,5 +1,5 @@
 #@exclude
-Feature: CommentsGT updated dgddg
+Feature: CommentsGT
 #This is the scenario comment
 
   Scenario: CommentsGT Scenario

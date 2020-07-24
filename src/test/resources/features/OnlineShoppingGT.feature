@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 
-Feature: OnlineShopping only scenario
+Feature: OnlineShopping
 
   Scenario: OnlineShopping
     Given   OnlineShopping  given
