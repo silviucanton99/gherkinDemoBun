@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1007REV0.2.0
+@BSPID1001REV0.2.0
 Feature: Madalina
-  @TSCID1011
+  @TSCID1001
   Scenario: Scenariu pentru testare
-    Given cddc
-    When cdc
-    Then dcdcdcdc
+    Given
+    When
+    Then
