@@ -7,7 +7,7 @@ Feature: Madalina
   When
   Then
 
-  Scenario: Scenariu pentru testare
+  Scenario: Scenariu pentru testare-update
     Given  b b
     When bbb
     Then  b
