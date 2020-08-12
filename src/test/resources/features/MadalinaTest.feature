@@ -5,3 +5,8 @@ Feature: TestMada
     Given swwqsqws
     When qwsqws
     Then qwsqwsqwswqswqs
+
+    Scenario: Scenario test 2.0
+      Given deec
+      When cdcscdscs
+      Then vfvfdffvfdfvfdfv
