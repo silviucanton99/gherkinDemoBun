@@ -1,5 +1,5 @@
 Feature: oct
-	Scenario: no name
+	Scenario:
 		Given a
 		When b
 		Then c
