@@ -1,7 +1,5 @@
-
 Feature: oct
-
-	Scenario: s1
+	Scenario:
 		Given a
 		When b
 		Then c
