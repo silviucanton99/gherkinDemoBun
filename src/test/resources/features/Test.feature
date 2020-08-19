@@ -6,3 +6,8 @@ Feature: Test
     Given xsxs
     When xsx
     Then sxsxsxsx
+
+    Scenario: Scenario2
+      Given c xxcccx
+      When vfdfvdffv
+      Then csdcsdcdsc
