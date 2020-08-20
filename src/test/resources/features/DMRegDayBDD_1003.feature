@@ -3,12 +3,12 @@
 Feature: DMRegDayBDD
 @TSCID2001
 	Scenario: DMRegDayBDD scen1
-		Given 
-		When 
-		Then 
+		Given 1
+		When 2
+		Then 3
 
 @TSCID2002
 	Scenario: DMRegDayBDD scen2
-		Given 
-		When 
-		Then 
+		Given a
+		When b
+		Then c
