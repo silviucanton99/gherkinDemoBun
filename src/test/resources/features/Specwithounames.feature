@@ -8,7 +8,7 @@ Feature: Mada
     Then cxccxcxcx
 
   @TSCID2003
-  Scenario:
+  Scenario: nume test
     Given ddd
     When dd
     Then dddd
