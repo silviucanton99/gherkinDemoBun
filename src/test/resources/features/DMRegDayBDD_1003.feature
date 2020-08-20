@@ -22,3 +22,8 @@ Feature: DMRegDayBDD
 		Given a
 		When b
 		Then c
+
+	Scenario: S5
+		Given a
+		When b
+		Then c
