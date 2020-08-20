@@ -17,3 +17,8 @@ Feature: DMRegDayBDD
 		Given a
 		When b
 		Then c
+
+	Scenario: DMRegDayBDD scen3
+		Given a
+		When b
+		Then c
