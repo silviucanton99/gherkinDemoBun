@@ -12,3 +12,8 @@ Feature: Mada
     Given ddd
     When dd
     Then dddd
+
+    Scenario: test 3
+      Given ffff
+      When cdcd
+      Then cdscdscdsc
