@@ -50,14 +50,34 @@ public class MyStepdefs {
 
     } // this is not taken into consideration since the scenario outline has to be written separately, like below
 
-    @Given("a and 1 are known")
-    public void aand1areknown() {
+    @Given("a is known")
+    public void aIsKnown() {
 
     }
 
-    @Given("b and 2 are known")
-    public void band2areknown() {
+    @When("x is known")
+    public void xIsKnown() {
+        assertEquals(188, Calcs.sum(90, 90));
     }
+
+    @Given("b is known")
+    public void bIsKnown() {
+
+    }
+
+    @When("y is known")
+    public void yIsKnown() {
+    }
+
+    @Given("c is known")
+    public void cIsKnown() {
+
+    }
+
+    @When("z is known")
+    public void zIsKnown() {
+    }
+
 
     @When("the credentials are written")
     public void theCredentialsAreWritten() {
@@ -343,6 +363,8 @@ public class MyStepdefs {
     @Then("OnlineShopping then")
     public void onlineshoppingThen() {
     }
+
+
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
