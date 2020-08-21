@@ -45,38 +45,44 @@ public class MyStepdefs {
 
     }
 
-    @Given("<username> and <password> are known")
-    public void usernameAndPasswordAreKnown() {
-
-    } // this is not taken into consideration since the scenario outline has to be written separately, like below
-
-    @Given("a is known")
-    public void aIsKnown() {
-
+    @Given("<username> is known")
+    public void usernameIsKnown() {
     }
 
-    @When("x is known")
-    public void xIsKnown() {
-        assertEquals(188, Calcs.sum(90, 90));
+    @When("<password> is known")
+    public void passwordIsKnown() {
+        assertEquals(333, Calcs.sum(90, 90));
     }
 
-    @Given("b is known")
-    public void bIsKnown() {
+    // this is not taken into consideration since the scenario outline has to be written separately, like below
 
-    }
-
-    @When("y is known")
-    public void yIsKnown() {
-    }
-
-    @Given("c is known")
-    public void cIsKnown() {
-
-    }
-
-    @When("z is known")
-    public void zIsKnown() {
-    }
+//    @Given("a is known")
+//    public void aIsKnown() {
+//
+//    }
+//
+//    @When("x is known")
+//    public void xIsKnown() {
+//        assertEquals(188, Calcs.sum(90, 90));
+//    }
+//
+//    @Given("b is known")
+//    public void bIsKnown() {
+//
+//    }
+//
+//    @When("y is known")
+//    public void yIsKnown() {
+//    }
+//
+//    @Given("c is known")
+//    public void cIsKnown() {
+//
+//    }
+//
+//    @When("z is known")
+//    public void zIsKnown() {
+//    }
 
 
     @When("the credentials are written")
@@ -363,6 +369,7 @@ public class MyStepdefs {
     @Then("OnlineShopping then")
     public void onlineshoppingThen() {
     }
+
 
 
 }
