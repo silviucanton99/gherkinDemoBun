@@ -1,19 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.4.0
-Feature: Mada
-  @TSCID1004
-  Scenario: sceanriu cu nume
-    Given  cxx
-    When cxxcxc
-    Then cxccxcxcx
+@BSPID1001REV0.2.0
+Feature: Specwithounames
+  @TSCID1007
+  Scenario: S1
+    Given  c
+    When  c
+    Then    ccccc
 
-  @TSCID2003
-  Scenario: nume test
+  @TSCID1008
+  Scenario: S2
     Given ddd
-    When dd
-    Then dddd
-
-    Scenario: test 3
-      Given ffff
-      When cdcd
-      Then cdscdscdsc
+    When ddd
+    Then ddd
