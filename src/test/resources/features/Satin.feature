@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID3006REV0.3.0
+@BSPID3006REV0.3.1
 Feature: Satin
   @TSCID2314
   Scenario: Floss
@@ -13,8 +13,4 @@ Feature: Satin
     When cdcd
     Then dcdcdcdc
 
-  @TSCID2368
-  Scenario: scenario added from Octane
-    Given dccdc
-    When ertyu
-    Then ii8i8i8i8i8i
+
