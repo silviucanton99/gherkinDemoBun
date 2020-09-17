@@ -2,19 +2,19 @@
 @BSPID2002REV0.3.0
 Feature: Login
   @TSCID3012
-  Scenario:
+  Scenario: test 1
     Given ccccd
     When dcc
     Then dcdcdc
 
   @TSCID3013
-  Scenario:
+  Scenario: test 2
     Given xsx
     When xssx
     Then sxsxsxsx
 
   @TSCID3014
-  Scenario:
+  Scenario: test 3
     Given 5555
     When 55
     Then 5555
