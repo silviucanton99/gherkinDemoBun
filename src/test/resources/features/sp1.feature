@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID2002REV0.3.0
+@BSPID2002REV0.4.0
 Feature: Login
   @TSCID3012
   Scenario: test 1
