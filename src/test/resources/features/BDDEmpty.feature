@@ -8,7 +8,7 @@ Feature: Empty
     Then no BDD is created
 
   @TSCID1002
-  Scenario:Empty 1
+  Scenario:O zi frumoasa de toamna
     Given eu sunt fara nume
     When vorbesc
     Then ignora-ma!
