@@ -7,9 +7,4 @@ Feature: Scenario3
     When scscsdc
     Then sdcsdcdscdscds
 
-  @TSCID1087
-  Scenario: testez tag duplicat in IDE
-    Given csdcsdc
-    When scscsdc
-    Then sdcsdcdscdscds
 
