@@ -8,7 +8,7 @@ Feature: Duplicate Name
     Then dcdcdcdcd
 
   @TSCID1075
-  Scenario: Duplicate 1
+  Scenario: Duplicate 3
     Given dcdcddcdcdcddcdd
     When dccdcdcdcdcdcdcdcdcd
     Then dcdcddcdcdcdcddcddcdcdccdc
