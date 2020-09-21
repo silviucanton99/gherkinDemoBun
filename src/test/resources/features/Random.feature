@@ -14,7 +14,7 @@ Feature: Random
 		Then ssxxxsxsx
 
 	@TSCID1083
-	Scenario: Random 3.2.3.4
+	Scenario: Random 3
 		Given ftyuio
 		When yhyhyh
 		Then yhyhyhyh
