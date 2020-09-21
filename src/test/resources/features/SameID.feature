@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1008REV0.2.0
+@BSPID1008REV0.4.0
 Feature: Duplicate Name
   @TSCID1074
   Scenario: Duplicate 1
