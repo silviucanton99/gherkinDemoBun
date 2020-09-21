@@ -3,7 +3,7 @@
 #@exclude
 Feature: FromYaniv
 
-  Scenario: Some determinable business situation- modify scenario test
+  Scenario: Some determinable business situation - modify scenario test
     Given some precondition
     And some other precondition
     When some action by the actor
