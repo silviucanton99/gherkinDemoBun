@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1011REV0.3.0
+@BSPID1011REV0.4.0
 Feature: Random
 	@TSCID1081
 	Scenario: random 1
@@ -14,7 +14,7 @@ Feature: Random
 		Then ssxxxsxsx
 
 	@TSCID1083
-	Scenario: Random 3
+	Scenario: Random 3.2.3.4
 		Given ftyuio
 		When yhyhyh
 		Then yhyhyhyh
