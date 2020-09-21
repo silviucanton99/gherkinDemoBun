@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1011REV0.4.0
+@BSPID1011REV0.5.0
 Feature: Random
 	@TSCID1081
 	Scenario: random 1
