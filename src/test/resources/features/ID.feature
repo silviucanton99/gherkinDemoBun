@@ -8,7 +8,7 @@ Feature: ID
     When dsc7dc7dcdc
     Then dscdscsdc
 
-  @TSCID1076
+  @TSCID1077
   Scenario: id 1
     Given sdcdsc
     When sdcdscsdc
