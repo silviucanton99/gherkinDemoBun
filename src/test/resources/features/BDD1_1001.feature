@@ -1,6 +1,15 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.3.0
+@BSPID1001REV0.5.0
 Feature: Feature: Dan Feature1
+@TSCID1001
+Scenario: Dan Feature1 Scenario1.3.2
+Given some precondition
+And some other precondition
+When some action by the actor
+ And some other action
+ And yet another action
+ Then some testable outcome is achieved
+ And something else we can check happens too
 @TSCID1002
 Scenario Outline: Dan Feature1 Scenario2
 Given I open the application
@@ -14,3 +23,9 @@ And press submit
  | Rob | xyz1| title1 |
 
  | Bob | xyz1| title2 |
+	
+@TSCID1011
+   Scenario: Scenario new version 
+		Given I like this
+		When cdcdc
+		Then dcdcdcdccd
