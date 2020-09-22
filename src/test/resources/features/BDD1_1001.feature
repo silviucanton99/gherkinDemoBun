@@ -1,15 +1,6 @@
 #Auto generated Octane revision tag
 @BSPID1001REV0.3.0
 Feature: Feature: Dan Feature1
-@TSCID1001
-Scenario: Dan Feature1 Scenario1
-Given some precondition
-And some other precondition
-When some action by the actor
- And some other action
- And yet another action
- Then some testable outcome is achieved
- And something else we can check happens too
 @TSCID1002
 Scenario Outline: Dan Feature1 Scenario2
 Given I open the application
