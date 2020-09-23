@@ -2,13 +2,13 @@
 @BSPID1014REV0.2.0
 Feature: Remain empty 
 @TSCID1025
-	Scenario: 
+	Scenario: Empty 1
 		Given zxczxczxc
 		When xzccx
 		Then zxczxczxczxcc
 
 @TSCID1026
-	Scenario Outline: 
+	Scenario Outline: Empty 2
 		Given <param1> 
 		When  <param2>  
 		Then zcxczxczxczxcxzczxc
