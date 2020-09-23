@@ -2,7 +2,7 @@
 @BSPID1015REV0.2.0
 Feature: Duplicate
 @TSCID1027
-	Scenario: duplicate 
+	Scenario: duplicate 2.0
 		Given a+b
 		When ssas
 		Then sassa
