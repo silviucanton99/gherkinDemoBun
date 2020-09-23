@@ -2,13 +2,13 @@
 @BSPID1002REV0.2.0
 Feature: Login
 @TSCID1006
-	Scenario: 
+	Scenario: empty_scenario
 		Given sxsaxasx
 		When sxaxasxasx
 		Then asxasxxsaxasx
 
 @TSCID1007
-	Scenario Outline: 
+	Scenario Outline: empty scenario outline
 		Given <x> 
 		When  <param2>  
 		Then xxxxxxxxx
