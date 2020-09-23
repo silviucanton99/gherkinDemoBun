@@ -2,7 +2,7 @@
 @BSPID1016REV0.2.0
 Feature: Feature
 @TSCID1029
-	Scenario: Scenario with duplicate tags
+	Scenario: Duplicate tags
 		Given swwss
 		When wwwww
 		Then wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
