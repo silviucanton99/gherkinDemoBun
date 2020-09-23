@@ -7,7 +7,7 @@ Feature: BDD1
 		When sdds
 		Then ssdsdsds
 @TSCID1030
-	Scenario: wohaha hahah aha
+	Scenario: wohaha hahah
 		Given sdsd
 		When sdds
 		Then ssdsdsds
