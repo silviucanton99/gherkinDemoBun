@@ -6,8 +6,4 @@ Feature: BDD1
 		Given sdsd
 		When sdds
 		Then ssdsdsds
-@TSCID1030
-	Scenario: wohaha hahah
-		Given sdsd
-		When sdds
-		Then ssdsdsds
+
