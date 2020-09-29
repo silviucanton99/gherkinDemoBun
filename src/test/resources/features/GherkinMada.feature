@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
-@TID1007REV0.1.0
+@TID1007REV0.2.0
 Feature: Gherkin
-	Scenario: Scenario 1
+	Scenario: Scenario 1.2.3
 		Given sxsax
 		When sxsax
 		Then asxsaxsaxasx
