@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1007REV0.3.0
+@BSPID1007REV0.4.0
 Feature:
 @TSCID1010
 	Scenario: S2
@@ -12,3 +12,9 @@ Feature:
 		Given dffvfdfv
 		When dffvfdv
 		Then dffvfdvfd
+
+@TSCID1021
+	Scenario: S3
+		Given csdc
+		When dcdc
+		Then dc
