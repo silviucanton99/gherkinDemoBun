@@ -7,8 +7,3 @@ Feature: Duplicate
 		When xx
 		Then xxxx
 
-@TSCID4002
-	Scenario: Scenariul nu mai este duplicat
-		Given xzx
-		When xz c 
-		Then ccvccccc
