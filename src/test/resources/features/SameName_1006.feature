@@ -8,7 +8,7 @@ Feature: SameName
 		Then ddddddd
 
 @TSCID1008
-	Scenario: scenariu
+	Scenario: scenariu_bdd
 		Given dddd
 		When rr
 		Then ttttt
