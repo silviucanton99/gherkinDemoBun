@@ -6,9 +6,3 @@ Feature: Duplicate
 		Given cddc
 		When dcdsc
 		Then dscdscsdc
-
-  @TSCID1070
-  Scenario: Scenario 1 fara duplicate tags
-    Given cddc
-    When dcdsc
-    Then dscdscsdc
