@@ -6,9 +6,3 @@ Feature: duplicate
 		Given  cv cv
 		When c cv
 		Then  cv vc cv cv
-
-	  @TSCID1074
-	Scenario: DuplicateScenario test 2
-		  Given  cv cv
-		  When c cv
-		  Then  cv vc cv cv
