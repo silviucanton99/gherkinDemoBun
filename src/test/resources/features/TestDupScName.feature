@@ -8,7 +8,7 @@ Feature:
     Then
 
   @TSCID3002
-  Scenario: Scenario1
+  Scenario: Scenario2
     Given
     When
     Then
