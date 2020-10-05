@@ -1,8 +1,25 @@
 #Auto generated Octane revision tag
-@BSPID3006REV0.2.0
+@BSPID3010REV0.2.0
 Feature:
-  @TSCID3012
-  Scenario: sc1
+  @TSCID4009
+  Scenario: SC1
+    Given
+    When
+    Then
+
+  @TSCID4010
+  Scenario Outline: SC2
+    Given <param1>
+    When  <param2>
+    Then
+
+    Examples:
+      | param1 | param2 |
+      | a      | 1      |
+      | b      | 2      |
+
+  @TSCID4009
+  Scenario: SC3
     Given
     When
     Then
