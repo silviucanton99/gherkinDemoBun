@@ -6,9 +6,3 @@ Feature:
     Given
     When
     Then
-
-  @TSCID3012
-  Scenario: sc2
-    Given
-    When
-    Then
