@@ -8,13 +8,8 @@ Feature:
     Then
 
   @TSCID3018
-  Scenario: 2
+  Scenario: 22
     Given
     When
     Then
 
-  @TSCID4019
-  Scenario: s3333
-    Given
-    When
-    Then
