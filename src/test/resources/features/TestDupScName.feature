@@ -18,7 +18,7 @@ Feature:
       | a      | 1      |
       | b      | 2      |
 
-  @TSCID4009
+  @TSCID40011
   Scenario: SC3
     Given
     When
