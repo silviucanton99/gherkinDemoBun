@@ -1,20 +1,19 @@
 #Auto generated Octane revision tag
-@BSPID4010REV0.2.0
+@BSPID3011REV0.2.0
 Feature:
-  @TSCID4013
+  @TSCID3017
   Scenario: 1
     Given
     When
     Then
 
-  @TSCID4014
+  @TSCID3018
   Scenario: 2
     Given
     When
     Then
 
-
-  @TSCID4015
+  @TSCID4019
   Scenario: s3333
     Given
     When
