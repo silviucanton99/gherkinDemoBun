@@ -1,12 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID3002REV0.1.0
-Feature: emptyyyy
-  Scenario:SC1
+@BSPID3006REV0.2.0
+Feature:
+  @TSCID3012
+  Scenario: sc1
     Given
     When
     Then
 
-  Scenario:SC2
+  @TSCID3012
+  Scenario: sc2
     Given
     When
     Then
