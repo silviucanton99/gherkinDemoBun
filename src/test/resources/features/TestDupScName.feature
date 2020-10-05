@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @BSPID3001REV0.3.0
-Feature:
+Feature: DupFeature
   @TSCID3001
   Scenario: Scenario1
     Given
