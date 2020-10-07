@@ -6,3 +6,8 @@ Feature: SameTag
 		Given sx
 		When x
 		Then xxx
+	@TSCID1019
+	Scenario: same-tag
+		Given sx
+		When x
+		Then xxx
