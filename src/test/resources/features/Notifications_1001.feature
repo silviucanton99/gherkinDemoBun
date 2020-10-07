@@ -6,3 +6,9 @@ Feature: SameTag
 		Given xzczxc
 		When zxczc
 		Then zxczxczxczczc
+
+	@TSCID1001
+	Scenario: Scenario1.0
+		Given xzczxc
+		When zxczc
+		Then zxczxczxczczc
