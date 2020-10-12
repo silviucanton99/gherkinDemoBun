@@ -1,14 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID1004REV0.2.0
+@BSPID1005REV0.2.0
 Feature:
-@TSCID1005
-	Scenario: aaab
+@TSCID1007
+	Scenario: 123
 		Given
 		When
 		Then
 
-@TSCID1006
-	Scenario: aaab
+@TSCID1008
+	Scenario: 123
 		Given
 		When
 		Then
