@@ -12,3 +12,9 @@ Feature:
 		Given
 		When
 		Then
+
+@TSCID10299
+	Scenario: wow12
+		Given
+		When
+		Then
