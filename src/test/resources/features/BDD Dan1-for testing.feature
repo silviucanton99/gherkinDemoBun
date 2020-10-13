@@ -12,3 +12,9 @@ Feature:
 		Given
 		When
 		Then
+
+@TSCID10233
+	Scenario: a
+		Given
+		When
+		Then
