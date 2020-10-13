@@ -1,20 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID1014REV0.2.0
+@BSPID1018REV0.2.0
 Feature:
-@TSCID1022
-	Scenario: y
+@TSCID1028
+	Scenario: wow
 		Given
 		When
 		Then
 
-@TSCID1023
-	Scenario: z
-		Given
-		When
-		Then
-
-@TSCID10233
-	Scenario: a
+@TSCID1029
+	Scenario: wow1
 		Given
 		When
 		Then
