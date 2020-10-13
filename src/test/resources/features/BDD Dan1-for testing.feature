@@ -13,7 +13,7 @@ Feature:
 		When
 		Then
 
-@TSCID1018
+@TSCID10189
 	Scenario: sc3
 		Given
 		When
