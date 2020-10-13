@@ -12,3 +12,9 @@ Feature:
 		Given
 		When
 		Then
+
+@TSCID1018
+	Scenario: sc3
+		Given
+		When
+		Then
