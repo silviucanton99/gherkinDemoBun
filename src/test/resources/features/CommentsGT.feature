@@ -12,7 +12,3 @@ Feature: CommentsGT
      #This is the When comment
     When Clicking the New Feature
     Then I should receive an email with
-
-
-
-
