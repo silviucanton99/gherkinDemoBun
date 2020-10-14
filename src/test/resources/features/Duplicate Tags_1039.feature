@@ -8,8 +8,3 @@ Feature: Tags
 		Then xcxzczxczxc
 
 
-	@TSCID1065
-	Scenario: The same tag ID
-		Given xcxzc
-		When zxc
-		Then xcxzczxczxc
