@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
-Feature: test
+@BSPID10017REV0.2.0
+Feature: testttt
 @TSCID1061
 	Scenario: Scenario 1
 		Given xzx
