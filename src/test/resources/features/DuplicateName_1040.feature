@@ -8,7 +8,7 @@ Feature: duplicate
 		Then dscdscsdcdcdc
 
 @TSCID1067
-	Scenario: scenarioa
+	Scenario: scenariob
 		Given vfdvfdv
 		When fvfdf
 		Then dfvdfvdfvfdv
