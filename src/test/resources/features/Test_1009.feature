@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1022REV0.2.0
+@BSPID10242REV0.2.0
 Feature:
 @TSCID1035
 	Scenario: 1a
@@ -12,9 +12,3 @@ Feature:
 		Given
 		When
 		Then
-
-		@TSCID1041
-        	Scenario: 1c renamed
-        		Given
-        		When
-        		Then
