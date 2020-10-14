@@ -9,3 +9,8 @@ Feature: LaptopBDD
     Given there is a KEYBOARD
     When the user modifies the KEYBOARD
     Then the KEYBOARD is modified
+
+    Scenario:
+        Given there is a KEYBOARD
+        When the user modifies the KEYBOARD
+        Then the KEYBOARD is modified
