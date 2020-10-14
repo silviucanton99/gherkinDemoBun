@@ -18,9 +18,3 @@ Feature:
         		Given
         		When
         		Then
-
-@TSCID1044
-        	Scenario: 1d
-        		Given
-        		When
-        		Then
