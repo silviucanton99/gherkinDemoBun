@@ -14,7 +14,7 @@ Feature:
 		Then
 
 		@TSCID1041
-        	Scenario:
+        	Scenario: 1c
         		Given
         		When
         		Then
