@@ -14,7 +14,7 @@ Feature:
 		Then
 
 		@TSCID1041
-        	Scenario: 1c
+        	Scenario: 1c renamed
         		Given
         		When
         		Then
