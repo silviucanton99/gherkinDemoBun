@@ -2,7 +2,7 @@
 Feature: CommentsGT
 #This is the scenario comment
 
-  Scenario: CommentsGT Scenario1
+  Scenario: CommentsGT Scenario2
     #This is the Given comment
     Given the following users exist
     #This is the But comment
