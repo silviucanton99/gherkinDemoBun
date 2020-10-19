@@ -11,4 +11,4 @@ Feature: CommentsGT
     And Clicking the Create New defect
      #This is the When comment
     When Clicking the New Feature
-    Then I should receive an email with
+    Then I should receive an email with12121dfsdfsd
