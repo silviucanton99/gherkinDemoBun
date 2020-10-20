@@ -14,3 +14,9 @@ Feature: LaptopBDD1
         Given there is a KEYBOARD
         When the user modifies the KEYBOARD
         Then the KEYBOARD is modified
+
+  @TSCID2009
+  Scenario: Laptop scenario d
+    Given there is a KEYBOARD
+    When the user modifies the KEYBOARD
+    Then the KEYBOARD is modified
