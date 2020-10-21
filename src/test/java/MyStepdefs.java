@@ -338,7 +338,7 @@ public class MyStepdefs {
     @Then("the LAPTOP is modified")
     public void theLAPTOPIsModified() {
         String result = "laptop";
-        assertEquals(result.length(), 60);
+        assertEquals(result.length(), 6);
 
     }
 
@@ -358,6 +358,8 @@ public class MyStepdefs {
 
     @Given("OnlineShopping  given")
     public void onlineshoppingGiven() {
+        String result = "online";
+        assertEquals(result.length(), 123);
 
     }
 
