@@ -6,7 +6,7 @@ Feature: f1
     Then 2
 
 
-  Scenario: s2
+  Scenario: s21
     Given 0
     When 1
     Then 2
