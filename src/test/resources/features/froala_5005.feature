@@ -1,19 +1,19 @@
 #Auto generated Octane revision tag
-@BSPID5001REV0.3.0
+@BSPID5005REV0.2.0
 Feature: tested1
-  @TSCID16145
+@TSCID16155
   Scenario: CK editor
     Given memo fields
     When tap on description field
     Then new ck editor pops up
 
-  @TSCID16146
+@TSCID16156
   Scenario: Froala
     Given comment field
     When click on it
     Then new ck editor pop ups
-    
-@TSCID16150
+   
+@TSCID16157
 	Scenario: Memo fields
 		Given Memo filed
 		When creating BR 
