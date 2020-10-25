@@ -1,10 +1,16 @@
 #Auto generated Octane revision tag
-@BSPID5006REV0.2.0
+@#Auto generated Octane revision tag
+@BSPID5006REV0.4.0
 Feature: test froala
-@TSCID15968
+	@TSCID15968
 	Scenario: memo
 		Given memo
 		When click
 		Then CK
 
+	@TSCID16163
+	Scenario: comment1
+		Given a
+		When b
+		Then c
 
