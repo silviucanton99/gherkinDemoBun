@@ -3,12 +3,12 @@
 Feature: tested1
 @TSCID16145
 	Scenario: CK editor
-		Given memo fields
-		When tap on description field
+		Given memo fields 
+		When tap on description field 
 		Then new ck editor pops up
 
 @TSCID16146
 	Scenario: Froala
 		Given comment field
-		When click on it
-		Then new ck editor pop ups
+		When click on it 
+		Then new ck editor pop ups 
