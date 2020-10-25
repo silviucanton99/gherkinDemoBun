@@ -7,7 +7,7 @@ Feature: test froala
 		When click
 		Then CK
 
-@TSCID15969
+@TSCID15970
 	Scenario: comment
 		Given comment
 		When click
