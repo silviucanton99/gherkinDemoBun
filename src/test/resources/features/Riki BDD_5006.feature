@@ -7,3 +7,8 @@ Feature: test froala
 		When click
 		Then CK
 
+@TSCID15969
+	Scenario: comment
+		Given comment
+		When click
+		Then ck
