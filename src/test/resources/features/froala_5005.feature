@@ -20,7 +20,7 @@ Feature: tested1
     Then memo field is disable
 
   @TSCID15961
-  Scenario: Memo fields
+  Scenario: Riki's scenario
     Given test
     When trying to edit it
     Then Injection failed
