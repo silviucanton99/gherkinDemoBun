@@ -9,7 +9,7 @@ Feature: test froala
 		Then CK
 
 	@TSCID16163
-	Scenario: memo1
+	Scenario: memo123
 		Given a
 		When b
 		Then c
