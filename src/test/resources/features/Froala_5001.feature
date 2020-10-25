@@ -14,7 +14,7 @@ Feature: tested1
     Then new ck editor pop ups
     
 @TSCID16150
-	Scenario: Memo fields1
+	Scenario: Memo fields
 		Given Memo filed
 		When creating BR 
 		Then memo field is disable
