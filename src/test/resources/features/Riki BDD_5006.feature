@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @#Auto generated Octane revision tag
 @BSPID5006REV0.4.0
-Feature: test froala
+Feature: test froala1
 	@TSCID15968
 	Scenario: memo
 		Given memo
