@@ -1,5 +1,5 @@
 #@exclude
-Feature: CommentsGT
+Feature: CommentsGT1
 #This is the scenario comment
 
   Scenario: CommentsGT Scenario123
