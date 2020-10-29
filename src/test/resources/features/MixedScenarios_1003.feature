@@ -107,7 +107,7 @@ Feature:test
 	  Then 17
 
 @TSCID1077
-	  Scenario: s5
+	  Scenario: s51
 	  Given 0
 	  Given 1
 	  Given 2
