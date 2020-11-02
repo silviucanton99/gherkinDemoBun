@@ -10,7 +10,7 @@ Feature: LaptopBDD
     When the user modifies the KEYBOARD
     Then the KEYBOARD is modified
 
-    Scenario: Laptop scenario d
+  Scenario: Laptop scenario d
         Given there is a KEYBOARD
         When the user modifies the KEYBOARD
         Then the KEYBOARD is modified
