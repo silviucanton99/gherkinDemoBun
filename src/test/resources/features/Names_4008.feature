@@ -8,3 +8,8 @@ Feature: MyFeature
 		Then 3
 
 
+@TSCID3011
+	Scenario: test
+		Given 1
+		When 2
+		Then 3
