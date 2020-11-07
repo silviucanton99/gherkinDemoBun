@@ -2,7 +2,7 @@
 @BSPID4008REV0.2.0
 Feature: MyFeature
 @TSCID3010
-	Scenario: test
+	Scenario: test1
 		Given 1
 		When 2
 		Then 3
