@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @BSPID3007REV0.2.0
-Feature: Duplicated
+Feature: Duplicated12
 @TSCID2084
 	Scenario: test
 		Given 1
