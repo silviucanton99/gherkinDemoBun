@@ -2,13 +2,13 @@
 @BSPID4006REV0.2.0
 Feature: My test
 @TSCID2079
-	Scenario: ScenarioA
+	Scenario: ScenarioA1
 		Given A
 		When B
 		Then C
 
 @TSCID2080
-	Scenario: ScenariB
+	Scenario: ScenariB2
 		Given B
 		When D
 		Then C
