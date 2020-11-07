@@ -7,8 +7,4 @@ Feature: tag
 		When 22
 		Then 33
 
-@TSCID2088
-	Scenario: 123
-		Given 11
-		When 22
-		Then 33
+
