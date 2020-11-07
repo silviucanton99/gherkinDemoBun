@@ -2,13 +2,13 @@
 @BSPID3006REV0.2.0
 Feature: MissingNames
 @TSCID2082
-	Scenario: 
+	Scenario: www
 		Given w
 		When s
 		Then f
 
 @TSCID2083
-	Scenario: 
+	Scenario: www
 		Given w
 		When t
 		Then i
