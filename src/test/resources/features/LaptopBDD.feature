@@ -1,4 +1,4 @@
-Feature: LaptopBDD
+Feature: LaptopBDD1
 
   Scenario: Laptop scenario b
     Given there is a LAPTOP
