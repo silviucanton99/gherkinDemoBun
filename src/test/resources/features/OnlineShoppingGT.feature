@@ -2,7 +2,7 @@
 
 Feature: OnlineShopping
 
-  Scenario: OnlineShopping
+  Scenario: OnlineShopping1
     Given   OnlineShopping  given
     When   OnlineShopping  when
     Then OnlineShopping then
