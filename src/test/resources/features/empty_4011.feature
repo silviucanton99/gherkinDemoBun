@@ -2,13 +2,13 @@
 @BSPID4011REV0.2.0
 Feature: Empty
 @TSCID2086
-	Scenario: 
+	Scenario: one
 		Given q
 		When a
 		Then z
 
 @TSCID2087
-	Scenario: 
+	Scenario: two
 		Given q
 		When w
 		Then e
