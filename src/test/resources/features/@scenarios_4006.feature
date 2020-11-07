@@ -12,3 +12,9 @@ Feature: My test
 		Given B
 		When D
 		Then C
+
+@TSCID2081
+	Scenario: ScenarioC
+		Given C
+		When D
+		Then E
