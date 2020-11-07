@@ -2,7 +2,7 @@
 @BSPID4010REV0.2.0
 Feature: duplicatednames
 @TSCID3018
-	Scenario: riki
+	Scenario: riki1
 		Given 1
 		When 2
 		Then 3
