@@ -8,7 +8,7 @@ Feature: noNames
 		Then 33
 
 @TSCID1176112
-	Scenario: riki
+	Scenario: riki12
 		Given qq
 		When ww
 		Then ee
