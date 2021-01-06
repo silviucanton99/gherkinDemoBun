@@ -25,7 +25,7 @@ Feature: test
 		When 22
 		Then 33
 
-	Scenario: octane4
+	Scenario: octane41
 		Given 11
 		When 22
 		Then 33
