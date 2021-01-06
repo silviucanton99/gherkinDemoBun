@@ -14,18 +14,6 @@ Feature: test
 		Then 6
 
 
-	Scenario: Octane3
-		Given 41
-		When 52
-		Then 63
 
-@TSCID1176043
-	Scenario: octane4
-		Given 11
-		When 22
-		Then 33
 
-	Scenario: octane411
-		Given 11
-		When 22
-		Then 33
+
