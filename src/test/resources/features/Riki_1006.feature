@@ -12,3 +12,9 @@ Feature: test
 		Given 4
 		When 5
 		Then 6
+
+	Scenario: test2
+		Given 4
+		When 5
+		Then 6
+
