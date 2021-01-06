@@ -18,3 +18,9 @@ Feature: test
 		Given 41
 		When 52
 		Then 63
+
+@TSCID1176043
+	Scenario: octane4
+		Given 11
+		When 22
+		Then 33
