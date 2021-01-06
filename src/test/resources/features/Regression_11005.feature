@@ -7,8 +7,3 @@ Feature: regression
 		When 2
 		Then 3
 
-
-	Scenario: OP
-		Given 1
-		When 2
-		Then 3
