@@ -12,3 +12,9 @@ Feature: test
 		Given 4
 		When 5
 		Then 6
+
+
+	Scenario: Octane3
+		Given 41
+		When 52
+		Then 63
