@@ -16,4 +16,10 @@ Feature: opEnv
 	Scenario: regression3
 		Given 111
 		When 222
-		Then 333
+		Then
+
+@TSCID22106
+	Scenario: regression4
+		Given 3232
+		When 4545
+		Then 2343
