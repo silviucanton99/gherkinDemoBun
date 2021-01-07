@@ -12,3 +12,8 @@ Feature: opEnv
 		Given 11
 		When 22
 		Then 33
+
+	Scenario: regression3
+		Given 111
+		When 222
+		Then 333
