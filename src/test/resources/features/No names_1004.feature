@@ -2,7 +2,7 @@
 @BSPID1004REV0.2.0
 Feature: NoNames
 @TSCID1006
-	Scenario: test1
+	Scenario: test12
 		Given 11
 		When 22
 		Then 33
