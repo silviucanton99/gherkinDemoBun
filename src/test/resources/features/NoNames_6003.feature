@@ -7,8 +7,4 @@ Feature: EmptyName
 		When 23
 		Then 23
 
-@TSCID22108
-	Scenario: test2
-		Given 555
-		When 44
-		Then rr
+
