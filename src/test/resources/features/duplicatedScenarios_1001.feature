@@ -8,7 +8,7 @@ Feature: duplicated
 		Then 11
 
 @TSCID2002
-	Scenario: 11
+	Scenario: 111
 		Given 11
 		When 11
 		Then 11
