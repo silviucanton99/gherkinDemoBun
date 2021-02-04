@@ -7,8 +7,3 @@ Feature: tags
 		When 22
 		Then 33
 
-@TSCID2009
-	Scenario: same123
-		Given 112
-		When 223
-		Then 334
