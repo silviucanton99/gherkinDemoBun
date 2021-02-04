@@ -3,8 +3,8 @@
 Feature: Empty
 
 	@TSCID2008
-	Scenario Outline: fixed
+	Scenario: 11
 		Given dsdd
 		When wewew
 		Then 23232
-		Examples:
+
