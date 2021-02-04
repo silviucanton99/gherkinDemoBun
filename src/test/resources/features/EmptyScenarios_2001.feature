@@ -2,7 +2,7 @@
 @BSPID2001REV0.2.0
 Feature: Empty
 @TSCID2008
-	Scenario: 
+	Scenario: fixed
 		Given dsdd
 		When wewew
 		Then 23232
