@@ -14,7 +14,7 @@ Feature: duplicated
 		Then 11
 
 
-	Scenario: 11112
+	Scenario: 11112rename
 		Given 11
 		When 11
 		Then 11
