@@ -1,8 +1,10 @@
 #Auto generated Octane revision tag
 @BSPID2001REV0.2.0
 Feature: Empty
-@TSCID2008
-	Scenario: fixed
+
+	@TSCID2008
+	Scenario Outline: fixed
 		Given dsdd
 		When wewew
 		Then 23232
+		Examples:
