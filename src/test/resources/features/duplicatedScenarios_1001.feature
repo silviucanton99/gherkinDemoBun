@@ -13,7 +13,7 @@ Feature: duplicated
 		When 11
 		Then 11
 
-@TSCID20021
+
 	Scenario: 11112
 		Given 11
 		When 11
