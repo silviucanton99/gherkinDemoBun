@@ -172,7 +172,7 @@ public class MyStepdefs {
 
     @Then("I should receive an email with")
     public void iShouldReceiveAnEmailWith() {
-        assertEquals(7, Calcs.sum(0, 7));
+        assertEquals(10, Calcs.sum(0, 7));
     }
 
     // fromYanivGT
