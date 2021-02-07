@@ -8,7 +8,7 @@ Feature: CCDD
 		Then C
 
 @TSCID1033
-	Scenario: DDCC
+	Scenario: DDCCee
 		Given D
 		When D
 		Then D
