@@ -2,7 +2,7 @@
 @BSPID1009REV0.2.0
 Feature: reject
 @TSCID1016
-	Scenario: reject1
+	Scenario: reject12
 		Given q
 		When w
 		Then o
