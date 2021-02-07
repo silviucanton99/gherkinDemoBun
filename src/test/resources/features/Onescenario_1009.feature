@@ -6,3 +6,9 @@ Feature: reject
 		Given q
 		When w
 		Then o
+
+
+	Scenario: Please1
+		Given q
+		When w
+		Then o
