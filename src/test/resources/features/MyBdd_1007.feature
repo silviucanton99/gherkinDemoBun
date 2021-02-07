@@ -18,8 +18,3 @@ Feature: tests
 		When 5
 		Then 6
 
-	Scenario: Bdd4
-		Given 4
-		When 5
-		Then 6
-
