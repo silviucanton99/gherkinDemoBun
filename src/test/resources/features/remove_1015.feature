@@ -7,7 +7,7 @@ Feature: aaremove
 		When r
 		Then r
 
-	@TSCID1039
+
 	Scenario: Remove
 		Given f
 		When f
