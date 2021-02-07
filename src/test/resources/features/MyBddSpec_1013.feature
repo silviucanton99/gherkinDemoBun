@@ -17,3 +17,10 @@ Feature: Scenarios
 		Given 3
 		When 5
 		Then 7
+
+	@TSCID1027
+	Scenario: Scenario24
+		Given ew
+		When qwe
+		Then wqe
+
