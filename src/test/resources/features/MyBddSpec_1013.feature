@@ -12,3 +12,8 @@ Feature: Scenarios
 		Given 3
 		When 5
 		Then 7
+
+	Scenario: Scenario23
+		Given 3
+		When 5
+		Then 7
