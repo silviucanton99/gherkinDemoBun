@@ -12,3 +12,9 @@ Feature: tests
 		Given 4
 		When 5
 		Then 6
+
+	Scenario: Bdd3
+		Given 4
+		When 5
+		Then 6
+
