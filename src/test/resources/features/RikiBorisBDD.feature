@@ -8,7 +8,7 @@ Feature: RikiBorisBDD
 		Then 5
 
 @TSCID1238
-	Scenario: Boris
+	Scenario: Boris1
 		Given 3
 		When 3
 		Then 7
