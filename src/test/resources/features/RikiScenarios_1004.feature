@@ -11,4 +11,4 @@ Feature: ScenarioAandB
 	Scenario: ScenarioB
 		Given test
 		When success
-		Then grin
+		Then green
