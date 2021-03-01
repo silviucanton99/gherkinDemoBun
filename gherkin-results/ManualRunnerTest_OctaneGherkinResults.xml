@@ -2,12 +2,12 @@
 <features version="1">
     <feature name="CommentsGT1"
         path="src\test\resources\features\CommentsGT.feature"
-        started="1614011963474" tag="">
+        started="1614590896730" tag="">
         <file><![CDATA[#@exclude
 Feature: CommentsGT1
 #This is the scenario comment
 
-  Scenario: CommentsGT Scenario123
+  Scenario: CommentsGT Scenario1231
     #This is the Given comment
     Given the following users exist
     #This is the But comment
@@ -18,15 +18,15 @@ Feature: CommentsGT1
     When Clicking the New Feature
     Then I should receive an email with12121dfsdfsd]]></file>
         <scenarios>
-            <scenario name="CommentsGT Scenario123">
+            <scenario name="CommentsGT Scenario1231">
                 <steps>
-                    <step duration="2655411"
+                    <step duration="3484303"
                         name="Given the following users exist" status="passed"/>
-                    <step duration="123574"
+                    <step duration="179409"
                         name="But Clicking the Create New requirement" status="passed"/>
-                    <step duration="117005"
+                    <step duration="67330"
                         name="And Clicking the Create New defect" status="passed"/>
-                    <step duration="2222285"
+                    <step duration="57476"
                         name="When Clicking the New Feature" status="passed"/>
                     <step duration="0"
                         name="Then I should receive an email with12121dfsdfsd" status="undefined"/>
@@ -36,7 +36,7 @@ Feature: CommentsGT1
     </feature>
     <feature name="LaptopBDD"
         path="src\test\resources\features\LaptopBDD.feature"
-        started="1614011963507" tag="">
+        started="1614590896761" tag="">
         <file><![CDATA[Feature: LaptopBDD
 
   Scenario: Laptop scenario b
@@ -83,74 +83,39 @@ Feature: CommentsGT1
         <scenarios>
             <scenario name="Laptop scenario b">
                 <steps>
-                    <step duration="188030"
+                    <step duration="156828"
                         name="Given there is a LAPTOP" status="passed"/>
-                    <step duration="82930"
+                    <step duration="69382"
                         name="When the user modifies LAPTOP" status="passed"/>
-                    <step duration="5087895"
+                    <step duration="9211419"
                         name="Then the LAPTOP is modified" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="Laptop scenario c">
                 <steps>
-                    <step duration="273424"
+                    <step duration="211021"
                         name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="91552"
+                    <step duration="81288"
                         name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="73899"
+                    <step duration="64456"
                         name="Then the KEYBOARD is modified" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="Laptop scenario d">
                 <steps>
-                    <step duration="124806"
+                    <step duration="144923"
                         name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="72256"
+                    <step duration="90730"
                         name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="75130"
+                    <step duration="87036"
                         name="Then the KEYBOARD is modified" status="passed"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="Bdds"
-        path="src\test\resources\features\MyBdd_1004.feature"
-        started="1614011963534" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1004REV0.3.0
-Feature: Bdds
-@TSCID1006
-	Scenario: Bdd1
-		Given 1
-		When 2
-		Then 3
-
-@TSCID1007
-	Scenario: Bdd2
-		Given 1
-		When 2
-		Then 3
-]]></file>
-        <scenarios>
-            <scenario name="Bdd1">
-                <steps>
-                    <step duration="0" name="Given 1" status="undefined"/>
-                    <step duration="0" name="When 2" status="undefined"/>
-                    <step duration="0" name="Then 3" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="Bdd2">
-                <steps>
-                    <step duration="0" name="Given 1" status="undefined"/>
-                    <step duration="0" name="When 2" status="undefined"/>
-                    <step duration="0" name="Then 3" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
     <feature name="OnlineShopping"
         path="src\test\resources\features\OnlineShoppingGT.feature"
-        started="1614011963547" tag="">
+        started="1614590896776" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 
 Feature: OnlineShopping
@@ -162,7 +127,7 @@ Feature: OnlineShopping
         <scenarios>
             <scenario name="OnlineShopping1">
                 <steps>
-                    <step duration="958625"
+                    <step duration="987363"
                         name="Given OnlineShopping  given" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<6> but was:<123>
 	at org.junit.Assert.fail(Assert.java:88)
@@ -173,10 +138,45 @@ Feature: OnlineShopping
 	at ✽.OnlineShopping  given(file:src/test/resources/features/OnlineShoppingGT.feature:6)
 ]]></error_message>
                     </step>
-                    <step duration="9190071"
+                    <step duration="97710"
                         name="When OnlineShopping  when" status="skipped"/>
-                    <step duration="63224"
+                    <step duration="72256"
                         name="Then OnlineShopping then" status="skipped"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="ScenarioAandB"
+        path="src\test\resources\features\RikiScenarios_1004.feature"
+        started="1614590896787" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID1004REV0.2.0
+Feature: ScenarioAandB
+@TSCID1007
+	Scenario: ScenarioA
+		Given test
+		When failed
+		Then red
+
+@TSCID1008
+	Scenario: ScenarioB
+		Given test
+		When success
+		Then green
+]]></file>
+        <scenarios>
+            <scenario name="ScenarioA">
+                <steps>
+                    <step duration="0" name="Given test" status="undefined"/>
+                    <step duration="0" name="When failed" status="undefined"/>
+                    <step duration="0" name="Then red" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="ScenarioB">
+                <steps>
+                    <step duration="0" name="Given test" status="undefined"/>
+                    <step duration="0" name="When success" status="undefined"/>
+                    <step duration="0" name="Then green" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
