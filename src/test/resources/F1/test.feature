@@ -13,7 +13,7 @@ Feature: y
   When 5
   Then 6
 
-  Scenario: aaa1
+  Scenario: aaa2
     Given 3
     When 5
     Then 6
