@@ -1,182 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="CommentsGT1"
-        path="src\test\resources\features\CommentsGT.feature"
-        started="1614590896730" tag="">
-        <file><![CDATA[#@exclude
-Feature: CommentsGT1
-#This is the scenario comment
-
-  Scenario: CommentsGT Scenario1231
-    #This is the Given comment
-    Given the following users exist
-    #This is the But comment
-    But Clicking the Create New requirement
-     #This is the And comment
-    And Clicking the Create New defect
-     #This is the When comment
-    When Clicking the New Feature
-    Then I should receive an email with12121dfsdfsd]]></file>
-        <scenarios>
-            <scenario name="CommentsGT Scenario1231">
-                <steps>
-                    <step duration="3484303"
-                        name="Given the following users exist" status="passed"/>
-                    <step duration="179409"
-                        name="But Clicking the Create New requirement" status="passed"/>
-                    <step duration="67330"
-                        name="And Clicking the Create New defect" status="passed"/>
-                    <step duration="57476"
-                        name="When Clicking the New Feature" status="passed"/>
-                    <step duration="0"
-                        name="Then I should receive an email with12121dfsdfsd" status="undefined"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="LaptopBDD"
-        path="src\test\resources\features\LaptopBDD.feature"
-        started="1614590896761" tag="">
-        <file><![CDATA[Feature: LaptopBDD
-
-  Scenario: Laptop scenario b
-    Given there is a LAPTOP
-    When the user modifies LAPTOP
-    Then the LAPTOP is modified
-
-  Scenario: Laptop scenario c
-    Given there is a KEYBOARD
-    When the user modifies the KEYBOARD
-    Then the KEYBOARD is modified
-
-    Scenario: Laptop scenario d
-        Given there is a KEYBOARD
-        When the user modifies the KEYBOARD
-        Then the KEYBOARD is modified
-#@BSPID2010REV0.0.1
-#Feature: LaptopBDD
-#
-#  @TSCID2014
-#  Scenario: Laptop scenario b
-#    Given there is a LAPTOP
-#    When the user modifies LAPTOP
-#    Then the LAPTOP is modified
-#
-#  @TSCID2015
-#  Scenario: Laptop scenario c
-#    Given there is a KEYBOARD
-#    When the user modifies the KEYBOARD
-#    Then the KEYBOARD is modified
-#
-#  @TSCID2016
-#  Scenario: Laptop scenario d
-#    Given there is a KEYBOARD
-#    When the user modifies the KEYBOARD
-#    Then the KEYBOARD is modified
-#
-#  @TSCID2016
-#  Scenario: Laptop scenario d
-#    Given there is a KEYBOARD
-#    When the user modifies the KEYBOARD
-#    Then the KEYBOARD is modified
-]]></file>
-        <scenarios>
-            <scenario name="Laptop scenario b">
-                <steps>
-                    <step duration="156828"
-                        name="Given there is a LAPTOP" status="passed"/>
-                    <step duration="69382"
-                        name="When the user modifies LAPTOP" status="passed"/>
-                    <step duration="9211419"
-                        name="Then the LAPTOP is modified" status="passed"/>
-                </steps>
-            </scenario>
-            <scenario name="Laptop scenario c">
-                <steps>
-                    <step duration="211021"
-                        name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="81288"
-                        name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="64456"
-                        name="Then the KEYBOARD is modified" status="passed"/>
-                </steps>
-            </scenario>
-            <scenario name="Laptop scenario d">
-                <steps>
-                    <step duration="144923"
-                        name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="90730"
-                        name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="87036"
-                        name="Then the KEYBOARD is modified" status="passed"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="OnlineShopping"
-        path="src\test\resources\features\OnlineShoppingGT.feature"
-        started="1614590896776" tag="">
+    <feature name="y" path="src\test\resources\F1\test.feature"
+        started="1614772234038" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 
-Feature: OnlineShopping
+Feature: y
 
-  Scenario: OnlineShopping1
-    Given   OnlineShopping  given
-    When   OnlineShopping  when
-    Then OnlineShopping then]]></file>
+  Scenario: aaa
+  Given 1
+  When 2
+  Then 3
+
+
+  Scenario: aaa1
+  Given 4
+  When 5
+  Then 6]]></file>
         <scenarios>
-            <scenario name="OnlineShopping1">
+            <scenario name="aaa">
                 <steps>
-                    <step duration="987363"
-                        name="Given OnlineShopping  given" status="failed">
-                        <error_message><![CDATA[java.lang.AssertionError: expected:<6> but was:<123>
+                    <step duration="5761533" name="Given 1" status="passed"/>
+                    <step duration="2553155" name="When 2" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MyStepdefs.onlineshoppingGiven(MyStepdefs.java:362)
-	at ✽.OnlineShopping  given(file:src/test/resources/features/OnlineShoppingGT.feature:6)
+	at MyStepdefs.some(MyStepdefs.java:10)
+	at ✽.2(file:src/test/resources/F1/test.feature:7)
 ]]></error_message>
                     </step>
-                    <step duration="97710"
-                        name="When OnlineShopping  when" status="skipped"/>
-                    <step duration="72256"
-                        name="Then OnlineShopping then" status="skipped"/>
+                    <step duration="1749316" name="Then 3" status="skipped"/>
                 </steps>
             </scenario>
-        </scenarios>
-    </feature>
-    <feature name="ScenarioAandB"
-        path="src\test\resources\features\RikiScenarios_1004.feature"
-        started="1614590896787" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1004REV0.2.0
-Feature: ScenarioAandB
-@TSCID1007
-	Scenario: ScenarioA
-		Given test
-		When failed
-		Then red
-
-@TSCID1008
-	Scenario: ScenarioB
-		Given test
-		When success
-		Then green
-]]></file>
-        <scenarios>
-            <scenario name="ScenarioA">
+            <scenario name="aaa1">
                 <steps>
-                    <step duration="0" name="Given test" status="undefined"/>
-                    <step duration="0" name="When failed" status="undefined"/>
-                    <step duration="0" name="Then red" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="ScenarioB">
-                <steps>
-                    <step duration="0" name="Given test" status="undefined"/>
-                    <step duration="0" name="When success" status="undefined"/>
-                    <step duration="0" name="Then green" status="undefined"/>
+                    <step duration="267672" name="Given 4" status="passed"/>
+                    <step duration="143689" name="When 5" status="passed"/>
+                    <step duration="68970" name="Then 6" status="passed"/>
                 </steps>
             </scenario>
         </scenarios>
