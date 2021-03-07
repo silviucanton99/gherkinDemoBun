@@ -1,6 +1,6 @@
 Feature: RikiScenarios
 
-  Scenario: Test1
+  Scenario: Test12
     Given test
     When verify
     Then failed
