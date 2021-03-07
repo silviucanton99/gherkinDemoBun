@@ -9,7 +9,7 @@ Feature: TestsVerification
 
 	@TSCID1077
 	Scenario: two
-		Given test
+		Given test1
 		When verify
 		Then skipped
 
