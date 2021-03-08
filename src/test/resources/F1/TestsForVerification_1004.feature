@@ -2,7 +2,7 @@
 @BSPID1004REV0.5.0
 Feature: TestsVerification
 	@TSCID1076
-	Scenario: one
+	Scenario: one1
 		Given test
 		When plan
 		Then Passed
