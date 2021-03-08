@@ -8,7 +8,7 @@ Feature: Bdd123
 		Then 3
 
 @TSCID1093
-	Scenario: Bdd2
+	Scenario: Bdd22
 		Given 4
 		When 5
 		Then 6
