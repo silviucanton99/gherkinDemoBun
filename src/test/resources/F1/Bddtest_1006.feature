@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1006REV0.3.0
+@BSPID1006REV0.4.0
 Feature: dsf
 @TSCID1094
-	Scenario: df12121
+	Scenario: df
 		Given sd
 		When fd
 		Then sf
