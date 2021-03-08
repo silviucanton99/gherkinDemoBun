@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1006REV0.2.0
+@BSPID1006REV0.3.0
 Feature: dsf
 @TSCID1094
 	Scenario: df
@@ -8,7 +8,7 @@ Feature: dsf
 		Then sf
 
 @TSCID1095
-	Scenario: sdf
+	Scenario: sdf123
 		Given sdf
 		When fsd
 		Then fsd
