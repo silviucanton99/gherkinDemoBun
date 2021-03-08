@@ -2,7 +2,7 @@
 @BSPID1005REV0.3.0
 Feature: Bdd123
 @TSCID1092
-	Scenario: Bdd12
+	Scenario: Bdd124
 		Given 1
 		When 2
 		Then 3
