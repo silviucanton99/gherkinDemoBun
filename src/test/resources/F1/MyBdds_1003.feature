@@ -2,7 +2,7 @@
 @BSPID1003REV0.2.0
 Feature: MyBdds12
 @TSCID1078
-	Scenario: Bdd1
+	Scenario: Bdd11
 		Given one
 		When bdd
 		Then failed
