@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1004REV0.2.0
+@BSPID1004REV0.3.0
 Feature: Scenarios
 @TSCID1073
-	Scenario: Scenario12
+	Scenario: Scenario13
 		Given Test
 		When validate
 		Then pass
