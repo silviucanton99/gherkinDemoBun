@@ -2,7 +2,7 @@
 @BSPID1004REV0.2.0
 Feature: Scenarios
 @TSCID1073
-	Scenario: Scenario1
+	Scenario: Scenario12
 		Given Test
 		When validate
 		Then pass
