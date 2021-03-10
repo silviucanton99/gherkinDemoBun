@@ -2,7 +2,7 @@
 @BSPID1005REV0.2.0
 Feature: Tests
 @TSCID1075
-	Scenario: Bdd1
+	Scenario: Bdd11
 		Given 1
 		When 2
 		Then 3
