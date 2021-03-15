@@ -3,7 +3,7 @@
 Feature: BddScenarios
 @TSCID1001
 	Scenario: Bdd1
-		Given 1
+		Given 10
 		When 2
 		Then 3
 
