@@ -8,7 +8,7 @@ Feature:
 		Then 
 
 @TSCID2041
-	Scenario: w2
+	Scenario: w1
 		Given 
 		When 
 		Then 
