@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID16107REV0.2.0
+@BSPID16107REV0.3.0
 Feature: Regday
 @TSCID1253297
 	Scenario: Reg11
@@ -8,7 +8,7 @@ Feature: Regday
 		Then sad
 
 @TSCID1253298
-	Scenario: Reg21122112121
+	Scenario: Reg21
 		Given sdf
 		When xc
 		Then fg
