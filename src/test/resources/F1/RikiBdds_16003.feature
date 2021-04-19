@@ -8,7 +8,7 @@ Feature: BddsViaOctane
 		Then hh
 
 @TSCID1252667
-	Scenario: Riki2
+	Scenario: Riki23
 		Given dd
 		When gg
 		Then hh
