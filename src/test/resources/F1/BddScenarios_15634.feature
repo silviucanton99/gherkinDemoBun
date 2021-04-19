@@ -7,8 +7,8 @@ Feature: FBddScenarios
 		When 22
 		Then 33
 
-@TSCID1251636
-	Scenario: Scenario2
+@TSCID1251637
+	Scenario:
 		Given 44
 		When 55
 		Then 66
