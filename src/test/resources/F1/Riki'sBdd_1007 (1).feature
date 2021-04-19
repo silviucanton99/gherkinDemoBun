@@ -8,7 +8,7 @@ Feature: Bdds
 		Then fdg
 
 @TSCID1077
-	Scenario: Bdd2
+	Scenario: Bdd28787
 		Given fds
 		When sdf
 		Then sdf
