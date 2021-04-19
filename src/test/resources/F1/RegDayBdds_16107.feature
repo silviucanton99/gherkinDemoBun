@@ -8,7 +8,7 @@ Feature: Regday
 		Then sad
 
 @TSCID1253298
-	Scenario: Reg21
+	Scenario: Reg211221
 		Given sdf
 		When xc
 		Then fg
