@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1006REV0.2.0
+@BSPID1006REV0.3.0
 Feature: Scenarios
 @TSCID1011
 	Scenario: Scenario1
@@ -9,6 +9,6 @@ Feature: Scenarios
 
 @TSCID1012
 	Scenario: Scenario2
-		Given vv123
+		Given vv
 		When cc
 		Then xx
