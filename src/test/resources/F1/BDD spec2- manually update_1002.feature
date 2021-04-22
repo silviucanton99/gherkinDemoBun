@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.2.0
+@BSPID1002REV0.3.0
 Feature: BddSpec2
 @TSCID1003
-	Scenario: 2dvsdf
+	Scenario: 2dvsdfewew
 		Given dfs
 		When dfv
 		Then fd

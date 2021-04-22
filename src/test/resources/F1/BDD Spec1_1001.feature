@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+@BSPID1001REV0.3.0
 Feature: Spec1
 @TSCID1001
 	Scenario: Scenario1
@@ -8,7 +8,7 @@ Feature: Spec1
 		Then zxcxzc
         
 @TSCID1002
-	Scenario: Spec212
+	Scenario: Spec2
 		Given dfd
 		When sa
 		Then ere

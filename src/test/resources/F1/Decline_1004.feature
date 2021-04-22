@@ -8,7 +8,7 @@ Feature: Decline
 		Then fd
         
 @TSCID1008
-	Scenario: D2DD
+	Scenario: D2
 		Given sds
 		When ff
 		Then ss
