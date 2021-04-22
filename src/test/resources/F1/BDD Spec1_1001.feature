@@ -8,7 +8,7 @@ Feature: Spec1
 		Then zxcxzc
         
 @TSCID1002
-	Scenario: Spec2
+	Scenario: Spec212
 		Given dfd
 		When sa
 		Then ere
