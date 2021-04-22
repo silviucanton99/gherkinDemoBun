@@ -8,7 +8,7 @@ Feature: Scenarios
 		Then v
 
 @TSCID1012
-	Scenario: Scenario2
+	Scenario: Scenario22
 		Given vv
 		When cc
 		Then xx
