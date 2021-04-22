@@ -8,7 +8,7 @@ Feature: Reg12
 		Then ds
 
 @TSCID1014
-	Scenario: Reg2
+	Scenario: Reg21
 		Given sds
 		When zx
 		Then zxz
