@@ -9,6 +9,6 @@ Feature: Scenarios
 
 @TSCID1012
 	Scenario: Scenario2
-		Given vv
+		Given vv12
 		When cc
 		Then xx
