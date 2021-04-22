@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
-@BSPID1004REV0.3.0
-Feature: Decline1
+@BSPID1004REV0.4.0
+Feature: Decline
 @TSCID1007
 	Scenario: D1
 		Given er
