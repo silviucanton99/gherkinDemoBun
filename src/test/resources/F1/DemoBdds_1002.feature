@@ -2,7 +2,7 @@
 @BSPID1002REV0.2.0
 Feature: Demo
 @TSCID1001
-	Scenario: Demo1
+	Scenario: Demo11
 		Given sd
 		When fd
 		Then gf
