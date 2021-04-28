@@ -2,7 +2,7 @@
 @BSPID1005REV0.2.0
 Feature: Decline12
 @TSCID1007
-	Scenario: Decline1
+	Scenario: Decline11
 		Given dsf
 		When sdf
 		Then dgfg
