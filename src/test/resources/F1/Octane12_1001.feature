@@ -8,7 +8,7 @@ Feature: BddOctane
 		Then sdf
 
 @TSCID1002
-	Scenario: Octane2
+	Scenario: Octane212
 		Given fdg
 		When fg
 		Then cxv
