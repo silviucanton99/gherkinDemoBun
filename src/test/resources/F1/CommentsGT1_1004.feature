@@ -1,8 +1,11 @@
+#Auto generated Octane revision tag
+@BSPID1004REV0.2.0
 #@exclude
 Feature: CommentsGT1
 #This is the scenario comment
 
-  Scenario: CommentsGT Scenario123123
+@TSCID1008
+  Scenario: CommentsGT Scenario1231
     #This is the Given comment
     Given the following users exist
     #This is the But comment
