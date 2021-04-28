@@ -8,7 +8,7 @@ Feature: BB12
 		Then cvb
 
 @TSCID1020
-	Scenario: B2
+	Scenario: B212
 		Given vcb
 		When c
 		Then v
