@@ -5,7 +5,7 @@ Feature: CommentsGT1
 #This is the scenario comment
 
 @TSCID1008
-  Scenario: CommentsGT Scenario1231sds
+  Scenario: CommentsGT Scenario1231
     #This is the Given comment
     Given the following users exist
     #This is the But comment
