@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID2002REV0.2.0
+@BSPID2002REV0.3.0
 Feature: My Work - a grid based view with a navigation panel to allow grouping and filtering
 
 
@@ -26,7 +26,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         
 
 @TSCID2009
-	Scenario: group and sort items12121
+	Scenario: group and sort items
 		Given my work with populate data
 		When Selecting backlog item category 
         And sorting each one of the sorted fields (id , phase, severity..)
