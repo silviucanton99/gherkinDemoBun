@@ -1,4 +1,4 @@
-@exclude
+
 Feature: created by automation0
 
 Scenario: Automated scenario0
