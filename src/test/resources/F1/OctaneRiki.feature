@@ -5,7 +5,7 @@ Feature:
 		When Check rpm name by command "rpm -qpi <rpm_name>"
 		Then rpm should include software name, version and hardware architecture 
 
-	Scenario: Install with rpm command rpm -ivh
+	Scenario: Install with rpm command rpm -ivh12
 		Given Linux Redhat server with version 6.5+
 		When In terminal window, run "rpm -ivh <rpm_name>"
 		Then war deployed under "</opt/octane/webapps>"
