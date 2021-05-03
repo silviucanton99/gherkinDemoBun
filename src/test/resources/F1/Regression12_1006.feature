@@ -8,7 +8,7 @@ Feature: RegScenarios
 		Then gdf
 
 @TSCID1010
-	Scenario: Reg23232
+	Scenario: Reg2323278
 		Given ret
 		When ty
 		Then y
