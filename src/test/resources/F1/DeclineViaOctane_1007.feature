@@ -8,7 +8,7 @@ Feature: D12
 		Then sdf
 
 @TSCID1012
-	Scenario: D2
+	Scenario: D212
 		Given cxv
 		When cxv
 		Then cxv
