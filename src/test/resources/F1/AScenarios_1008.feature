@@ -2,7 +2,7 @@
 @BSPID1008REV0.3.0
 Feature:Approve 
 @TSCID1013
-	Scenario: ApproveScenario1
+	Scenario: ApproveScenario123
 		Given dsf
 		When gf
 		Then dfg
