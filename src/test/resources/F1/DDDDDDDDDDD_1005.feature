@@ -8,7 +8,7 @@ Feature: DDEECC
 		Then gh
 
 @TSCID1010
-	Scenario: xfsdf
+	Scenario: xfsdf2
 		Given dsf
 		When dsfs
 		Then vxcv
