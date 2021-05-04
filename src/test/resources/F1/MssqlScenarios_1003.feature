@@ -7,8 +7,4 @@ Feature: Mssql12
 		When dfsdf
 		Then ds
 
-@TSCID1005
-	Scenario: Mssql1313
-		Given sdf
-		When ewrer
-		Then werwe
+
