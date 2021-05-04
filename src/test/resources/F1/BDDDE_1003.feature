@@ -2,7 +2,7 @@
 @BSPID1003REV0.2.0
 Feature: BD12
 @TSCID1004
-	Scenario: Bd1
+	Scenario: Bd123
 		Given fs
 		When gdf
 		Then gf
