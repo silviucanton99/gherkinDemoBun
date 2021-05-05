@@ -8,7 +8,7 @@ Feature: DeclineScenarios
 		Then ter
 
 @TSCID1002
-	Scenario: Decline2
+	Scenario: Decline222
 		Given fdg
 		When dfg
 		Then dfg
