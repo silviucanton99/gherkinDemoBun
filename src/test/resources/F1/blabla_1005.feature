@@ -2,7 +2,7 @@
 @BSPID1005REV0.2.0
 Feature: vvvvv
 @TSCID1024
-	Scenario: dfdf
+	Scenario: dfdf12
 		Given df
 		When df
 		Then df
