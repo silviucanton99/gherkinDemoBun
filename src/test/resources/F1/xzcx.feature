@@ -23,7 +23,7 @@ Feature: MyWork
 
 
 
-  Scenario: group and sort items
+  Scenario: group and sort itemssd
     Given my work with populate data
     When Selecting backlog item category
     And sorting each one of the sorted fields (id , phase, severity..)
