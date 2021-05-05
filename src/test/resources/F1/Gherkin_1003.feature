@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
-@TID2002REV0.3.0
+@TID1003REV0.2.0
 Feature: Gherkin
-	Scenario: hghgh12121
+	Scenario: hghgh
 		Given tetet
 		When kdfjdkj
 		Then dfmdklfjdkfj
