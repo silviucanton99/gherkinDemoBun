@@ -1,9 +1,9 @@
 #Auto generated Octane revision tag
-@BSPID2002REV0.3.0
+
 Feature: My Work - a grid based view with a navigation panel to allow grouping and filtering
 
 
-@TSCID2008
+
 	Scenario: filter and cross filter items
 		Given My work with the following categories: Backlog Items, Process Item, Requirements, Runs, Tasks, Tests - Use demo data
 		When Selecting backlog item category
@@ -25,7 +25,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
      
         
 
-@TSCID2009
+
 	Scenario: group and sort items
 		Given my work with populate data
 		When Selecting backlog item category 
@@ -36,7 +36,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
 
 
 
-@TSCID2010
+
 	Scenario: search items
 		Given My work with 2 categories
 		When selecting backlog category
@@ -49,7 +49,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         When searching for none existing id or name
         Then the list is empty
 
-@TSCID2011
+
 	Scenario: dismiss selected items in a bulk
 		Given My work with more then 500 USs
 		When Selecting 2 US
@@ -72,7 +72,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
        
 
 
-@TSCID2012
+
 	Scenario: update and bulk update items
 		Given my work with items
 		When selecting one of the category 
@@ -83,7 +83,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         Then all the selected items description should be update with the selected description 
 
 
-@TSCID2013
+
 	Scenario: see why an item was assigned (can be multiple reasons)
 		Given you add US to my work and also your manager assigned it to you
 		When navigate to my work
@@ -91,7 +91,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
 		Then in the right panel (preview tab)you will see the following reason:You added this item to My work area.You have been assigned "Owner" for this item.
 
 
-@TSCID2014
+
 	Scenario: team lead mode
 		Given your user is a team leader user which have team members 
 		When navigate to my work
@@ -120,7 +120,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
 
 
 
-@TSCID2015
+
 	Scenario: Left side bar
 		Given My work with multiple categories
         When navigate to my work
@@ -138,7 +138,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         Then Unread indicator should be removed 
         
 
-@TSCID2016
+
 	Scenario: Read & Unread Items (blue circle indicator)
 		Given my work with new items
 		When navigate to one of the categories 
@@ -160,7 +160,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         And backlog category marked as unread category
         
        
-@TSCID2017
+
 	Scenario: Add indi milestone 
 		Given the user has CRUD permissions for Milestones and Releases
 		When the user goes to the Management\Milestones tab
@@ -177,7 +177,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         And the user parks on the new milestone line
 
 
-@TSCID2018
+
 	Scenario: Add Indi milestone in Release Timeline
 		Given the user has CRUD permissions for Milestones and Releases
         And Release R1 is defined
@@ -198,7 +198,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
       
 
 
-@TSCID2019
+
 	Scenario: Edit Milestone
 		Given the user has CRUD permissions for Milestones and Releases
         And Indi milestone M1 is defined
@@ -207,7 +207,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
 		Then The name, description, date fields are editable
         And The Release Specific checkbox is disabled
 
-@TSCID2020
+
 	Scenario: Indi Milestones Selection
 		Given Indi milestones M1 and M2 are defined
         And Release R1 is defined with M3 Milestone
@@ -222,7 +222,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
 
 
 
-@TSCID2021
+
  Scenario: Indi Milestones in Context Filter
 		Given Indi milestones M1 and M2 are defined
         And Release R1 and R2 are defined with M3 and M4 Milestone respectively  
@@ -239,7 +239,7 @@ Feature: My Work - a grid based view with a navigation panel to allow grouping a
         And The List shows only M1 and M2 Milestones
 
 
-@TSCID2022
+
 Scenario: Indi Milestones in Dashboard scope
 		Given Indi milestones M1 and M2 are defined
         And Release R1 and R2 are defined with M3 and M4 Milestone respectively  
@@ -258,7 +258,7 @@ Scenario: Indi Milestones in Dashboard scope
 
 
 
-@TSCID2023
+
 	Scenario: Deactivate Milestone
 		Given the user has CRUD permissions for Milestones and Releases
         And Indi milestone M1 is defined and active
@@ -277,7 +277,7 @@ Scenario: Indi Milestones in Dashboard scope
         Then US1 appears in the grid
 
 
-@TSCID2024
+
 	Scenario: Indi Milestone on Timeline
 		Given Independent Milestone M1 is defined
         And R1 & R2 Releases are defined
@@ -296,18 +296,11 @@ Scenario: Indi Milestones in Dashboard scope
         And Switch to Timeline tab    
         Then M1 is displayed 
         
-   
-@TSCID2025
-Scenario: Tab visibility
-Given a user in the system (not admin)
-Then the user does not have permissions to see the Runs tab in the Quality module
-When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
-And the user enters the Quality module
-Then the user can see the Runs tab right after the Tests tab
 
 
 
-@TSCID2026
+
+
 Scenario: Runs grid affected by context
 Given that the user looks at the Runs tab 
 Then in the tab the user can see test runs
@@ -318,7 +311,7 @@ Then runs are filtered accordingly
 
 
 
-@TSCID2027
+
 Scenario: Run types and last run filter
 Given a user opens the Runs tab for the first time
 Then the user can see last manual runs, last automated runs, last Gherkin automated runs and last suite runs
@@ -328,7 +321,7 @@ Then the user can see all manual runs, last automated runs, last Gherkin automat
 
 
 
-@TSCID2028
+
 Scenario: Navigation to test and suite run
 Given that the user looks at the Runs tab
 When the user selects a run
@@ -337,7 +330,7 @@ When the user selects a test run which is part of a suite run
 Then the user can also navigate to the suite run
 
 
-@TSCID2029
+
 Scenario: Actions on runs
 Given that the user looks at the Runs tab
 When the user selects a run
