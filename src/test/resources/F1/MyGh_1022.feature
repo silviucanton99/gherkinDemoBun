@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @TID1022REV0.2.0
 Feature: BR
-	Scenario: Add warning about "Script needs updating in IDE" when code alignment= update external code
+	Scenario: Add warning about "Script needs updating in IDE" when code alignment= update external code12
 		Given you have automated bdds an not automated bdd specs in octane
         When navigating to Quality->Tests tab->Bdd scenarios
         And add Bdd spec code aliment column
