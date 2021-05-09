@@ -8,7 +8,7 @@ Feature: Scenarios12
 		Then jkl
 
 @TSCID1002
-	Scenario: bdd222
+	Scenario: bdd222rtr
 		Given lklkl
 		When sdsd
 		Then jjnnm
