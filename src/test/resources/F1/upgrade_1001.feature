@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+@BSPID1001REV0.3.0
 Feature: upscenarios
 @TSCID1001
 	Scenario: up1
@@ -8,7 +8,7 @@ Feature: upscenarios
 		Then nkjh
 
 @TSCID1002
-	Scenario: up212
+	Scenario: up2
 		Given jku
 		When mjh
 		Then jkkuku
