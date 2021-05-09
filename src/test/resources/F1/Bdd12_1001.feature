@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+@BSPID1001REV0.3.0
 Feature: Scenarios12
 @TSCID1001
 	Scenario: bdd11
@@ -8,7 +8,7 @@ Feature: Scenarios12
 		Then jkl
 
 @TSCID1002
-	Scenario: bdd222rtr
+	Scenario: bdd222
 		Given lklkl
 		When sdsd
 		Then jjnnm
