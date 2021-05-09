@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.2.0
+@BSPID1002REV0.3.0
 Feature: gunsc
 @TSCID1003
-	Scenario: gun11
+	Scenario: gun1
 		Given jh
 		When jhnm
 		Then fhgjhg
