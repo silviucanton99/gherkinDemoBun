@@ -8,7 +8,7 @@ Feature: upscenarios
 		Then nkjh
 
 @TSCID1002
-	Scenario: up2
+	Scenario: up212
 		Given jku
 		When mjh
 		Then jkkuku

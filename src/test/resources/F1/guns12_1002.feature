@@ -2,7 +2,7 @@
 @BSPID1002REV0.2.0
 Feature: gunsc
 @TSCID1003
-	Scenario: gun1
+	Scenario: gun11
 		Given jh
 		When jhnm
 		Then fhgjhg
