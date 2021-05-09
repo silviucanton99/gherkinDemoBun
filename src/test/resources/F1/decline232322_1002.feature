@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.2.0
+@BSPID1002REV0.3.0
 Feature: decline
 @TSCID1003
-	Scenario: d11123
+	Scenario: d111
 		Given gjh
 		When kljkljklj
 		Then jjjkhjkjkh
