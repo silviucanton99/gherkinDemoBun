@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID13062REV0.2.0
+@BSPID13062REV0.3.0
 Feature: Regression12
 @TSCID1273352
-	Scenario: Regression1
+	Scenario: Regression112
 		Given wer
 		When ewr
 		Then wer
