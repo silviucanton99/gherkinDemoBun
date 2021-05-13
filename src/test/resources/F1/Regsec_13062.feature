@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID13062REV0.3.0
+@BSPID13062REV0.4.0
 Feature: Regression12
 @TSCID1273352
 	Scenario: Regression112
