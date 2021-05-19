@@ -2,7 +2,7 @@
 @BSPID1007REV0.2.0
 Feature: fds
 @TSCID1084
-	Scenario: sdf
+	Scenario: sdfert
 		Given sdf
 		When sdf
 		Then re
