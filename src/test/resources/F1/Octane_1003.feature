@@ -1,12 +1,11 @@
 #Auto generated Octane revision tag
-@BSPID1003REV0.4.0
+
 #Auto generated Octane revision tag
 
-Feature: Runs tab in Quality module1
+Feature: RunstabinQualitymodule1
 
 
-@TSCID1076
-Scenario: Tab visibility
+Scenario: Tabvisibility
 Given a user in the system (not admin)
 Then the user does not have permissions to see the Runs tab in the Quality module
 When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
@@ -15,8 +14,8 @@ Then the user can see the Runs tab right after the Tests tab user is given permi
 
 
 
-@TSCID1077
-Scenario: Runs grid affected by context
+
+Scenario: Runsgridaffectedbycontext
 Given that the user looks at the Runs tab 
 Then in the tab the user can see test runs
 When the user chooses an application module
@@ -26,8 +25,8 @@ Then runs are filtered accordingly
 
 
 
-@TSCID1078
-Scenario: Run types and last run filter
+
+Scenario: Runtypesandlastrunfilter
 Given a user opens the Runs tab for the first time
 Then the user can see last manual runs, last automated runs, last Gherkin automated runs and last suite runs
 And the runs are sorted by descending creation time
@@ -36,8 +35,8 @@ Then the user can see all manual runs, last automated runs, last Gherkin automat
 
 
 
-@TSCID1079
-Scenario: Navigation to test and suite run
+
+Scenario: Navigationtotestandsuiterun
 Given that the user looks at the Runs tab
 When the user selects a run
 Then the user can navigate to the parent test
@@ -45,8 +44,8 @@ When the user selects a test run which is part of a suite run
 Then the user can also navigate to the suite run
 
 
-@TSCID1080
-Scenario: Actions on runs
+
+Scenario: Actionsonruns
 Given that the user looks at the Runs tab
 When the user selects a run
 Then the user can group by available run fields
