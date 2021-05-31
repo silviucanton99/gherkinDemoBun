@@ -2,7 +2,7 @@
 @BSPID1004REV0.2.0
 Feature: BddsDemo
 @TSCID1075
-	Scenario: Bdd1
+	Scenario: Bdd123
 		Given fsdf
 		When fg
 		Then gfdg
