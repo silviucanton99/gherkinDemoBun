@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+
 #Auto generated Octane revision tag
 
 #Auto generated Octane revision tag
@@ -7,7 +7,7 @@
 Feature: RunstabinQualitymodule1
 
 
-@TSCID1011
+
 Scenario: Tabvisibility12123
 Given a user in the system (not admin)
 Then the user does not have permissions to see the Runs tab in the Quality module
@@ -18,7 +18,7 @@ Then the user can see the Runs tab right after the Tests tab user is given permi
 
 
 
-@TSCID1002
+
 Scenario: Runsgridaffectedbycontext12
 Given that the user looks at the Runs tab 
 Then in the tab the user can see test runs
@@ -30,7 +30,7 @@ Then runs are filtered accordingly
 
 
 
-@TSCID1003
+
 Scenario: Runtypesandlastrunfilter
 Given a user opens the Runs tab for the first time
 Then the user can see last manual runs, last automated runs, last Gherkin automated runs and last suite runs
@@ -41,7 +41,7 @@ Then the user can see all manual runs, last automated runs, last Gherkin automat
 
 
 
-@TSCID1004
+
 Scenario: Navigationtotestandsuiterun
 Given that the user looks at the Runs tab
 When the user selects a run
@@ -51,7 +51,7 @@ Then the user can also navigate to the suite run
 
 
 
-@TSCID1005
+
 Scenario: Actionsonruns
 Given that the user looks at the Runs tab
 When the user selects a run
