@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1004REV0.2.0
+@BSPID1004REV0.3.0
 Feature: Myscenarios
 @TSCID1074
 	Scenario: Scenario1
