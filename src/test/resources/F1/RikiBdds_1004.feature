@@ -8,7 +8,7 @@ Feature: Myscenarios
 		Then fd
 
 @TSCID1075
-	Scenario: scenario2
+	Scenario: scenario1
 		Given fdfsdf
 		When sdf
 		Then ret
