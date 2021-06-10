@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID14002REV0.2.0
+@BSPID14002REV0.3.0
 Feature: scenarios
 @TSCID1304012
-	Scenario: Bdd1
+	Scenario: Bdd11
 		Given fdg
 		When fg
 		Then dfg
