@@ -6,3 +6,9 @@ Feature: bdd
 		Given asd
 		When das
 		Then asd
+
+	@TSCID1303177
+	Scenario: sadq
+		Given asdw
+		When dase
+		Then asde
