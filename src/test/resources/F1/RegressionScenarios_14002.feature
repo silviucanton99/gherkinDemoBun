@@ -8,7 +8,7 @@ Feature: scenarios
 		Then dfg
 
 @TSCID1304013
-	Scenario: Bdd2
+	Scenario: Bdd22
 		Given vcb
 		When vcb
 		Then bvc
