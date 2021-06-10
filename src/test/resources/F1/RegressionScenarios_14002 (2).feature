@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID14002REV0.3.0
+@BSPID14002REV0.3.1
 Feature: scenarios
 @TSCID1304012
 	Scenario: Bdd11
