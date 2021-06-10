@@ -2,13 +2,7 @@
 @BSPID15003REV0.2.0
 Feature: bdd
 @TSCID1303177
-	Scenario: sad
+	Scenario:
 		Given asd
 		When das
 		Then asd
-
-	@TSCID1303177
-	Scenario: sadq
-		Given asdw
-		When dase
-		Then asde
