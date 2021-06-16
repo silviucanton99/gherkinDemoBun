@@ -23,7 +23,7 @@ Then the user can see the Runs tab right after the Tests tab user is given permi
 
 
 @TSCID1002
-Scenario: Runsgridaffectedbycontext12
+Scenario: Runsgridaffectedbycontext12sad
 Given that the user looks at the Runs tab 
 Then in the tab the user can see test runs
 When the user chooses an application module
