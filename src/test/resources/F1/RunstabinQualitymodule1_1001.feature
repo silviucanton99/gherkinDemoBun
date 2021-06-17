@@ -11,7 +11,7 @@ Feature: RunstabinQualitymodule1
 
 
 @TSCID1001
-Scenario: Tabvisibility1212311
+Scenario: Tabvisibility121231112
 Given a user in the system (not admin)ds
 Then the user does not have permissions to see the Runs tab in the Quality module
 When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
