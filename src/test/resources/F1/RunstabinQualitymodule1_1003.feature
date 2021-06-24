@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1003REV0.2.0
+@BSPID1003REV0.3.0
 #Auto generated Octane revision tag
 
 #Auto generated Octane revision tag
@@ -12,7 +12,7 @@ Feature: RunstabinQualitymodule1
 
 @TSCID1069
 Scenario: Tabvisibility121231111
-Given a user in the system (not admin)dsr4ghghggg
+Given a user in the system (not admin)dsr4
 Then the user does not have permissions to see the Runs tab in the Quality module
 When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
 And the user enters the Quality module
