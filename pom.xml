@@ -12,7 +12,7 @@
         <dependency>
             <groupId>com.microfocus.adm.almoctane.bdd</groupId>
             <artifactId>octane-cucumber-jvm</artifactId>
-            <version>15.1.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
