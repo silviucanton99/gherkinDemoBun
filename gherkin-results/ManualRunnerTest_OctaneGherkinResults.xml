@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="BddsDemo"
-        path="src\test\resources\F1\BddsDemo_1004.feature"
-        started="1623245590547" tag="">
+    <feature name="Riki"
+        path="src\test\resources\F1\Online_1002.feature"
+        started="1625123578473" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1004REV0.3.0
-Feature: BddsDemo
-@TSCID1075
-	Scenario: Bdd1ggh
-		Given fsdf
-		When fg
-		Then gfdg
+@BSPID1002REV0.2.0
+Feature: Riki
+@TSCID1006
+	Scenario Outline: <param1> Yalla
+		Given <param1> 
+		When  <param2>  
+		Then Yalla
 
-@TSCID1076
-	Scenario: Bdd2
-		Given fdg
-		When 23423
-		Then tyt
+	Examples:
+		| param1 | param2 |
+		| a      | 1      |
+		| b      | 2      |
 ]]></file>
         <scenarios>
-            <scenario name="Bdd1ggh">
+            <scenario name="&lt;param1> Yalla" outlineIndex="1">
                 <steps>
-                    <step duration="0" name="Given fsdf" status="skipped"/>
-                    <step duration="0" name="When fg" status="skipped"/>
-                    <step duration="0" name="Then gfdg" status="skipped"/>
+                    <step duration="0" name="Given a" status="skipped"/>
+                    <step duration="75950" name="When 1" status="skipped"/>
+                    <step duration="0" name="Then Yalla" status="skipped"/>
                 </steps>
             </scenario>
-            <scenario name="Bdd2">
+            <scenario name="&lt;param1> Yalla" outlineIndex="2">
                 <steps>
-                    <step duration="0" name="Given fdg" status="skipped"/>
-                    <step duration="272597" name="When 23423" status="skipped"/>
-                    <step duration="0" name="Then tyt" status="skipped"/>
+                    <step duration="0" name="Given b" status="skipped"/>
+                    <step duration="37360" name="When 2" status="skipped"/>
+                    <step duration="0" name="Then Yalla" status="skipped"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="Bdd" path="src\test\resources\F1\Riki_1006.feature"
+        started="1625123578488" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID1006REV0.2.0
+Feature: Bdd
+@TSCID1080
+	Scenario: Bdd1
+		Given wqewqe
+		When dsfdf
+		Then sdfsd
+]]></file>
+        <scenarios>
+            <scenario name="Bdd1">
+                <steps>
+                    <step duration="0" name="Given wqewqe" status="skipped"/>
+                    <step duration="0" name="When dsfdf" status="skipped"/>
+                    <step duration="0" name="Then sdfsd" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
     <feature name="RunstabinQualitymodule1"
         path="src\test\resources\F1\RunstabinQualitymodule1_1001.feature"
-        started="1623245590622" tag="">
+        started="1625123578509" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 
 #Auto generated Octane revision tag
@@ -48,8 +68,8 @@ Feature: RunstabinQualitymodule1
 
 
 
-Scenario: Tabvisibility12123
-Given a user in the system (not admin)
+Scenario: Tabvisibility121231111111
+Given a user in the system (not admin)dsr4
 Then the user does not have permissions to see the Runs tab in the Quality module
 When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
 And the user enters the Quality module
@@ -59,7 +79,7 @@ Then the user can see the Runs tab right after the Tests tab user is given permi
 
 
 
-Scenario: Runsgridaffectedbycontext12
+Scenario: Runsgridaffectedbycontext12wqwqw11
 Given that the user looks at the Runs tab 
 Then in the tab the user can see test runs
 When the user chooses an application module
@@ -110,10 +130,10 @@ But when the user selects an automated run or a Gherkin automated run
 Then the user cannot execute it
 ]]></file>
         <scenarios>
-            <scenario name="Tabvisibility12123">
+            <scenario name="Tabvisibility121231111111">
                 <steps>
                     <step duration="0"
-                        name="Given a user in the system (not admin)" status="skipped"/>
+                        name="Given a user in the system (not admin)dsr4" status="skipped"/>
                     <step duration="0"
                         name="Then the user does not have permissions to see the Runs tab in the Quality module" status="skipped"/>
                     <step duration="0"
@@ -124,7 +144,7 @@ Then the user cannot execute it
                         name="Then the user can see the Runs tab right after the Tests tab user is given permissions to see the tab (permission->module Visibility->Quality->select Runs)" status="skipped"/>
                 </steps>
             </scenario>
-            <scenario name="Runsgridaffectedbycontext12">
+            <scenario name="Runsgridaffectedbycontext12wqwqw11">
                 <steps>
                     <step duration="0"
                         name="Given that the user looks at the Runs tab" status="skipped"/>
@@ -200,6 +220,27 @@ Then the user cannot execute it
                         name="But when the user selects an automated run or a Gherkin automated run" status="skipped"/>
                     <step duration="0"
                         name="Then the user cannot execute it" status="skipped"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="dssa" path="src\test\resources\F1\test_1003.feature"
+        started="1625123578555" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID1003REV0.2.0
+Feature: dssa
+@TSCID1007
+	Scenario: da
+		Given d
+		When dw
+		Then w
+]]></file>
+        <scenarios>
+            <scenario name="da">
+                <steps>
+                    <step duration="0" name="Given d" status="skipped"/>
+                    <step duration="0" name="When dw" status="skipped"/>
+                    <step duration="0" name="Then w" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
