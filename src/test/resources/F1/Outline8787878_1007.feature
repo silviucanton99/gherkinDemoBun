@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID1007REV0.2.0
+@BSPID1007REV0.3.0
 Feature: 
 @TSCID1016
-	Scenario Outline: Yalla1K
+	Scenario Outline: Yalla
 		Given <param1> 
 		When  <param2>  
 		Then Yalla
