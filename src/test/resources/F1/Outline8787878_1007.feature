@@ -2,7 +2,7 @@
 @BSPID1007REV0.2.0
 Feature: 
 @TSCID1016
-	Scenario Outline: Yalla
+	Scenario Outline: Yalla1K
 		Given <param1> 
 		When  <param2>  
 		Then Yalla
