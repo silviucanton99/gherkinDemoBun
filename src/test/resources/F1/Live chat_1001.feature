@@ -9,7 +9,7 @@ Feature: Shopping cart
 
 	@ignore
 @TSCID1003
-	Scenario: Customer adds item to cart
+	Scenario: Customer adds item to cart12
 		Given a visitor on the shopping site
 		When he selects and item
 		And he adds the item to the cart
