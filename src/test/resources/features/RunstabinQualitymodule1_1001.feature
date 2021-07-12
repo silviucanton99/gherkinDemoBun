@@ -7,16 +7,12 @@
 Feature: RunstabinQualitymodule1
 
 
-
 Scenario: Tabvisibility121231111111
 Given a user in the system (not admin)dsr4
 Then the user does not have permissions to see the Runs tab in the Quality module
 When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
 And the user enters the Quality module
 Then the user can see the Runs tab right after the Tests tab user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
-
-
-
 
 
 Scenario: Runsgridaffectedbycontext12wqwqw11
@@ -26,8 +22,6 @@ When the user chooses an application module
 Then the user can see only the runs related to this module
 When the user filters by a field in the right pane filter
 Then runs are filtered accordingly
-
-
 
 
 
@@ -41,14 +35,12 @@ Then the user can see all manual runs, last automated runs, last Gherkin automat
 
 
 
-
 Scenario: Navigationtotestandsuiterun
 Given that the user looks at the Runs tab
 When the user selects a run
 Then the user can navigate to the parent test
 When the user selects a test run which is part of a suite run
 Then the user can also navigate to the suite run
-
 
 
 
