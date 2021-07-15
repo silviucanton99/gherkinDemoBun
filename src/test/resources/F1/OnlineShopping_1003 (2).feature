@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1003REV0.3.0
+@BSPID1003REV0.4.0
 #Auto generated Octane revision tag
 
 #Auto generated Octane revision tag
@@ -20,3 +20,14 @@ Feature: OnlineShopping
 		Given 2 us
 		When 1 failed 
 		Then all suite fail
+
+@TSCID1072
+	Scenario Outline: big
+		Given <param1> 
+		When  <param2>  
+		Then big23
+
+	Examples:
+		| param1 | param2 |
+		| a      | 1      |
+		| b      | 2      |
