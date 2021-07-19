@@ -23,3 +23,7 @@ Ominaisuus: 12
 		| param1 | param2 |
 		| a      | 1      |
 		| b      | 2      |
+	Tapausaihio: Poistaew
+		Oletetaan <param1>
+		Kun  <param2>
+		Niin testi
