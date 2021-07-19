@@ -3,6 +3,6 @@
 Feature: test
 @TSCID1001
 	Scenario: ttt
-		Given jkjkgjgj
+		Given jkjkgjgjwewe
 		When hjhjh
 		Then jhjhjkh21
