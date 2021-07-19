@@ -1,6 +1,6 @@
 # language: fi
 #Auto generated Octane revision tag
-@BSPID1004REV0.5.0
+@BSPID1004REV0.6.0
 Ominaisuus: 12
 @TSCID1005
 	Tapaus: bla
@@ -14,7 +14,7 @@ Ominaisuus: 12
 		Niin Poista testi
 
 @TSCID1007
-	Tapausaihio: 
+	Tapausaihio: Poista
 		Oletetaan <param1> 
 		Kun  <param2>  
 		Niin testi
