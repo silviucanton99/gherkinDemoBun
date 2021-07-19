@@ -6,4 +6,8 @@ Trajto: Trajto
 	Scenaro: Ekzemplo
 		Donitaĵo dasdasd 
 		Se asdasdas 
-		Do sdasd 
+		Do sdasd
+	Scenaro: Ekzemplo1
+		Donitaĵo dasdasd
+		Se asdasdas
+		Do sdasd
