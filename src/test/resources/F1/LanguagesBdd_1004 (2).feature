@@ -8,7 +8,7 @@ Ominaisuus: 12
 		Kun sd
 		Niin fdd
 @TSCID1006
-	Tapaus: Poista testi
+	Tapaus: Poista testi122121
 		Oletetaan Poista testi
 		Kun Poista testi
 		Niin Poista testi
