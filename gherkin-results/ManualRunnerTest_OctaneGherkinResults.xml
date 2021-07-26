@@ -2,13 +2,13 @@
 <features version="1">
     <feature name="Approve12"
         path="src\test\resources\F1\Approve_1005.feature"
-        started="1627299428577" tag="">
+        started="1627299977803" tag="">
         <file><![CDATA[
 
 Feature: Approve12
 
 	Scenario: Approve1
-		Given some
+		Given 111
 		When 333
 		Then 777
 
@@ -21,16 +21,34 @@ Feature: Approve12
         <scenarios>
             <scenario name="Approve1">
                 <steps>
-                    <step duration="0" name="Given some" status="skipped"/>
-                    <step duration="0" name="When 333" status="skipped"/>
-                    <step duration="0" name="Then 777" status="skipped"/>
+                    <step duration="4346416" name="Given 111" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.some(MyStepdefs.java:12)
+	at ✽.111(file:src/test/resources/F1/Approve_1005.feature:6)
+]]></error_message>
+                    </step>
+                    <step duration="88266" name="When 333" status="skipped"/>
+                    <step duration="60760" name="Then 777" status="skipped"/>
                 </steps>
             </scenario>
             <scenario name="Approve2">
                 <steps>
-                    <step duration="0" name="Given 222" status="skipped"/>
-                    <step duration="0" name="When 444" status="skipped"/>
-                    <step duration="0" name="Then 666" status="skipped"/>
+                    <step duration="365383" name="Given 222" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.some(MyStepdefs.java:12)
+	at ✽.222(file:src/test/resources/F1/Approve_1005.feature:12)
+]]></error_message>
+                    </step>
+                    <step duration="50087" name="When 444" status="skipped"/>
+                    <step duration="41876" name="Then 666" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>

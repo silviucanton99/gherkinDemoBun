@@ -6,7 +6,7 @@ public class MyStepdefs {
     @io.cucumber.java.en.Given("{int}")
     public void some(int arg0) {
         boolean i = false;
-        if (arg0 == 2) {
+        if( (arg0 % 2)==0) {
             assertEquals(1, 1);
         } else {
             assertEquals(1, 2);
