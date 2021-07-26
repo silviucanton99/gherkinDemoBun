@@ -1,246 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="Riki"
-        path="src\test\resources\F1\Online_1002.feature"
-        started="1625123578473" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1002REV0.2.0
-Feature: Riki
-@TSCID1006
-	Scenario Outline: <param1> Yalla
-		Given <param1> 
-		When  <param2>  
-		Then Yalla
+    <feature name="Approve12"
+        path="src\test\resources\F1\Approve_1005.feature"
+        started="1627299428577" tag="">
+        <file><![CDATA[
 
-	Examples:
-		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
+Feature: Approve12
+
+	Scenario: Approve1
+		Given some
+		When 333
+		Then 777
+
+
+	Scenario: Approve2
+		Given 222
+		When 444
+		Then 666
 ]]></file>
         <scenarios>
-            <scenario name="&lt;param1> Yalla" outlineIndex="1">
+            <scenario name="Approve1">
                 <steps>
-                    <step duration="0" name="Given a" status="skipped"/>
-                    <step duration="75950" name="When 1" status="skipped"/>
-                    <step duration="0" name="Then Yalla" status="skipped"/>
+                    <step duration="0" name="Given some" status="skipped"/>
+                    <step duration="0" name="When 333" status="skipped"/>
+                    <step duration="0" name="Then 777" status="skipped"/>
                 </steps>
             </scenario>
-            <scenario name="&lt;param1> Yalla" outlineIndex="2">
+            <scenario name="Approve2">
                 <steps>
-                    <step duration="0" name="Given b" status="skipped"/>
-                    <step duration="37360" name="When 2" status="skipped"/>
-                    <step duration="0" name="Then Yalla" status="skipped"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="Bdd" path="src\test\resources\F1\Riki_1006.feature"
-        started="1625123578488" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1006REV0.2.0
-Feature: Bdd
-@TSCID1080
-	Scenario: Bdd1
-		Given wqewqe
-		When dsfdf
-		Then sdfsd
-]]></file>
-        <scenarios>
-            <scenario name="Bdd1">
-                <steps>
-                    <step duration="0" name="Given wqewqe" status="skipped"/>
-                    <step duration="0" name="When dsfdf" status="skipped"/>
-                    <step duration="0" name="Then sdfsd" status="skipped"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="RunstabinQualitymodule1"
-        path="src\test\resources\F1\RunstabinQualitymodule1_1001.feature"
-        started="1625123578509" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-
-#Auto generated Octane revision tag
-
-#Auto generated Octane revision tag
-
-Feature: RunstabinQualitymodule1
-
-
-
-Scenario: Tabvisibility121231111111
-Given a user in the system (not admin)dsr4
-Then the user does not have permissions to see the Runs tab in the Quality module
-When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
-And the user enters the Quality module
-Then the user can see the Runs tab right after the Tests tab user is given permissions to see the tab (permission->module Visibility->Quality->select Runs) 
-
-
-
-
-
-Scenario: Runsgridaffectedbycontext12wqwqw11
-Given that the user looks at the Runs tab 
-Then in the tab the user can see test runs
-When the user chooses an application module
-Then the user can see only the runs related to this module
-When the user filters by a field in the right pane filter
-Then runs are filtered accordingly
-
-
-
-
-
-Scenario: Runtypesandlastrunfilter
-Given a user opens the Runs tab for the first time
-Then the user can see last manual runs, last automated runs, last Gherkin automated runs and last suite runs
-And the runs are sorted by descending creation time
-When the user changes the filter to see all runs 
-Then the user can see all manual runs, last automated runs, last Gherkin automated runs and all suite runs
-
-
-
-
-
-Scenario: Navigationtotestandsuiterun
-Given that the user looks at the Runs tab
-When the user selects a run
-Then the user can navigate to the parent test
-When the user selects a test run which is part of a suite run
-Then the user can also navigate to the suite run
-
-
-
-
-Scenario: Actionsonruns
-Given that the user looks at the Runs tab
-When the user selects a run
-Then the user can group by available run fields
-And the user can send runs by mail
-And the user can copy run links
-And the user can report defects on the run
-And the user can add a run to My Work
-And the user can delete runs
-And the user can export runs to Excel
-But the user cannot duplicate runs
-And the user cannot add new runs
-When the user selects a manual run
-Then the user can also execute the run
-But when the user selects an automated run or a Gherkin automated run 
-Then the user cannot execute it
-]]></file>
-        <scenarios>
-            <scenario name="Tabvisibility121231111111">
-                <steps>
-                    <step duration="0"
-                        name="Given a user in the system (not admin)dsr4" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user does not have permissions to see the Runs tab in the Quality module" status="skipped"/>
-                    <step duration="0"
-                        name="When the user is given permissions to see the tab (permission->module Visibility->Quality->select Runs)" status="skipped"/>
-                    <step duration="0"
-                        name="And the user enters the Quality module" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can see the Runs tab right after the Tests tab user is given permissions to see the tab (permission->module Visibility->Quality->select Runs)" status="skipped"/>
-                </steps>
-            </scenario>
-            <scenario name="Runsgridaffectedbycontext12wqwqw11">
-                <steps>
-                    <step duration="0"
-                        name="Given that the user looks at the Runs tab" status="skipped"/>
-                    <step duration="0"
-                        name="Then in the tab the user can see test runs" status="skipped"/>
-                    <step duration="0"
-                        name="When the user chooses an application module" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can see only the runs related to this module" status="skipped"/>
-                    <step duration="0"
-                        name="When the user filters by a field in the right pane filter" status="skipped"/>
-                    <step duration="0"
-                        name="Then runs are filtered accordingly" status="skipped"/>
-                </steps>
-            </scenario>
-            <scenario name="Runtypesandlastrunfilter">
-                <steps>
-                    <step duration="0"
-                        name="Given a user opens the Runs tab for the first time" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can see last manual runs, last automated runs, last Gherkin automated runs and last suite runs" status="skipped"/>
-                    <step duration="0"
-                        name="And the runs are sorted by descending creation time" status="skipped"/>
-                    <step duration="0"
-                        name="When the user changes the filter to see all runs" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can see all manual runs, last automated runs, last Gherkin automated runs and all suite runs" status="skipped"/>
-                </steps>
-            </scenario>
-            <scenario name="Navigationtotestandsuiterun">
-                <steps>
-                    <step duration="0"
-                        name="Given that the user looks at the Runs tab" status="skipped"/>
-                    <step duration="0"
-                        name="When the user selects a run" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can navigate to the parent test" status="skipped"/>
-                    <step duration="0"
-                        name="When the user selects a test run which is part of a suite run" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can also navigate to the suite run" status="skipped"/>
-                </steps>
-            </scenario>
-            <scenario name="Actionsonruns">
-                <steps>
-                    <step duration="0"
-                        name="Given that the user looks at the Runs tab" status="skipped"/>
-                    <step duration="0"
-                        name="When the user selects a run" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can group by available run fields" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can send runs by mail" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can copy run links" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can report defects on the run" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can add a run to My Work" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can delete runs" status="skipped"/>
-                    <step duration="0"
-                        name="And the user can export runs to Excel" status="skipped"/>
-                    <step duration="0"
-                        name="But the user cannot duplicate runs" status="skipped"/>
-                    <step duration="0"
-                        name="And the user cannot add new runs" status="skipped"/>
-                    <step duration="0"
-                        name="When the user selects a manual run" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user can also execute the run" status="skipped"/>
-                    <step duration="0"
-                        name="But when the user selects an automated run or a Gherkin automated run" status="skipped"/>
-                    <step duration="0"
-                        name="Then the user cannot execute it" status="skipped"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="dssa" path="src\test\resources\F1\test_1003.feature"
-        started="1625123578555" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1003REV0.2.0
-Feature: dssa
-@TSCID1007
-	Scenario: da
-		Given d
-		When dw
-		Then w
-]]></file>
-        <scenarios>
-            <scenario name="da">
-                <steps>
-                    <step duration="0" name="Given d" status="skipped"/>
-                    <step duration="0" name="When dw" status="skipped"/>
-                    <step duration="0" name="Then w" status="skipped"/>
+                    <step duration="0" name="Given 222" status="skipped"/>
+                    <step duration="0" name="When 444" status="skipped"/>
+                    <step duration="0" name="Then 666" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
