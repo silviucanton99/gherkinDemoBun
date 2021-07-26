@@ -12,5 +12,4 @@ public class MyStepdefs {
             assertEquals(1, 1);
         }
     }
-
 }
