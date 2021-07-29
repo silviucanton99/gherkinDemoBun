@@ -17,7 +17,7 @@ Feature: App12
 		Then 666
         
 @TSCID1053
- 	Scenario: App3
+ 	Scenario: App311
 		Given 222
 		When 444
 		Then 666
