@@ -3,13 +3,13 @@
 
 Característica: terer
 
-	Escenario: ty
+	Escenario: terer
 		Dado tr
 		Cando ty
 		Entón ty
 
 
-		Esbozo do escenario: ty1
+		Esbozo do escenario: terer
 		Dado <param1> 
 		Cando  <param2>  
 		Entón test
