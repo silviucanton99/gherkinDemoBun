@@ -9,7 +9,7 @@ Característica: terer
 		Entón ty
 
 
-		Esbozo do escenario: terer
+		Esbozo do escenario: terer1
 		Dado <param1> 
 		Cando  <param2>  
 		Entón test
