@@ -8,14 +8,14 @@ Característica: terer
 
 
 @TSCID1002
-	Escenario: ty
+	Escenario: ty1
 		Dado 11
 		Cando 22
 		Entón 33
 
 
 @TSCID1003
-		Esbozo do escenario: test
+		Esbozo do escenario: test2
 		Dado <param1> 
 		Cando  <param2>  
 		Entón test
