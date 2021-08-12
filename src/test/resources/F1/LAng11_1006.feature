@@ -1,7 +1,5 @@
 # language: de
 #Auto generated Octane revision tag
-@TID1006REV0.3.0
-#Auto generated Octane revision tag
 
 Funktionalität: validatie
 
