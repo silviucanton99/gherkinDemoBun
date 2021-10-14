@@ -13,7 +13,7 @@ Feature: Riki1112
 		When 44
 		Then 66
 
-@TSCID1406008
+@TSCID1406007
 	Scenario: Riki33
 		Given 111
 		When 222

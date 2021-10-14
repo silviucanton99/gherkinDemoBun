@@ -8,7 +8,7 @@ Feature: Bddss
 		Then 33
 
 
-	Scenario:
+	Scenario:bbb
 		Given 44
 		When 55
 		Then 66
