@@ -8,7 +8,7 @@ Feature: bdds
 		Then success
 
 @TSCID1408012
-	Scenario: test
+	Scenario: test12
 		Given ff
 		When gg
 		Then hh
