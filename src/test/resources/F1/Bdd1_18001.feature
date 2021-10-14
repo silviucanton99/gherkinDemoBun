@@ -12,3 +12,9 @@ Feature: Bddss
 		Given 44
 		When 55
 		Then 66
+
+	@TSCID1406005
+	Scenario: Bdd123
+		Given 44
+		When 55
+		Then 66
