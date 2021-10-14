@@ -2,7 +2,7 @@
 
 Feature: Approve12
 
-	Scenario: Approve1
+	Scenario: 1
 		Given 111
 		When 333
 		Then 777
