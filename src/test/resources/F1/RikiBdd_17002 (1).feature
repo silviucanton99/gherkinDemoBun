@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
-@BSPID17002REV0.3.0
-Feature: Riki11
+@BSPID17002REV1.0.0
+Feature: Riki1112
 @TSCID1406006
 	Scenario: test
 		Given 11
