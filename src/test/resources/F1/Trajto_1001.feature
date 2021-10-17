@@ -1,17 +1,22 @@
 # language: eo
 #Auto generated Octane revision tag
+@BSPID1001REV0.0.1
+#Auto generated Octane revision tag
 
 Trajto: Trajto
 
-	Scenaro: Ekzemplo1
+@TSCID1001
+	Scenaro: Ekzemplo
 		Donitaĵo dasdasd 
 		Se asdasdas 
 		Do sdasd
+@TSCID1002
 	Scenaro: Ekzemplo1
 		Donitaĵo dasdasd
 		Se asdasdas
 		Do sdasd
 
+@TSCID1003
 	Konturo de la scenaro:hjgh
 		Donitaĵo <param1>
 		Se  <param2>
