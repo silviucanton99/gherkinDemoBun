@@ -3,7 +3,7 @@
 
 Trajto: Trajto
 
-	Scenaro: Ekzemplo
+	Scenaro: Ekzemplo1
 		Donitaĵo dasdasd 
 		Se asdasdas 
 		Do sdasd
