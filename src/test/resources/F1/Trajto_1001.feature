@@ -6,7 +6,7 @@
 Trajto: Trajto
 
 @TSCID1001
-	Scenaro: Ekzemplo
+	Scenaro: Ekzemplo88
 		Donitaĵo dasdasd 
 		Se asdasdas 
 		Do sdasd
