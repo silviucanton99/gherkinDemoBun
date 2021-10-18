@@ -1,10 +1,10 @@
 #Auto generated Octane revision tag
 # language: de
-
-@BSPID19001REV0.2.0
+@BSPID15004REV0.2.0
 Funktionalität: validatie
 
-@TSCID1430001
+
+@TSCID36073
 	Szenario: test
 		Angenommen 222
 		Wenn 444
