@@ -7,7 +7,7 @@ Trajto: Trajto
 		Donitaĵo dasdasd 
 		Se asdasdas 
 		Do sdasd
-	Scenaro: Ekzemplo1
+	Scenaro: Ekzemplo12
 		Donitaĵo dasdasd
 		Se asdasdas
 		Do sdasd
