@@ -7,8 +7,8 @@ Feature: Scenarios12
 		When 44
 		Then 66
 
-@TSCID35001
-	Scenario:
+@TSCID35002
+	Scenario: Bdd2
 		Given 11
 		When 22
 		Then 33
