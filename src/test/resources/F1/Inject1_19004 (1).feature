@@ -1,11 +1,11 @@
 #Auto generated Octane revision tag
-@BSPID19004REV0.2.0
+@BSPID19004REV0.3.0
 #Auto generated Octane revision tag
 
 Feature: Inject1
 
 @TSCID1430007
-	Scenario: 1111
+	Scenario: 111
 		Given 22
 		When 44
 		Then 66
