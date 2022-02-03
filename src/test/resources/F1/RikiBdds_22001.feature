@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
 @BSPID23001REV0.2.0
-Feature: Bdd45
+Feature:
 	@TSCID1514066
 	Scenario: bdd44
 		Given 44
