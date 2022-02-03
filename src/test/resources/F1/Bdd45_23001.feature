@@ -2,7 +2,7 @@
 @BSPID23001REV0.2.0
 Feature: Bdd45
 @TSCID1514066
-	Scenario: bdd44
+	Scenario:
 		Given 44
 		When 66
 		Then 88
