@@ -1,14 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID22001REV0.2.0
-Feature: Riki1
-@TSCID1514064
-	Scenario: scenario1
-		Given 11
-		When 22
-		Then 33
+@BSPID23001REV0.2.0
+Feature: Bdd45
+	@TSCID1514066
+	Scenario: bdd44
+		Given 44
+		When 66
+		Then 88
 
-@TSCID1514065
-	Scenario: Scenario2
-		Given 22
-		When 44
-		Then 66
+	@TSCID1514067
+	Scenario: bdd55
+		Given 55
+		When 77
+		Then 99
