@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @BSPID23001REV0.2.0
 Feature: Bdd45
-@TSCID1514066
+@TSCID1514067
 	Scenario: bdd44
 		Given 44
 		When 66
@@ -13,8 +13,3 @@ Feature: Bdd45
 		When 77
 		Then 99
 
-	@TSCID1514067
-	Scenario: bdd55
-		Given 55
-		When 77
-		Then 99
