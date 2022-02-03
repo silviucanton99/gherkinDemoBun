@@ -12,3 +12,9 @@ Feature: Bdd45
 		Given 55
 		When 77
 		Then 99
+
+	@TSCID1514067
+	Scenario: bdd55
+		Given 55
+		When 77
+		Then 99
