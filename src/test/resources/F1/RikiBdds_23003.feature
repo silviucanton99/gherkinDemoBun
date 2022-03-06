@@ -12,3 +12,9 @@ Feature: Bdds
 		Given 22
 		When 44
 		Then 66
+
+@TSCID1546074
+	Scenario: Scenario21
+		Given 22
+		When 44
+		Then 66
