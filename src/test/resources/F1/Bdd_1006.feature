@@ -1,8 +1,10 @@
-﻿#Auto generated Octane revision tag
+#Auto generated Octane revision tag
+@BSPID1006REV0.3.0
+#Auto generated Octane revision tag
 
-Feature: test Feature
-   
+Feature: test Feature 
 
+@TSCID7897
         Scenario: test scenario
             Given test
             When test
@@ -10,6 +12,7 @@ Feature: test Feature
             Then test
             But test
 
+@TSCID7898
         Scenario Outline: Table TTT
             Given hello <name>
             When what <question>
