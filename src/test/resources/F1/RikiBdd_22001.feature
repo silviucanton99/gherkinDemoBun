@@ -2,7 +2,7 @@
 @BSPID22001REV0.3.0
 Feature: Scenarios12
 @TSCID1601134
-	Scenario: Scenario12
+	Scenario: Scenario123
 		Given 11
 		When 22
 		Then 33
