@@ -1,7 +1,6 @@
 # language: de
 #Auto generated Octane revision tag
 
-#Auto generated Octane revision tag
 
 Funktionalität: validatie
 
