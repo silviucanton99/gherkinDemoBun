@@ -6,3 +6,8 @@ Feature: RikiAB
 		Given 11
 		When 22
 		Then 33
+	@TSCID1600206
+	Scenario: RikiA
+		Given 11
+		When 22
+		Then 33
