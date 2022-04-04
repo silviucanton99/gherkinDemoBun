@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1">
+    <feature name="Approve12"
+        path="src\test\resources\F1\Approve_1005.feature"
+        started="1627301011332" tag="">
+        <file><![CDATA[
+
+Feature: Approve12
+
+	Scenario: Approve1
+		Given 111
+		When 333
+		Then 777
+
+
+	Scenario: Approve2
+		Given 222
+		When 444
+		Then 666
+]]></file>
+        <scenarios>
+            <scenario name="Approve1">
+                <steps>
+                    <step duration="5195008" name="Given 111" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.some(MyStepdefs.java:12)
+	at ✽.111(file:src/test/resources/F1/Approve_1005.feature:6)
+]]></error_message>
+                    </step>
+                    <step duration="88267" name="When 333" status="skipped"/>
+                    <step duration="61992" name="Then 777" status="skipped"/>
+                </steps>
+            </scenario>
+            <scenario name="Approve2">
+                <steps>
+                    <step duration="190082" name="Given 222" status="passed"/>
+                    <step duration="83751" name="When 444" status="passed"/>
+                    <step duration="69381" name="Then 666" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+</features>
