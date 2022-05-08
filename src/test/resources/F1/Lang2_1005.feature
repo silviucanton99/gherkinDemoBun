@@ -2,7 +2,6 @@
 #Auto generated Octane revision tag
 
 
-
 Característica: terer
 
 	Escenario: ty
