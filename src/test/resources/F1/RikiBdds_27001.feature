@@ -8,7 +8,7 @@ Feature: RikiBdds
 		Then 33
 
 @TSCID1728006
-	Scenario: testPass
+	Scenario:
 		Given 22
 		When 44
 		Then 66
