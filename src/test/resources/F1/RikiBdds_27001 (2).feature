@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID27001REV0.3.0
+@BSPID27001REV0.4.0
 Feature: RikiBdds
 @TSCID1728005
 	Scenario: testFailed12
@@ -8,7 +8,7 @@ Feature: RikiBdds
 		Then 33
 
 @TSCID1728006
-	Scenario: testPass12
+	Scenario: testPass
 		Given 22
 		When 44
 		Then 66
