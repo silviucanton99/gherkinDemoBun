@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID26001REV0.2.0
+@BSPID26001REV0.3.0
 Feature: BddScenarios
 @TSCID1749037
-	Scenario: BddPass
+	Scenario: BddPass12
 		Given 22
 		When 44
 		Then 66
