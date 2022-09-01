@@ -2,7 +2,7 @@
 #Auto generated Octane revision tag
 
 
-Funktionalität: validatie
+Funktionalität:
 
 	Szenario: test
 		Angenommen sdsd
