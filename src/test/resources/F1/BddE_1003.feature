@@ -2,9 +2,9 @@
 #Auto generated Octane revision tag
 
 
-Funktionalität:
+Funktionalität: validatie
 
-	Szenario: test
+	Szenario:
 		Angenommen sdsd
 		Wenn ds
 		Dann sdfsdf
