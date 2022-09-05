@@ -1,8 +1,8 @@
 #Auto generated Octane revision tag
-@BSPID26001REV0.2.0
+@BSPID26001REV0.3.0
 Feature: bdd12
 @TSCID1777074
-	Scenario: bdd12
+	Scenario: bdd1
 		Given 11
 		When 22
 		Then 33
