@@ -2,7 +2,7 @@
 @TID36002REV0.14.0
 Feature: 7791 Widget gallery improvements
 
-	Scenario: Add Widget Dialog Appearance in Main Dashboard
+	Scenario: Add Widget Dialog Appearance in Main Dashboard123
     	Given user is on Main Dashboard module
 		When open Add Widget dialog by mouse
 		Then the dialog opens
